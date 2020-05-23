@@ -42,6 +42,8 @@ Route::get('/terms', function(){
 Route::get('/products','ProductController@all');
 Route::get('/products/{id}','ProductController@single');
 
+Route::get('/profile/chart','ProfileController@chart');
+
 
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();

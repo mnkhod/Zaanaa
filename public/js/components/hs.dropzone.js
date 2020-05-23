@@ -17,7 +17,7 @@
      * @var Object _baseConfig
      */
     _baseConfig: {
-      url: "../../assets/vendor/dropzone/upload.html",
+      url: "vendor/dropzone/upload.html",
       thumbnailWidth: 300,
       thumbnailHeight: 300,
       previewTemplate: '<div class="col h-100 mb-5">' +
