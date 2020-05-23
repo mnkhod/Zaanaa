@@ -38,6 +38,10 @@ Route::get('/terms', function(){
 		return view('terms');
 });
 
+
+Route::get('/products','ProductController@all');
+
+
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
 });
