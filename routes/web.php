@@ -33,6 +33,11 @@ Route::get('/faq', function(){
 		return view('faq');
 });
 
+// Terms and Conditions
+Route::get('/terms', function(){
+		return view('terms');
+});
+
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
 });
