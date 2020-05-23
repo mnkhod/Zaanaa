@@ -47,6 +47,8 @@ Route::get('/profile/chart','ProfileController@chart');
 Route::get('/profile/checkout','ProfileController@checkout');
 Route::get('/profile/wishlist','ProfileController@wishlist');
 
+Route::get('/blogs','BlogController@all');
+Route::get('/blogs/{id}','BlogController@single');
 
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
