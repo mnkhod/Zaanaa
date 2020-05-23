@@ -45,6 +45,7 @@ Route::get('/products/{id}','ProductController@single');
 
 Route::get('/profile/chart','ProfileController@chart');
 Route::get('/profile/checkout','ProfileController@checkout');
+Route::get('/profile/wishlist','ProfileController@wishlist');
 
 
 Route::group(['prefix' => 'admin'], function () {

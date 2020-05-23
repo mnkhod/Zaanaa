@@ -13,4 +13,8 @@ class ProfileController extends Controller
 	public function checkout(){
 			return view('profileCheckout');
 	}
+
+	public function wishlist(){
+			return view('profileWishlist');
+	}
 }
