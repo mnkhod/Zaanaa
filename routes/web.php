@@ -13,19 +13,24 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-// Home Index
+// Home
 Route::get('/', function () {
     return view('home');
 });
 
-// About Us Index
+// About Us
 Route::get('/about', function(){
 		return view('about');
 });
 
-// Contact Us Index
+// Contact Us
 Route::get('/contact', function(){
 		return view('contact');
+});
+
+// FAQ
+Route::get('/faq', function(){
+		return view('faq');
 });
 
 Route::group(['prefix' => 'admin'], function () {
