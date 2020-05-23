@@ -40,6 +40,7 @@ Route::get('/terms', function(){
 
 
 Route::get('/products','ProductController@all');
+Route::get('/products/{id}','ProductController@single');
 
 
 Route::group(['prefix' => 'admin'], function () {

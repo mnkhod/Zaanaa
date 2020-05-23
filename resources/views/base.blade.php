@@ -16,18 +16,18 @@
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap" rel="stylesheet">
 
 		<!-- CSS Implementing Plugins -->
-		<link rel="stylesheet" href="vendor/font-awesome/css/fontawesome-all.min.css">
-		<link rel="stylesheet" href="css/font-electro.css">
+		<link rel="stylesheet" href="/vendor/font-awesome/css/fontawesome-all.min.css">
+		<link rel="stylesheet" href="/css/font-electro.css">
 
-		<link rel="stylesheet" href="vendor/animate.css/animate.min.css">
-		<link rel="stylesheet" href="vendor/hs-megamenu/src/hs.megamenu.css">
-		<link rel="stylesheet" href="vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css">
-		<link rel="stylesheet" href="vendor/fancybox/jquery.fancybox.css">
-		<link rel="stylesheet" href="vendor/slick-carousel/slick/slick.css">
-		<link rel="stylesheet" href="vendor/bootstrap-select/dist/css/bootstrap-select.min.css">
+		<link rel="stylesheet" href="/vendor/animate.css/animate.min.css">
+		<link rel="stylesheet" href="/vendor/hs-megamenu/src/hs.megamenu.css">
+		<link rel="stylesheet" href="/vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css">
+		<link rel="stylesheet" href="/vendor/fancybox/jquery.fancybox.css">
+		<link rel="stylesheet" href="/vendor/slick-carousel/slick/slick.css">
+		<link rel="stylesheet" href="/vendor/bootstrap-select/dist/css/bootstrap-select.min.css">
 
 		<!-- CSS Electro Template -->
-		<link rel="stylesheet" href="css/theme.css">
+		<link rel="stylesheet" href="/css/theme.css">
 	</head>
 
 	<body>
@@ -93,7 +93,7 @@
 								<nav class="navbar navbar-expand u-header__navbar py-0 justify-content-xl-between max-width-270 min-width-270">
 									<!-- Logo -->
 									<a class="order-1 order-xl-0 navbar-brand u-header__navbar-brand u-header__navbar-brand-center" href="../home/index.html" aria-label="Electro">
-										<img src="img/logo5.png" alt="">
+										<img src="/img/logo5.png" alt="">
 									</a>
 									<!-- End Logo -->
 
@@ -127,7 +127,7 @@
 													<div id="headerSidebarContent" class="u-sidebar__content u-header-sidebar__content">
 														<!-- Logo -->
 														<a class="d-flex ml-0 navbar-brand u-header__navbar-brand u-header__navbar-brand-vertical" href="../home/index.html" aria-label="Electro">
-															<img src="img/logo1.png" alt="Company Logo">
+															<img src="/img/logo1.png" alt="Company Logo">
 														</a>
 														<!-- End Logo -->
 
@@ -583,7 +583,7 @@
 													</div>
 													<div class="col-md-4">
 														<a href="#" class="d-block">
-															<img class="img-fluid" src="img/1024X1024/img1.jpg" alt="Image Description">
+															<img class="img-fluid" src="/img/1024X1024/img1.jpg" alt="Image Description">
 														</a>
 													</div>
 												</div>
@@ -676,7 +676,7 @@
 													</div>
 													<div class="col-md-4">
 														<a href="#" class="d-block">
-															<img class="img-fluid" src="img/1024X1024/img2.jpg" alt="Image Description">
+															<img class="img-fluid" src="/img/1024X1024/img2.jpg" alt="Image Description">
 														</a>
 													</div>
 												</div>
@@ -696,7 +696,7 @@
 														<div class="row">
 															<div class="col-md-6 mb-3">
 																<a href="#" class="d-block">
-																	<img class="img-fluid" src="img/300X275/img3.jpg" alt="Image Description">
+																	<img class="img-fluid" src="/img/300X275/img3.jpg" alt="Image Description">
 																</a>
 															</div>
 															<div class="col-md-6 mb-3">
@@ -709,7 +709,7 @@
 															</div>
 															<div class="col-md-6">
 																<a href="#" class="d-block">
-																	<img class="img-fluid" src="img/300X275/img4.jpg" alt="Image Description">
+																	<img class="img-fluid" src="/img/300X275/img4.jpg" alt="Image Description">
 																</a>
 															</div>
 															<div class="col-md-6">
@@ -727,7 +727,7 @@
 														<div class="row">
 															<div class="col-md-6 mb-3">
 																<a href="#" class="d-block">
-																	<img class="img-fluid" src="img/300X275/img5.jpg" alt="Image Description">
+																	<img class="img-fluid" src="/img/300X275/img5.jpg" alt="Image Description">
 																</a>
 															</div>
 															<div class="col-md-6 mb-3">
@@ -742,7 +742,7 @@
 															</div>
 															<div class="col-md-6">
 																<a href="#" class="d-block">
-																	<img class="img-fluid" src="img/300X275/img6.jpg" alt="Image Description">
+																	<img class="img-fluid" src="/img/300X275/img6.jpg" alt="Image Description">
 																</a>
 															</div>
 															<div class="col-md-6">
@@ -761,7 +761,7 @@
 														<div class="row">
 															<div class="col-md-6 mb-3">
 																<a href="#" class="d-block">
-																	<img class="img-fluid" src="img/300X275/img7.jpg" alt="Image Description">
+																	<img class="img-fluid" src="/img/300X275/img7.jpg" alt="Image Description">
 																</a>
 															</div>
 															<div class="col-md-6 mb-3">
@@ -776,7 +776,7 @@
 															</div>
 															<div class="col-md-6">
 																<a href="#" class="d-block">
-																	<img class="img-fluid" src="img/300X275/img8.jpg" alt="Image Description">
+																	<img class="img-fluid" src="/img/300X275/img8.jpg" alt="Image Description">
 																</a>
 															</div>
 															<div class="col-md-6">
@@ -876,7 +876,7 @@
 													</div>
 													<div class="col-md-4">
 														<a href="#" class="d-block">
-															<img class="img-fluid" src="img/1024X1024/img3.jpg" alt="Image Description">
+															<img class="img-fluid" src="/img/1024X1024/img3.jpg" alt="Image Description">
 														</a>
 													</div>
 												</div>
@@ -969,7 +969,7 @@
 													</div>
 													<div class="col-md-4">
 														<a href="#" class="d-block">
-															<img class="img-fluid" src="img/1024X1024/img4.png" alt="Image Description">
+															<img class="img-fluid" src="/img/1024X1024/img4.png" alt="Image Description">
 														</a>
 													</div>
 												</div>
@@ -989,7 +989,7 @@
 														<div class="row">
 															<div class="col">
 																<a href="#" class="d-block">
-																	<img class="img-fluid" src="img/300X275/img9.jpg" alt="Image Description">
+																	<img class="img-fluid" src="/img/300X275/img9.jpg" alt="Image Description">
 																</a>
 															</div>
 															<div class="col">
@@ -1008,7 +1008,7 @@
 														<div class="row">
 															<div class="col">
 																<a href="#" class="d-block">
-																	<img class="img-fluid" src="img/300X275/img10.jpg" alt="Image Description">
+																	<img class="img-fluid" src="/img/300X275/img10.jpg" alt="Image Description">
 																</a>
 															</div>
 															<div class="col">
@@ -1027,7 +1027,7 @@
 														<div class="row">
 															<div class="col">
 																<a href="#" class="d-block">
-																	<img class="img-fluid" src="img/300X275/img11.jpg" alt="Image Description">
+																	<img class="img-fluid" src="/img/300X275/img11.jpg" alt="Image Description">
 																</a>
 															</div>
 															<div class="col">
@@ -1080,7 +1080,7 @@
 							<ul class="list-unstyled products-group">
 								<li class="product-item product-item__list row no-gutters mb-6 remove-divider">
 									<div class="col-auto">
-										<a href="../shop/single-product-fullwidth.html" class="d-block width-75 text-center"><img class="img-fluid" src="img/75X75/img1.jpg" alt="Image Description"></a>
+										<a href="../shop/single-product-fullwidth.html" class="d-block width-75 text-center"><img class="img-fluid" src="/img/75X75/img1.jpg" alt="Image Description"></a>
 									</div>
 									<div class="col pl-4 d-flex flex-column">
 										<h5 class="product-item__title mb-0"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Purple Wireless Headphones Solo 2 HD</a></h5>
@@ -1091,7 +1091,7 @@
 								</li>
 								<li class="product-item product-item__list row no-gutters mb-6 remove-divider">
 									<div class="col-auto">
-										<a href="../shop/single-product-fullwidth.html" class="d-block width-75 text-center"><img class="img-fluid" src="img/75X75/img2.jpg" alt="Image Description"></a>
+										<a href="../shop/single-product-fullwidth.html" class="d-block width-75 text-center"><img class="img-fluid" src="/img/75X75/img2.jpg" alt="Image Description"></a>
 									</div>
 									<div class="col pl-4 d-flex flex-column">
 										<h5 class="product-item__title mb-0"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Powerbank 1130 mAh Blue</a></h5>
@@ -1102,7 +1102,7 @@
 								</li>
 								<li class="product-item product-item__list row no-gutters mb-6 remove-divider">
 									<div class="col-auto">
-										<a href="../shop/single-product-fullwidth.html" class="d-block width-75 text-center"><img class="img-fluid" src="img/75X75/img3.jpg" alt="Image Description"></a>
+										<a href="../shop/single-product-fullwidth.html" class="d-block width-75 text-center"><img class="img-fluid" src="/img/75X75/img3.jpg" alt="Image Description"></a>
 									</div>
 									<div class="col pl-4 d-flex flex-column">
 										<h5 class="product-item__title mb-0"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Nerocool EN52377 Dead Silence Gaming Cube Case</a></h5>
@@ -1121,7 +1121,7 @@
 						<ul class="list-unstyled products-group">
 							<li class="product-item product-item__list row no-gutters mb-6 remove-divider">
 								<div class="col-auto">
-									<a href="../shop/single-product-fullwidth.html" class="d-block width-75 text-center"><img class="img-fluid" src="img/75X75/img4.jpg" alt="Image Description"></a>
+									<a href="../shop/single-product-fullwidth.html" class="d-block width-75 text-center"><img class="img-fluid" src="/img/75X75/img4.jpg" alt="Image Description"></a>
 								</div>
 								<div class="col pl-4 d-flex flex-column">
 									<h5 class="product-item__title mb-0"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Yellow Earphones Waterproof with Bluetooth</a></h5>
@@ -1133,7 +1133,7 @@
 							</li>
 							<li class="product-item product-item__list row no-gutters mb-6 remove-divider">
 								<div class="col-auto">
-									<a href="../shop/single-product-fullwidth.html" class="d-block width-75 text-center"><img class="img-fluid" src="img/75X75/img5.jpg" alt="Image Description"></a>
+									<a href="../shop/single-product-fullwidth.html" class="d-block width-75 text-center"><img class="img-fluid" src="/img/75X75/img5.jpg" alt="Image Description"></a>
 								</div>
 								<div class="col pl-4 d-flex flex-column">
 									<h5 class="product-item__title mb-0"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Camera C430W 4k Waterproof</a></h5>
@@ -1145,7 +1145,7 @@
 							</li>
 							<li class="product-item product-item__list row no-gutters mb-6 remove-divider">
 								<div class="col-auto">
-									<a href="../shop/single-product-fullwidth.html" class="d-block width-75 text-center"><img class="img-fluid" src="img/75X75/img6.jpg" alt="Image Description"></a>
+									<a href="../shop/single-product-fullwidth.html" class="d-block width-75 text-center"><img class="img-fluid" src="/img/75X75/img6.jpg" alt="Image Description"></a>
 								</div>
 								<div class="col pl-4 d-flex flex-column">
 									<h5 class="product-item__title mb-0"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Smartphone 6S 32GB LTE</a></h5>
@@ -1164,7 +1164,7 @@
 						<ul class="list-unstyled products-group">
 							<li class="product-item product-item__list row no-gutters mb-6 remove-divider">
 								<div class="col-auto">
-									<a href="../shop/single-product-fullwidth.html" class="d-block width-75 text-center"><img class="img-fluid" src="img/75X75/img7.jpg" alt="Image Description"></a>
+									<a href="../shop/single-product-fullwidth.html" class="d-block width-75 text-center"><img class="img-fluid" src="/img/75X75/img7.jpg" alt="Image Description"></a>
 								</div>
 								<div class="col pl-4 d-flex flex-column">
 									<h5 class="product-item__title mb-0"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Smartwatch 2.0 LTE Wifi Waterproof</a></h5>
@@ -1182,7 +1182,7 @@
 							</li>
 							<li class="product-item product-item__list row no-gutters mb-6 remove-divider">
 								<div class="col-auto">
-									<a href="../shop/single-product-fullwidth.html" class="d-block width-75 text-center"><img class="img-fluid" src="img/75X75/img8.jpg" alt="Image Description"></a>
+									<a href="../shop/single-product-fullwidth.html" class="d-block width-75 text-center"><img class="img-fluid" src="/img/75X75/img8.jpg" alt="Image Description"></a>
 								</div>
 								<div class="col pl-4 d-flex flex-column">
 									<h5 class="product-item__title mb-0"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">22Mps Camera 6200U with 500GB SDcard</a></h5>
@@ -1200,7 +1200,7 @@
 							</li>
 							<li class="product-item product-item__list row no-gutters mb-6 remove-divider">
 								<div class="col-auto">
-									<a href="../shop/single-product-fullwidth.html" class="d-block width-75 text-center"><img class="img-fluid" src="img/75X75/img9.jpg" alt="Image Description"></a>
+									<a href="../shop/single-product-fullwidth.html" class="d-block width-75 text-center"><img class="img-fluid" src="/img/75X75/img9.jpg" alt="Image Description"></a>
 								</div>
 								<div class="col pl-4 d-flex flex-column">
 									<h5 class="product-item__title mb-0"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Full Color LaserJet Pro M452dn</a></h5>
@@ -1219,7 +1219,7 @@
 						</ul>
 					</div>
 					<div class="col-wd-3 d-none d-wd-block">
-						<a href="../shop/shop.html" class="d-block"><img class="img-fluid" src="img/330X360/img1.jpg" alt="Image Description"></a>
+						<a href="../shop/shop.html" class="d-block"><img class="img-fluid" src="/img/330X360/img1.jpg" alt="Image Description"></a>
 					</div>
 				</div>
 			</div>
@@ -1261,7 +1261,7 @@
 						<div class="col-lg-5">
 							<div class="mb-6">
 								<a href="#" class="d-inline-block">
-									<img src="img/logo5.png" alt="Company Logo" style="max-width: 300px;">
+									<img src="/img/logo5.png" alt="Company Logo" style="max-width: 300px;">
 								</a>
 							</div>
 							<div class="mb-4">
@@ -1595,39 +1595,39 @@
 		<!-- End Go to Top -->
 
 		<!-- JS Global Compulsory -->
-		<script src="vendor/jquery/dist/jquery.min.js"></script>
-		<script src="vendor/jquery-migrate/dist/jquery-migrate.min.js"></script>
-		<script src="vendor/popper.js/dist/umd/popper.min.js"></script>
-		<script src="vendor/bootstrap/bootstrap.min.js"></script>
+		<script src="/vendor/jquery/dist/jquery.min.js"></script>
+		<script src="/vendor/jquery-migrate/dist/jquery-migrate.min.js"></script>
+		<script src="/vendor/popper.js/dist/umd/popper.min.js"></script>
+		<script src="/vendor/bootstrap/bootstrap.min.js"></script>
 
 		<!-- JS Implementing Plugins -->
-		<script src="vendor/appear.js"></script>
-		<script src="vendor/jquery.countdown.min.js"></script>
-		<script src="vendor/hs-megamenu/src/hs.megamenu.js"></script>
-		<script src="vendor/svg-injector/dist/svg-injector.min.js"></script>
-		<script src="vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js"></script>
-		<script src="vendor/jquery-validation/dist/jquery.validate.min.js"></script>
-		<script src="vendor/fancybox/jquery.fancybox.min.js"></script>
-		<script src="vendor/typed.js/lib/typed.min.js"></script>
-		<script src="vendor/slick-carousel/slick/slick.js"></script>
-		<script src="vendor/bootstrap-select/dist/js/bootstrap-select.min.js"></script>
+		<script src="/vendor/appear.js"></script>
+		<script src="/vendor/jquery.countdown.min.js"></script>
+		<script src="/vendor/hs-megamenu/src/hs.megamenu.js"></script>
+		<script src="/vendor/svg-injector/dist/svg-injector.min.js"></script>
+		<script src="/vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js"></script>
+		<script src="/vendor/jquery-validation/dist/jquery.validate.min.js"></script>
+		<script src="/vendor/fancybox/jquery.fancybox.min.js"></script>
+		<script src="/vendor/typed.js/lib/typed.min.js"></script>
+		<script src="/vendor/slick-carousel/slick/slick.js"></script>
+		<script src="/vendor/bootstrap-select/dist/js/bootstrap-select.min.js"></script>
 
 		<!-- JS Electro -->
-		<script src="js/hs.core.js"></script>
-		<script src="js/components/hs.countdown.js"></script>
-		<script src="js/components/hs.header.js"></script>
-		<script src="js/components/hs.hamburgers.js"></script>
-		<script src="js/components/hs.unfold.js"></script>
-		<script src="js/components/hs.focus-state.js"></script>
-		<script src="js/components/hs.malihu-scrollbar.js"></script>
-		<script src="js/components/hs.validation.js"></script>
-		<script src="js/components/hs.fancybox.js"></script>
-		<script src="js/components/hs.onscroll-animation.js"></script>
-		<script src="js/components/hs.slick-carousel.js"></script>
-		<script src="js/components/hs.show-animation.js"></script>
-		<script src="js/components/hs.svg-injector.js"></script>
-		<script src="js/components/hs.go-to.js"></script>
-		<script src="js/components/hs.selectpicker.js"></script>
+		<script src="/js/hs.core.js"></script>
+		<script src="/js/components/hs.countdown.js"></script>
+		<script src="/js/components/hs.header.js"></script>
+		<script src="/js/components/hs.hamburgers.js"></script>
+		<script src="/js/components/hs.unfold.js"></script>
+		<script src="/js/components/hs.focus-state.js"></script>
+		<script src="/js/components/hs.malihu-scrollbar.js"></script>
+		<script src="/js/components/hs.validation.js"></script>
+		<script src="/js/components/hs.fancybox.js"></script>
+		<script src="/js/components/hs.onscroll-animation.js"></script>
+		<script src="/js/components/hs.slick-carousel.js"></script>
+		<script src="/js/components/hs.show-animation.js"></script>
+		<script src="/js/components/hs.svg-injector.js"></script>
+		<script src="/js/components/hs.go-to.js"></script>
+		<script src="/js/components/hs.selectpicker.js"></script>
 
 		<!-- JS Plugins Init. -->
 		<script>

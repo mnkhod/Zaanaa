@@ -73,7 +73,7 @@
 						<div class="row">
 							<div class="col-auto">
 								<a href="../shop/single-product-fullwidth.html" class="d-block width-75">
-									<img class="img-fluid" src="img/300X300/img1.jpg" alt="Image Description">
+									<img class="img-fluid" src="/img/300X300/img1.jpg" alt="Image Description">
 								</a>
 							</div>
 							<div class="col">
@@ -96,7 +96,7 @@
 						<div class="row">
 							<div class="col-auto">
 								<a href="../shop/single-product-fullwidth.html" class="d-block width-75">
-									<img class="img-fluid" src="img/300X300/img3.jpg" alt="Image Description">
+									<img class="img-fluid" src="/img/300X300/img3.jpg" alt="Image Description">
 								</a>
 							</div>
 							<div class="col">
@@ -118,7 +118,7 @@
 						<div class="row">
 							<div class="col-auto">
 								<a href="../shop/single-product-fullwidth.html" class="d-block width-75">
-									<img class="img-fluid" src="img/300X300/img5.jpg" alt="Image Description">
+									<img class="img-fluid" src="/img/300X300/img5.jpg" alt="Image Description">
 								</a>
 							</div>
 							<div class="col">
@@ -140,7 +140,7 @@
 						<div class="row">
 							<div class="col-auto">
 								<a href="../shop/single-product-fullwidth.html" class="d-block width-75">
-									<img class="img-fluid" src="img/300X300/img6.jpg" alt="Image Description">
+									<img class="img-fluid" src="/img/300X300/img6.jpg" alt="Image Description">
 								</a>
 							</div>
 							<div class="col">
@@ -163,7 +163,7 @@
 						<div class="row">
 							<div class="col-auto">
 								<a href="../shop/single-product-fullwidth.html" class="d-block width-75">
-									<img class="img-fluid" src="img/300X300/img10.png" alt="Image Description">
+									<img class="img-fluid" src="/img/300X300/img10.png" alt="Image Description">
 								</a>
 							</div>
 							<div class="col">
@@ -194,7 +194,7 @@
 						<div class="product-item__inner px-xl-4 p-3">
 							<div class="product-item__body pb-xl-2">
 								<div class="mb-2">
-									<a href="#" class="d-block text-center"><img class="img-fluid" src="img/300X300/img8.jpg" alt="Image Description"></a>
+									<a href="#" class="d-block text-center"><img class="img-fluid" src="/img/300X300/img8.jpg" alt="Image Description"></a>
 								</div>
 								<h5 class="text-center mb-1 product-item__title"><a href="../shop/single-product-fullwidth.html" class="font-size-15 text-gray-90">Accessories</a></h5>
 							</div>
@@ -206,7 +206,7 @@
 						<div class="product-item__inner px-xl-4 p-3">
 							<div class="product-item__body pb-xl-2">
 								<div class="mb-2">
-									<a href="#" class="d-block text-center"><img class="img-fluid" src="img/300X300/img15.jpg" alt="Image Description"></a>
+									<a href="#" class="d-block text-center"><img class="img-fluid" src="/img/300X300/img15.jpg" alt="Image Description"></a>
 								</div>
 								<h5 class="text-center mb-1 product-item__title"><a href="../shop/single-product-fullwidth.html" class="font-size-15 text-gray-90">All in One</a></h5>
 							</div>
@@ -218,7 +218,7 @@
 						<div class="product-item__inner px-xl-4 p-3">
 							<div class="product-item__body pb-xl-2">
 								<div class="mb-2">
-									<a href="#" class="d-block text-center"><img class="img-fluid" src="img/300X300/img22.jpg" alt="Image Description"></a>
+									<a href="#" class="d-block text-center"><img class="img-fluid" src="/img/300X300/img22.jpg" alt="Image Description"></a>
 								</div>
 								<h5 class="text-center mb-1 product-item__title"><a href="../shop/single-product-fullwidth.html" class="font-size-15 text-gray-90">Gaming</a></h5>
 							</div>
@@ -230,7 +230,7 @@
 						<div class="product-item__inner px-xl-4 p-3">
 							<div class="product-item__body pb-xl-2">
 								<div class="mb-2">
-									<a href="#" class="d-block text-center"><img class="img-fluid" src="img/300X300/img23.jpg" alt="Image Description"></a>
+									<a href="#" class="d-block text-center"><img class="img-fluid" src="/img/300X300/img23.jpg" alt="Image Description"></a>
 								</div>
 								<h5 class="text-center mb-1 product-item__title"><a href="../shop/single-product-fullwidth.html" class="font-size-15 text-gray-90">Laptops</a></h5>
 							</div>
@@ -242,7 +242,7 @@
 						<div class="product-item__inner px-xl-4 p-3">
 							<div class="product-item__body pb-xl-2">
 								<div class="mb-2">
-									<a href="#" class="d-block text-center"><img class="img-fluid" src="img/300X300/img24.jpg" alt="Image Description"></a>
+									<a href="#" class="d-block text-center"><img class="img-fluid" src="/img/300X300/img24.jpg" alt="Image Description"></a>
 								</div>
 								<h5 class="text-center mb-1 product-item__title"><a href="../shop/single-product-fullwidth.html" class="font-size-15 text-gray-90">Mac Computers</a></h5>
 							</div>
@@ -254,7 +254,7 @@
 						<div class="product-item__inner px-xl-4 p-3">
 							<div class="product-item__body pb-xl-2">
 								<div class="mb-2">
-									<a href="#" class="d-block text-center"><img class="img-fluid" src="img/300X300/img25.jpg" alt="Image Description"></a>
+									<a href="#" class="d-block text-center"><img class="img-fluid" src="/img/300X300/img25.jpg" alt="Image Description"></a>
 								</div>
 								<h5 class="text-center mb-1 product-item__title"><a href="../shop/single-product-fullwidth.html" class="font-size-15 text-gray-90">Peripherals</a></h5>
 							</div>
@@ -266,7 +266,7 @@
 						<div class="product-item__inner px-xl-4 p-3">
 							<div class="product-item__body pb-xl-2">
 								<div class="mb-2">
-									<a href="#" class="d-block text-center"><img class="img-fluid" src="img/300X300/img5.jpg" alt="Image Description"></a>
+									<a href="#" class="d-block text-center"><img class="img-fluid" src="/img/300X300/img5.jpg" alt="Image Description"></a>
 								</div>
 								<h5 class="text-center mb-1 product-item__title"><a href="../shop/single-product-fullwidth.html" class="font-size-15 text-gray-90">Servers</a></h5>
 							</div>
@@ -278,7 +278,7 @@
 						<div class="product-item__inner px-xl-4 p-3">
 							<div class="product-item__body pb-xl-2">
 								<div class="mb-2">
-									<a href="#" class="d-block text-center"><img class="img-fluid" src="img/300X300/img26.jpg" alt="Image Description"></a>
+									<a href="#" class="d-block text-center"><img class="img-fluid" src="/img/300X300/img26.jpg" alt="Image Description"></a>
 								</div>
 								<h5 class="text-center mb-1 product-item__title"><a href="../shop/single-product-fullwidth.html" class="font-size-15 text-gray-90">Ultrabooks</a></h5>
 							</div>
@@ -299,7 +299,7 @@
 								<div class="product-item__outer h-100">
 									<div class="product-item__inner p-md-3 row no-gutters">
 										<div class="col col-lg-auto product-media-left">
-											<a href="../shop/single-product-fullwidth.html" class="max-width-150 d-block"><img class="img-fluid" src="img/150X140/img1.jpg" alt="Image Description"></a>
+											<a href="../shop/single-product-fullwidth.html" class="max-width-150 d-block"><img class="img-fluid" src="/img/150X140/img1.jpg" alt="Image Description"></a>
 										</div>
 										<div class="col product-item__body pl-2 pl-lg-3 mr-xl-2 mr-wd-1">
 											<div class="mb-4">
@@ -328,7 +328,7 @@
 								<div class="product-item__outer h-100">
 									<div class="product-item__inner p-md-3 row no-gutters">
 										<div class="col col-lg-auto product-media-left">
-											<a href="../shop/single-product-fullwidth.html" class="max-width-150 d-block"><img class="img-fluid" src="img/150X140/img2.jpg" alt="Image Description"></a>
+											<a href="../shop/single-product-fullwidth.html" class="max-width-150 d-block"><img class="img-fluid" src="/img/150X140/img2.jpg" alt="Image Description"></a>
 										</div>
 										<div class="col product-item__body pl-2 pl-lg-3 mr-xl-2 mr-wd-1">
 											<div class="mb-4">
@@ -357,7 +357,7 @@
 								<div class="product-item__outer h-100">
 									<div class="product-item__inner p-md-3 row no-gutters">
 										<div class="col col-lg-auto product-media-left">
-											<a href="../shop/single-product-fullwidth.html" class="max-width-150 d-block"><img class="img-fluid" src="img/150X140/img7.jpg" alt="Image Description"></a>
+											<a href="../shop/single-product-fullwidth.html" class="max-width-150 d-block"><img class="img-fluid" src="/img/150X140/img7.jpg" alt="Image Description"></a>
 										</div>
 										<div class="col product-item__body pl-2 pl-lg-3 mr-xl-2 mr-wd-1">
 											<div class="mb-4">
@@ -390,7 +390,7 @@
 								<div class="product-item__outer h-100">
 									<div class="product-item__inner p-md-3 row no-gutters">
 										<div class="col col-lg-auto product-media-left">
-											<a href="../shop/single-product-fullwidth.html" class="max-width-150 d-block"><img class="img-fluid" src="img/150X140/img1.jpg" alt="Image Description"></a>
+											<a href="../shop/single-product-fullwidth.html" class="max-width-150 d-block"><img class="img-fluid" src="/img/150X140/img1.jpg" alt="Image Description"></a>
 										</div>
 										<div class="col product-item__body pl-2 pl-lg-3 mr-xl-2 mr-wd-1">
 											<div class="mb-4">
@@ -419,7 +419,7 @@
 								<div class="product-item__outer h-100">
 									<div class="product-item__inner p-md-3 row no-gutters">
 										<div class="col col-lg-auto product-media-left">
-											<a href="../shop/single-product-fullwidth.html" class="max-width-150 d-block"><img class="img-fluid" src="img/150X140/img2.jpg" alt="Image Description"></a>
+											<a href="../shop/single-product-fullwidth.html" class="max-width-150 d-block"><img class="img-fluid" src="/img/150X140/img2.jpg" alt="Image Description"></a>
 										</div>
 										<div class="col product-item__body pl-2 pl-lg-3 mr-xl-2 mr-wd-1">
 											<div class="mb-4">
@@ -448,7 +448,7 @@
 								<div class="product-item__outer h-100">
 									<div class="product-item__inner p-md-3 row no-gutters">
 										<div class="col col-lg-auto product-media-left">
-											<a href="../shop/single-product-fullwidth.html" class="max-width-150 d-block"><img class="img-fluid" src="img/150X140/img7.jpg" alt="Image Description"></a>
+											<a href="../shop/single-product-fullwidth.html" class="max-width-150 d-block"><img class="img-fluid" src="/img/150X140/img7.jpg" alt="Image Description"></a>
 										</div>
 										<div class="col product-item__body pl-2 pl-lg-3 mr-xl-2 mr-wd-1">
 											<div class="mb-4">
@@ -481,7 +481,7 @@
 								<div class="product-item__outer h-100">
 									<div class="product-item__inner p-md-3 row no-gutters">
 										<div class="col col-lg-auto product-media-left">
-											<a href="../shop/single-product-fullwidth.html" class="max-width-150 d-block"><img class="img-fluid" src="img/150X140/img1.jpg" alt="Image Description"></a>
+											<a href="../shop/single-product-fullwidth.html" class="max-width-150 d-block"><img class="img-fluid" src="/img/150X140/img1.jpg" alt="Image Description"></a>
 										</div>
 										<div class="col product-item__body pl-2 pl-lg-3 mr-xl-2 mr-wd-1">
 											<div class="mb-4">
@@ -510,7 +510,7 @@
 								<div class="product-item__outer h-100">
 									<div class="product-item__inner p-md-3 row no-gutters">
 										<div class="col col-lg-auto product-media-left">
-											<a href="../shop/single-product-fullwidth.html" class="max-width-150 d-block"><img class="img-fluid" src="img/150X140/img2.jpg" alt="Image Description"></a>
+											<a href="../shop/single-product-fullwidth.html" class="max-width-150 d-block"><img class="img-fluid" src="/img/150X140/img2.jpg" alt="Image Description"></a>
 										</div>
 										<div class="col product-item__body pl-2 pl-lg-3 mr-xl-2 mr-wd-1">
 											<div class="mb-4">
@@ -539,7 +539,7 @@
 								<div class="product-item__outer h-100">
 									<div class="product-item__inner p-md-3 row no-gutters">
 										<div class="col col-lg-auto product-media-left">
-											<a href="../shop/single-product-fullwidth.html" class="max-width-150 d-block"><img class="img-fluid" src="img/150X140/img7.jpg" alt="Image Description"></a>
+											<a href="../shop/single-product-fullwidth.html" class="max-width-150 d-block"><img class="img-fluid" src="/img/150X140/img7.jpg" alt="Image Description"></a>
 										</div>
 										<div class="col product-item__body pl-2 pl-lg-3 mr-xl-2 mr-wd-1">
 											<div class="mb-4">
@@ -582,7 +582,7 @@
 								<div class="product-item__outer h-100">
 									<div class="product-item__inner p-md-3 row no-gutters">
 										<div class="col col-lg-auto product-media-left">
-											<a href="../shop/single-product-fullwidth.html" class="max-width-150 d-block"><img class="img-fluid" src="img/150X140/img8.jpg" alt="Image Description"></a>
+											<a href="../shop/single-product-fullwidth.html" class="max-width-150 d-block"><img class="img-fluid" src="/img/150X140/img8.jpg" alt="Image Description"></a>
 										</div>
 										<div class="col product-item__body pl-2 pl-lg-3 mr-xl-2 mr-wd-1">
 											<div class="mb-4">
@@ -611,7 +611,7 @@
 								<div class="product-item__outer h-100">
 									<div class="product-item__inner p-md-3 row no-gutters">
 										<div class="col col-lg-auto product-media-left">
-											<a href="../shop/single-product-fullwidth.html" class="max-width-150 d-block"><img class="img-fluid" src="img/150X140/img5.jpg" alt="Image Description"></a>
+											<a href="../shop/single-product-fullwidth.html" class="max-width-150 d-block"><img class="img-fluid" src="/img/150X140/img5.jpg" alt="Image Description"></a>
 										</div>
 										<div class="col product-item__body pl-2 pl-lg-3 mr-xl-2 mr-wd-1">
 											<div class="mb-4">
@@ -640,7 +640,7 @@
 								<div class="product-item__outer h-100">
 									<div class="product-item__inner p-md-3 row no-gutters">
 										<div class="col col-lg-auto product-media-left">
-											<a href="../shop/single-product-fullwidth.html" class="max-width-150 d-block"><img class="img-fluid" src="img/150X140/img4.jpg" alt="Image Description"></a>
+											<a href="../shop/single-product-fullwidth.html" class="max-width-150 d-block"><img class="img-fluid" src="/img/150X140/img4.jpg" alt="Image Description"></a>
 										</div>
 										<div class="col product-item__body pl-2 pl-lg-3 mr-xl-2 mr-wd-1">
 											<div class="mb-4">
@@ -673,7 +673,7 @@
 								<div class="product-item__outer h-100">
 									<div class="product-item__inner p-md-3 row no-gutters">
 										<div class="col col-lg-auto product-media-left">
-											<a href="../shop/single-product-fullwidth.html" class="max-width-150 d-block"><img class="img-fluid" src="img/150X140/img1.jpg" alt="Image Description"></a>
+											<a href="../shop/single-product-fullwidth.html" class="max-width-150 d-block"><img class="img-fluid" src="/img/150X140/img1.jpg" alt="Image Description"></a>
 										</div>
 										<div class="col product-item__body pl-2 pl-lg-3 mr-xl-2 mr-wd-1">
 											<div class="mb-4">
@@ -702,7 +702,7 @@
 								<div class="product-item__outer h-100">
 									<div class="product-item__inner p-md-3 row no-gutters">
 										<div class="col col-lg-auto product-media-left">
-											<a href="../shop/single-product-fullwidth.html" class="max-width-150 d-block"><img class="img-fluid" src="img/150X140/img2.jpg" alt="Image Description"></a>
+											<a href="../shop/single-product-fullwidth.html" class="max-width-150 d-block"><img class="img-fluid" src="/img/150X140/img2.jpg" alt="Image Description"></a>
 										</div>
 										<div class="col product-item__body pl-2 pl-lg-3 mr-xl-2 mr-wd-1">
 											<div class="mb-4">
@@ -731,7 +731,7 @@
 								<div class="product-item__outer h-100">
 									<div class="product-item__inner p-md-3 row no-gutters">
 										<div class="col col-lg-auto product-media-left">
-											<a href="../shop/single-product-fullwidth.html" class="max-width-150 d-block"><img class="img-fluid" src="img/150X140/img7.jpg" alt="Image Description"></a>
+											<a href="../shop/single-product-fullwidth.html" class="max-width-150 d-block"><img class="img-fluid" src="/img/150X140/img7.jpg" alt="Image Description"></a>
 										</div>
 										<div class="col product-item__body pl-2 pl-lg-3 mr-xl-2 mr-wd-1">
 											<div class="mb-4">
@@ -764,7 +764,7 @@
 								<div class="product-item__outer h-100">
 									<div class="product-item__inner p-md-3 row no-gutters">
 										<div class="col col-lg-auto product-media-left">
-											<a href="../shop/single-product-fullwidth.html" class="max-width-150 d-block"><img class="img-fluid" src="img/150X140/img1.jpg" alt="Image Description"></a>
+											<a href="../shop/single-product-fullwidth.html" class="max-width-150 d-block"><img class="img-fluid" src="/img/150X140/img1.jpg" alt="Image Description"></a>
 										</div>
 										<div class="col product-item__body pl-2 pl-lg-3 mr-xl-2 mr-wd-1">
 											<div class="mb-4">
@@ -793,7 +793,7 @@
 								<div class="product-item__outer h-100">
 									<div class="product-item__inner p-md-3 row no-gutters">
 										<div class="col col-lg-auto product-media-left">
-											<a href="../shop/single-product-fullwidth.html" class="max-width-150 d-block"><img class="img-fluid" src="img/150X140/img2.jpg" alt="Image Description"></a>
+											<a href="../shop/single-product-fullwidth.html" class="max-width-150 d-block"><img class="img-fluid" src="/img/150X140/img2.jpg" alt="Image Description"></a>
 										</div>
 										<div class="col product-item__body pl-2 pl-lg-3 mr-xl-2 mr-wd-1">
 											<div class="mb-4">
@@ -822,7 +822,7 @@
 								<div class="product-item__outer h-100">
 									<div class="product-item__inner p-md-3 row no-gutters">
 										<div class="col col-lg-auto product-media-left">
-											<a href="../shop/single-product-fullwidth.html" class="max-width-150 d-block"><img class="img-fluid" src="img/150X140/img7.jpg" alt="Image Description"></a>
+											<a href="../shop/single-product-fullwidth.html" class="max-width-150 d-block"><img class="img-fluid" src="/img/150X140/img7.jpg" alt="Image Description"></a>
 										</div>
 										<div class="col product-item__body pl-2 pl-lg-3 mr-xl-2 mr-wd-1">
 											<div class="mb-4">
@@ -876,32 +876,32 @@
                             }]'>
 				<div class="js-slide">
 					<a href="#" class="link-hover__brand">
-						<img class="img-fluid m-auto max-height-50" src="img/200X60/img1.png" alt="Image Description">
+						<img class="img-fluid m-auto max-height-50" src="/img/200X60/img1.png" alt="Image Description">
 					</a>
 				</div>
 				<div class="js-slide">
 					<a href="#" class="link-hover__brand">
-						<img class="img-fluid m-auto max-height-50" src="img/200X60/img2.png" alt="Image Description">
+						<img class="img-fluid m-auto max-height-50" src="/img/200X60/img2.png" alt="Image Description">
 					</a>
 				</div>
 				<div class="js-slide">
 					<a href="#" class="link-hover__brand">
-						<img class="img-fluid m-auto max-height-50" src="img/200X60/img3.png" alt="Image Description">
+						<img class="img-fluid m-auto max-height-50" src="/img/200X60/img3.png" alt="Image Description">
 					</a>
 				</div>
 				<div class="js-slide">
 					<a href="#" class="link-hover__brand">
-						<img class="img-fluid m-auto max-height-50" src="img/200X60/img4.png" alt="Image Description">
+						<img class="img-fluid m-auto max-height-50" src="/img/200X60/img4.png" alt="Image Description">
 					</a>
 				</div>
 				<div class="js-slide">
 					<a href="#" class="link-hover__brand">
-						<img class="img-fluid m-auto max-height-50" src="img/200X60/img5.png" alt="Image Description">
+						<img class="img-fluid m-auto max-height-50" src="/img/200X60/img5.png" alt="Image Description">
 					</a>
 				</div>
 				<div class="js-slide">
 					<a href="#" class="link-hover__brand">
-						<img class="img-fluid m-auto max-height-50" src="img/200X60/img6.png" alt="Image Description">
+						<img class="img-fluid m-auto max-height-50" src="/img/200X60/img6.png" alt="Image Description">
 					</a>
 				</div>
 			</div>

@@ -10,7 +10,7 @@ class ProductController extends Controller
 			return view('productArchive');
 		}
 
-    public function single(){
-			return view('');
+    public function single($id){
+			return view('productSingle');
 		}
 }

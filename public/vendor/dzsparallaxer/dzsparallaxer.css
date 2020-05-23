@@ -353,7 +353,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url(img/grey_wash_wall.jpg);
+  background-image: url(/img/grey_wash_wall.jpg);
   opacity: 0.4; }
 
 .radial-bg {
@@ -635,7 +635,7 @@ body .dzsparallaxer .preloader-semicircles {
   width: 100%;
   height: 100%;
   left: 0;
-  background-image: url(img/fog_clouds_png_by_paradise234-d5czivb.png);
+  background-image: url(/img/fog_clouds_png_by_paradise234-d5czivb.png);
   animation: slideshow 25s linear infinite;
   background-size: cover; }
   .horizontal-fog.clone {

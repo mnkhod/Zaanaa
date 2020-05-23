@@ -3,7 +3,7 @@
 @section('content')
 <!-- Slider Section -->
 <div class="mb-4">
-	<div class="bg-img-hero" style="background-image: url(img/1920X422/silder4.jpg);">
+	<div class="bg-img-hero" style="background-image: url(/img/1920X422/silder4.jpg);">
 		<div class="container overflow-hidden">
 			<div class="js-slick-carousel u-slick" data-pagi-classes="text-center position-absolute right-0 bottom-0 left-0 u-slick__pagination u-slick__pagination--long justify-content-center mb-3 mb-md-4">
 				<div class="js-slide">
@@ -23,7 +23,7 @@
 							</div>
 						</div>
 						<div class="col-xl-7 col-6 d-flex align-items-end ml-auto ml-md-0" data-scs-animation-in="fadeInRight" data-scs-animation-delay="500">
-							<img class="img-fluid ml-auto mr-10 mr-wd-auto" src="img/468X417/img1.png" alt="Image Description">
+							<img class="img-fluid ml-auto mr-10 mr-wd-auto" src="/img/468X417/img1.png" alt="Image Description">
 						</div>
 					</div>
 				</div>
@@ -44,7 +44,7 @@
 							</div>
 						</div>
 						<div class="col-xl-7 col-6 flex-horizontal-center ml-auto ml-md-0" data-scs-animation-in="fadeInRight" data-scs-animation-delay="500">
-							<img class="img-fluid ml-auto mr-10 mr-wd-auto h-100" src="img/416X420/img1.png" alt="Image Description">
+							<img class="img-fluid ml-auto mr-10 mr-wd-auto h-100" src="/img/416X420/img1.png" alt="Image Description">
 						</div>
 					</div>
 				</div>
@@ -65,7 +65,7 @@
 							</div>
 						</div>
 						<div class="col-xl-7 col-6 flex-horizontal-center ml-auto ml-md-0" data-scs-animation-in="fadeInRight" data-scs-animation-delay="500">
-							<img class="img-fluid ml-auto mr-10 mr-wd-auto h-100" src="img/416X420/img3.png" alt="Image Description">
+							<img class="img-fluid ml-auto mr-10 mr-wd-auto h-100" src="/img/416X420/img3.png" alt="Image Description">
 						</div>
 					</div>
 				</div>
@@ -80,7 +80,7 @@
 		<div class="col-md-6 mb-4 mb-xl-0 col-xl-4 col-wd-3 flex-shrink-0 flex-xl-shrink-1">
 			<a href="../shop/shop.html" class="min-height-146 py-1 py-xl-2 py-wd-1 banner-bg d-flex align-items-center text-gray-90">
 				<div class="col-6 col-xl-7 col-wd-6 pr-0">
-					<img class="img-fluid" src="img/246X176/img1.jpg" alt="Image Description">
+					<img class="img-fluid" src="/img/246X176/img1.jpg" alt="Image Description">
 				</div>
 				<div class="col-6 col-xl-5 col-wd-6 pr-xl-4 pr-wd-3">
 					<div class="mb-2 pb-1 font-size-18 font-weight-light text-ls-n1 text-lh-23">
@@ -98,7 +98,7 @@
 		<div class="col-md-6 mb-4 mb-xl-0 col-xl-4 col-wd-3 flex-shrink-0 flex-xl-shrink-1">
 			<a href="../shop/shop.html" class="min-height-146 py-1 py-xl-2 py-wd-1 banner-bg d-flex align-items-center text-gray-90">
 				<div class="col-6 col-xl-7 col-wd-6 pr-0">
-					<img class="img-fluid" src="img/246X176/img2.jpg" alt="Image Description">
+					<img class="img-fluid" src="/img/246X176/img2.jpg" alt="Image Description">
 				</div>
 				<div class="col-6 col-xl-5 col-wd-6 pr-xl-4 pr-wd-3">
 					<div class="mb-2 pb-1 font-size-18 font-weight-light text-ls-n1 text-lh-23">
@@ -116,7 +116,7 @@
 		<div class="col-md-6 mb-4 mb-xl-0 col-xl-4 col-wd-3 flex-shrink-0 flex-xl-shrink-1">
 			<a href="../shop/shop.html" class="min-height-146 py-1 py-xl-2 py-wd-1 banner-bg d-flex align-items-center text-gray-90">
 				<div class="col-6 col-xl-7 col-wd-6 pr-0">
-					<img class="img-fluid" src="img/246X176/img3.jpg" alt="Image Description">
+					<img class="img-fluid" src="/img/246X176/img3.jpg" alt="Image Description">
 				</div>
 				<div class="col-6 col-xl-5 col-wd-6 pr-xl-4 pr-wd-3">
 					<div class="mb-2 pb-1 font-size-18 font-weight-light text-ls-n1 text-lh-23">
@@ -134,7 +134,7 @@
 		<div class="col-md-6 mb-4 mb-xl-0 col-xl-4 col-wd-3 flex-shrink-0 flex-xl-shrink-1 d-xl-none d-wd-block">
 			<a href="../shop/shop.html" class="min-height-146 py-1 py-xl-2 py-wd-1 banner-bg d-flex align-items-center text-gray-90">
 				<div class="col-6 col-xl-5 col-wd-6 pr-0">
-					<img class="img-fluid" src="img/190X150/img4.png" alt="Image Description">
+					<img class="img-fluid" src="/img/190X150/img4.png" alt="Image Description">
 				</div>
 				<div class="col-6 col-xl-7 col-wd-6">
 					<div class="mb-2 pb-1 font-size-18 font-weight-light text-ls-n1 text-lh-23">
@@ -257,7 +257,7 @@
 									<div class="mb-2"><a href="../shop/product-categories.html" class="font-size-12 text-gray-5">Speakers</a></div>
 									<h5 class="mb-1 product-item__title"><a href="../shop/single-product.html" class="text-blue font-weight-bold">Wireless Audio System Multiroom 360 degree Full base audio</a></h5>
 									<div class="mb-2">
-										<a href="../shop/single-product.html" class="d-block text-center"><img class="img-fluid" src="img/212X200/img1.jpg" alt="Image Description"></a>
+										<a href="../shop/single-product.html" class="d-block text-center"><img class="img-fluid" src="/img/212X200/img1.jpg" alt="Image Description"></a>
 									</div>
 									<div class="flex-center-between mb-1">
 										<div class="prodcut-price">
@@ -284,7 +284,7 @@
 									<div class="mb-2"><a href="../shop/product-categories.html" class="font-size-12 text-gray-5">Speakers</a></div>
 									<h5 class="mb-1 product-item__title"><a href="../shop/single-product.html" class="text-blue font-weight-bold">Tablet White EliteBook Revolve 810 G2</a></h5>
 									<div class="mb-2">
-										<a href="../shop/single-product.html" class="d-block text-center"><img class="img-fluid" src="img/212X200/img2.jpg" alt="Image Description"></a>
+										<a href="../shop/single-product.html" class="d-block text-center"><img class="img-fluid" src="/img/212X200/img2.jpg" alt="Image Description"></a>
 									</div>
 									<div class="flex-center-between mb-1">
 										<div class="prodcut-price d-flex align-items-center position-relative">
@@ -312,7 +312,7 @@
 									<div class="mb-2"><a href="../shop/product-categories.html" class="font-size-12 text-gray-5">Speakers</a></div>
 									<h5 class="mb-1 product-item__title"><a href="../shop/single-product.html" class="text-blue font-weight-bold">Purple Solo 2 Wireless</a></h5>
 									<div class="mb-2">
-										<a href="../shop/single-product.html" class="d-block text-center"><img class="img-fluid" src="img/212X200/img3.jpg" alt="Image Description"></a>
+										<a href="../shop/single-product.html" class="d-block text-center"><img class="img-fluid" src="/img/212X200/img3.jpg" alt="Image Description"></a>
 									</div>
 									<div class="flex-center-between mb-1">
 										<div class="prodcut-price">
@@ -339,7 +339,7 @@
 									<div class="mb-2"><a href="../shop/product-categories-7-column-full-width.html" class="font-size-12 text-gray-5">Speakers</a></div>
 									<h5 class="mb-1 product-item__title"><a href="../shop/single-product.html" class="text-blue font-weight-bold">Smartphone 6S 32GB LTE</a></h5>
 									<div class="mb-2">
-										<a href="../shop/single-product.html" class="d-block text-center"><img class="img-fluid" src="img/212X200/img4.jpg" alt="Image Description"></a>
+										<a href="../shop/single-product.html" class="d-block text-center"><img class="img-fluid" src="/img/212X200/img4.jpg" alt="Image Description"></a>
 									</div>
 									<div class="flex-center-between mb-1">
 										<div class="prodcut-price">
@@ -366,7 +366,7 @@
 									<div class="mb-2"><a href="../shop/product-categories.html" class="font-size-12 text-gray-5">Speakers</a></div>
 									<h5 class="mb-1 product-item__title"><a href="../shop/single-product.html" class="text-blue font-weight-bold">Widescreen NX Mini F1 SMART NX</a></h5>
 									<div class="mb-2">
-										<a href="../shop/single-product.html" class="d-block text-center"><img class="img-fluid" src="img/212X200/img5.jpg" alt="Image Description"></a>
+										<a href="../shop/single-product.html" class="d-block text-center"><img class="img-fluid" src="/img/212X200/img5.jpg" alt="Image Description"></a>
 									</div>
 									<div class="flex-center-between mb-1">
 										<div class="prodcut-price">
@@ -393,7 +393,7 @@
 									<div class="mb-2"><a href="../shop/product-categories.html" class="font-size-12 text-gray-5">Speakers</a></div>
 									<h5 class="mb-1 product-item__title"><a href="../shop/single-product.html" class="text-blue font-weight-bold">Tablet White EliteBook Revolve 810 G2</a></h5>
 									<div class="mb-2">
-										<a href="../shop/single-product.html" class="d-block text-center"><img class="img-fluid" src="img/212X200/img2.jpg" alt="Image Description"></a>
+										<a href="../shop/single-product.html" class="d-block text-center"><img class="img-fluid" src="/img/212X200/img2.jpg" alt="Image Description"></a>
 									</div>
 									<div class="flex-center-between mb-1">
 										<div class="prodcut-price d-flex align-items-center position-relative">
@@ -425,7 +425,7 @@
 									<div class="mb-2"><a href="../shop/product-categories.html" class="font-size-12 text-gray-5">Speakers</a></div>
 									<h5 class="mb-1 product-item__title"><a href="../shop/single-product.html" class="text-blue font-weight-bold">Tablet White EliteBook Revolve 810 G2</a></h5>
 									<div class="mb-2">
-										<a href="../shop/single-product.html" class="d-block text-center"><img class="img-fluid" src="img/212X200/img2.jpg" alt="Image Description"></a>
+										<a href="../shop/single-product.html" class="d-block text-center"><img class="img-fluid" src="/img/212X200/img2.jpg" alt="Image Description"></a>
 									</div>
 									<div class="flex-center-between mb-1">
 										<div class="prodcut-price">
@@ -452,7 +452,7 @@
 									<div class="mb-2"><a href="../shop/product-categories.html" class="font-size-12 text-gray-5">Speakers</a></div>
 									<h5 class="mb-1 product-item__title"><a href="../shop/single-product.html" class="text-blue font-weight-bold">Purple Solo 2 Wireless</a></h5>
 									<div class="mb-2">
-										<a href="../shop/single-product.html" class="d-block text-center"><img class="img-fluid" src="img/212X200/img3.jpg" alt="Image Description"></a>
+										<a href="../shop/single-product.html" class="d-block text-center"><img class="img-fluid" src="/img/212X200/img3.jpg" alt="Image Description"></a>
 									</div>
 									<div class="flex-center-between mb-1">
 										<div class="prodcut-price">
@@ -479,7 +479,7 @@
 									<div class="mb-2"><a href="../shop/product-categories-7-column-full-width.html" class="font-size-12 text-gray-5">Speakers</a></div>
 									<h5 class="mb-1 product-item__title"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Smartphone 6S 32GB LTE</a></h5>
 									<div class="mb-2">
-										<a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="img/212X200/img4.jpg" alt="Image Description"></a>
+										<a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="/img/212X200/img4.jpg" alt="Image Description"></a>
 									</div>
 									<div class="flex-center-between mb-1">
 										<div class="prodcut-price">
@@ -506,7 +506,7 @@
 									<div class="mb-2"><a href="../shop/product-categories-7-column-full-width.html" class="font-size-12 text-gray-5">Speakers</a></div>
 									<h5 class="mb-1 product-item__title"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Widescreen NX Mini F1 SMART NX</a></h5>
 									<div class="mb-2">
-										<a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="img/212X200/img5.jpg" alt="Image Description"></a>
+										<a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="/img/212X200/img5.jpg" alt="Image Description"></a>
 									</div>
 									<div class="flex-center-between mb-1">
 										<div class="prodcut-price">
@@ -533,7 +533,7 @@
 									<div class="mb-2"><a href="../shop/product-categories-7-column-full-width.html" class="font-size-12 text-gray-5">Speakers</a></div>
 									<h5 class="mb-1 product-item__title"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Wireless Audio System Multiroom 360 degree Full base audio</a></h5>
 									<div class="mb-2">
-										<a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="img/212X200/img1.jpg" alt="Image Description"></a>
+										<a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="/img/212X200/img1.jpg" alt="Image Description"></a>
 									</div>
 									<div class="flex-center-between mb-1">
 										<div class="prodcut-price">
@@ -560,7 +560,7 @@
 									<div class="mb-2"><a href="../shop/product-categories-7-column-full-width.html" class="font-size-12 text-gray-5">Speakers</a></div>
 									<h5 class="mb-1 product-item__title"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Purple Solo 2 Wireless</a></h5>
 									<div class="mb-2">
-										<a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="img/212X200/img3.jpg" alt="Image Description"></a>
+										<a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="/img/212X200/img3.jpg" alt="Image Description"></a>
 									</div>
 									<div class="flex-center-between mb-1">
 										<div class="prodcut-price">
@@ -591,7 +591,7 @@
 									<div class="mb-2"><a href="../shop/product-categories-7-column-full-width.html" class="font-size-12 text-gray-5">Speakers</a></div>
 									<h5 class="mb-1 product-item__title"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Wireless Audio System Multiroom 360 degree Full base audio</a></h5>
 									<div class="mb-2">
-										<a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="img/212X200/img1.jpg" alt="Image Description"></a>
+										<a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="/img/212X200/img1.jpg" alt="Image Description"></a>
 									</div>
 									<div class="flex-center-between mb-1">
 										<div class="prodcut-price">
@@ -618,7 +618,7 @@
 									<div class="mb-2"><a href="../shop/product-categories-7-column-full-width.html" class="font-size-12 text-gray-5">Speakers</a></div>
 									<h5 class="mb-1 product-item__title"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Tablet White EliteBook Revolve 810 G2</a></h5>
 									<div class="mb-2">
-										<a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="img/212X200/img2.jpg" alt="Image Description"></a>
+										<a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="/img/212X200/img2.jpg" alt="Image Description"></a>
 									</div>
 									<div class="flex-center-between mb-1">
 										<div class="prodcut-price">
@@ -645,7 +645,7 @@
 									<div class="mb-2"><a href="../shop/product-categories-7-column-full-width.html" class="font-size-12 text-gray-5">Speakers</a></div>
 									<h5 class="mb-1 product-item__title"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Purple Solo 2 Wireless</a></h5>
 									<div class="mb-2">
-										<a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="img/212X200/img3.jpg" alt="Image Description"></a>
+										<a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="/img/212X200/img3.jpg" alt="Image Description"></a>
 									</div>
 									<div class="flex-center-between mb-1">
 										<div class="prodcut-price">
@@ -672,7 +672,7 @@
 									<div class="mb-2"><a href="../shop/product-categories-7-column-full-width.html" class="font-size-12 text-gray-5">Speakers</a></div>
 									<h5 class="mb-1 product-item__title"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Smartphone 6S 32GB LTE</a></h5>
 									<div class="mb-2">
-										<a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="img/212X200/img4.jpg" alt="Image Description"></a>
+										<a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="/img/212X200/img4.jpg" alt="Image Description"></a>
 									</div>
 									<div class="flex-center-between mb-1">
 										<div class="prodcut-price">
@@ -699,7 +699,7 @@
 									<div class="mb-2"><a href="../shop/product-categories-7-column-full-width.html" class="font-size-12 text-gray-5">Speakers</a></div>
 									<h5 class="mb-1 product-item__title"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Widescreen NX Mini F1 SMART NX</a></h5>
 									<div class="mb-2">
-										<a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="img/212X200/img5.jpg" alt="Image Description"></a>
+										<a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="/img/212X200/img5.jpg" alt="Image Description"></a>
 									</div>
 									<div class="flex-center-between mb-1">
 										<div class="prodcut-price">
@@ -726,7 +726,7 @@
 									<div class="mb-2"><a href="../shop/product-categories-7-column-full-width.html" class="font-size-12 text-gray-5">Speakers</a></div>
 									<h5 class="mb-1 product-item__title"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Wireless Audio System Multiroom 360 degree Full base audio</a></h5>
 									<div class="mb-2">
-										<a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="img/212X200/img1.jpg" alt="Image Description"></a>
+										<a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="/img/212X200/img1.jpg" alt="Image Description"></a>
 									</div>
 									<div class="flex-center-between mb-1">
 										<div class="prodcut-price">
@@ -754,11 +754,11 @@
 	<!-- End Tab Prodcut Section -->
 </div>
 <!-- Television Entertainment -->
-<div class="mb-6" style="background-image: url(img/1920X1080/img4.jpg);">
+<div class="mb-6" style="background-image: url(/img/1920X1080/img4.jpg);">
 	<div class="container">
 		<div class="row min-height-564 align-items-center">
 			<div class="col-12 col-lg-4 col-xl-5 col-wd-6 d-none d-md-block">
-				<img class="img-fluid" src="img/665X616/img1.png" alt="Image Description">
+				<img class="img-fluid" src="/img/665X616/img1.png" alt="Image Description">
 			</div>
 			<div class="col-12 col-lg-8 col-xl-7 col-wd-6 pt-6 pt-md-0">
 				<div class=" d-flex border-bottom border-color-1 mr-md-2">
@@ -772,7 +772,7 @@
 								<div class="product-item__outer h-100 w-100">
 									<div class="product-item__inner p-md-3 row no-gutters bg-white max-width-334">
 										<div class="col col-lg-auto product-media-left">
-											<a href="../shop/single-product-fullwidth.html" class="max-width-120 d-block"><img class="img-fluid" src="img/150X140/img1.jpg" alt="Image Description"></a>
+											<a href="../shop/single-product-fullwidth.html" class="max-width-120 d-block"><img class="img-fluid" src="/img/150X140/img1.jpg" alt="Image Description"></a>
 										</div>
 										<div class="col product-item__body pl-2 pl-lg-3 mr-xl-2 mr-wd-1 pr-3 pr-md-0 pt-1 pt-md-0">
 											<div class="mb-2">
@@ -801,7 +801,7 @@
 								<div class="product-item__outer h-100 w-100">
 									<div class="product-item__inner p-md-3 row no-gutters bg-white max-width-334">
 										<div class="col col-lg-auto product-media-left">
-											<a href="../shop/single-product-fullwidth.html" class="max-width-120 d-block"><img class="img-fluid" src="img/150X140/img2.jpg" alt="Image Description"></a>
+											<a href="../shop/single-product-fullwidth.html" class="max-width-120 d-block"><img class="img-fluid" src="/img/150X140/img2.jpg" alt="Image Description"></a>
 										</div>
 										<div class="col product-item__body pl-2 pl-lg-3 mr-xl-2 mr-wd-1 pr-3 pr-md-0 pt-1 pt-md-0">
 											<div class="mb-2">
@@ -830,7 +830,7 @@
 								<div class="product-item__outer h-100 w-100">
 									<div class="product-item__inner p-md-3 row no-gutters bg-white max-width-334">
 										<div class="col col-lg-auto product-media-left">
-											<a href="../shop/single-product-fullwidth.html" class="max-width-120 d-block"><img class="img-fluid" src="img/150X140/img3.jpg" alt="Image Description"></a>
+											<a href="../shop/single-product-fullwidth.html" class="max-width-120 d-block"><img class="img-fluid" src="/img/150X140/img3.jpg" alt="Image Description"></a>
 										</div>
 										<div class="col product-item__body pl-2 pl-lg-3 mr-xl-2 mr-wd-1 pr-3 pr-md-0 pt-1 pt-md-0">
 											<div class="mb-2">
@@ -859,7 +859,7 @@
 								<div class="product-item__outer h-100 w-100">
 									<div class="product-item__inner p-md-3 row no-gutters bg-white max-width-334">
 										<div class="col col-lg-auto product-media-left">
-											<a href="../shop/single-product-fullwidth.html" class="max-width-120 d-block"><img class="img-fluid" src="img/150X140/img7.jpg" alt="Image Description"></a>
+											<a href="../shop/single-product-fullwidth.html" class="max-width-120 d-block"><img class="img-fluid" src="/img/150X140/img7.jpg" alt="Image Description"></a>
 										</div>
 										<div class="col product-item__body pl-2 pl-lg-3 mr-xl-2 mr-wd-1 pr-3 pr-md-0 pt-1 pt-md-0">
 											<div class="mb-2">
@@ -892,7 +892,7 @@
 								<div class="product-item__outer h-100 w-100">
 									<div class="product-item__inner p-md-3 row no-gutters bg-white max-width-334">
 										<div class="col col-lg-auto product-media-left">
-											<a href="../shop/single-product-fullwidth.html" class="max-width-120 d-block"><img class="img-fluid" src="img/150X140/img2.jpg" alt="Image Description"></a>
+											<a href="../shop/single-product-fullwidth.html" class="max-width-120 d-block"><img class="img-fluid" src="/img/150X140/img2.jpg" alt="Image Description"></a>
 										</div>
 										<div class="col product-item__body pl-2 pl-lg-3 mr-xl-2 mr-wd-1 pr-3 pr-md-0 pt-1 pt-md-0">
 											<div class="mb-2">
@@ -921,7 +921,7 @@
 								<div class="product-item__outer h-100 w-100">
 									<div class="product-item__inner p-md-3 row no-gutters bg-white max-width-334">
 										<div class="col col-lg-auto product-media-left">
-											<a href="../shop/single-product-fullwidth.html" class="max-width-120 d-block"><img class="img-fluid" src="img/150X140/img7.jpg" alt="Image Description"></a>
+											<a href="../shop/single-product-fullwidth.html" class="max-width-120 d-block"><img class="img-fluid" src="/img/150X140/img7.jpg" alt="Image Description"></a>
 										</div>
 										<div class="col product-item__body pl-2 pl-lg-3 mr-xl-2 mr-wd-1 pr-3 pr-md-0 pt-1 pt-md-0">
 											<div class="mb-2">
@@ -950,7 +950,7 @@
 								<div class="product-item__outer h-100 w-100">
 									<div class="product-item__inner p-md-3 row no-gutters bg-white max-width-334">
 										<div class="col col-lg-auto product-media-left">
-											<a href="../shop/single-product-fullwidth.html" class="max-width-120 d-block"><img class="img-fluid" src="img/150X140/img1.jpg" alt="Image Description"></a>
+											<a href="../shop/single-product-fullwidth.html" class="max-width-120 d-block"><img class="img-fluid" src="/img/150X140/img1.jpg" alt="Image Description"></a>
 										</div>
 										<div class="col product-item__body pl-2 pl-lg-3 mr-xl-2 mr-wd-1 pr-3 pr-md-0 pt-1 pt-md-0">
 											<div class="mb-2">
@@ -979,7 +979,7 @@
 								<div class="product-item__outer h-100 w-100">
 									<div class="product-item__inner p-md-3 row no-gutters bg-white max-width-334">
 										<div class="col col-lg-auto product-media-left">
-											<a href="../shop/single-product-fullwidth.html" class="max-width-120 d-block"><img class="img-fluid" src="img/150X140/img3.jpg" alt="Image Description"></a>
+											<a href="../shop/single-product-fullwidth.html" class="max-width-120 d-block"><img class="img-fluid" src="/img/150X140/img3.jpg" alt="Image Description"></a>
 										</div>
 										<div class="col product-item__body pl-2 pl-lg-3 mr-xl-2 mr-wd-1 pr-3 pr-md-0 pt-1 pt-md-0">
 											<div class="mb-2">
@@ -1012,7 +1012,7 @@
 								<div class="product-item__outer h-100 w-100">
 									<div class="product-item__inner p-md-3 row no-gutters bg-white max-width-334">
 										<div class="col col-lg-auto product-media-left">
-											<a href="../shop/single-product-fullwidth.html" class="max-width-120 d-block"><img class="img-fluid" src="img/150X140/img1.jpg" alt="Image Description"></a>
+											<a href="../shop/single-product-fullwidth.html" class="max-width-120 d-block"><img class="img-fluid" src="/img/150X140/img1.jpg" alt="Image Description"></a>
 										</div>
 										<div class="col product-item__body pl-2 pl-lg-3 mr-xl-2 mr-wd-1 pr-3 pr-md-0 pt-1 pt-md-0">
 											<div class="mb-2">
@@ -1041,7 +1041,7 @@
 								<div class="product-item__outer h-100 w-100">
 									<div class="product-item__inner p-md-3 row no-gutters bg-white max-width-334">
 										<div class="col col-lg-auto product-media-left">
-											<a href="../shop/single-product-fullwidth.html" class="max-width-120 d-block"><img class="img-fluid" src="img/150X140/img2.jpg" alt="Image Description"></a>
+											<a href="../shop/single-product-fullwidth.html" class="max-width-120 d-block"><img class="img-fluid" src="/img/150X140/img2.jpg" alt="Image Description"></a>
 										</div>
 										<div class="col product-item__body pl-2 pl-lg-3 mr-xl-2 mr-wd-1 pr-3 pr-md-0 pt-1 pt-md-0">
 											<div class="mb-2">
@@ -1070,7 +1070,7 @@
 								<div class="product-item__outer h-100 w-100">
 									<div class="product-item__inner p-md-3 row no-gutters bg-white max-width-334">
 										<div class="col col-lg-auto product-media-left">
-											<a href="../shop/single-product-fullwidth.html" class="max-width-120 d-block"><img class="img-fluid" src="img/150X140/img3.jpg" alt="Image Description"></a>
+											<a href="../shop/single-product-fullwidth.html" class="max-width-120 d-block"><img class="img-fluid" src="/img/150X140/img3.jpg" alt="Image Description"></a>
 										</div>
 										<div class="col product-item__body pl-2 pl-lg-3 mr-xl-2 mr-wd-1 pr-3 pr-md-0 pt-1 pt-md-0">
 											<div class="mb-2">
@@ -1099,7 +1099,7 @@
 								<div class="product-item__outer h-100 w-100">
 									<div class="product-item__inner p-md-3 row no-gutters bg-white max-width-334">
 										<div class="col col-lg-auto product-media-left">
-											<a href="../shop/single-product-fullwidth.html" class="max-width-120 d-block"><img class="img-fluid" src="img/150X140/img7.jpg" alt="Image Description"></a>
+											<a href="../shop/single-product-fullwidth.html" class="max-width-120 d-block"><img class="img-fluid" src="/img/150X140/img7.jpg" alt="Image Description"></a>
 										</div>
 										<div class="col product-item__body pl-2 pl-lg-3 mr-xl-2 mr-wd-1 pr-3 pr-md-0 pt-1 pt-md-0">
 											<div class="mb-2">
@@ -1146,7 +1146,7 @@
 						<div class="product-item__outer h-100 w-100">
 							<div class="product-item__inner p-md-3 row no-gutters">
 								<div class="col col-lg-auto product-media-left">
-									<a href="../shop/single-product-fullwidth.html" class="max-width-150 d-block"><img class="img-fluid" src="img/150X140/img1.jpg" alt="Image Description"></a>
+									<a href="../shop/single-product-fullwidth.html" class="max-width-150 d-block"><img class="img-fluid" src="/img/150X140/img1.jpg" alt="Image Description"></a>
 								</div>
 								<div class="col product-item__body pl-2 pl-lg-3 mr-xl-2 mr-wd-1">
 									<div class="mb-4">
@@ -1175,7 +1175,7 @@
 						<div class="product-item__outer h-100 w-100">
 							<div class="product-item__inner p-md-3 row no-gutters">
 								<div class="col col-lg-auto product-media-left">
-									<a href="../shop/single-product-fullwidth.html" class="max-width-150 d-block"><img class="img-fluid" src="img/150X140/img2.jpg" alt="Image Description"></a>
+									<a href="../shop/single-product-fullwidth.html" class="max-width-150 d-block"><img class="img-fluid" src="/img/150X140/img2.jpg" alt="Image Description"></a>
 								</div>
 								<div class="col product-item__body pl-2 pl-lg-3 mr-xl-2 mr-wd-1">
 									<div class="mb-4">
@@ -1204,7 +1204,7 @@
 						<div class="product-item__outer h-100 w-100">
 							<div class="product-item__inner p-md-3 row no-gutters">
 								<div class="col col-lg-auto product-media-left">
-									<a href="../shop/single-product-fullwidth.html" class="max-width-150 d-block"><img class="img-fluid" src="img/150X140/img7.jpg" alt="Image Description"></a>
+									<a href="../shop/single-product-fullwidth.html" class="max-width-150 d-block"><img class="img-fluid" src="/img/150X140/img7.jpg" alt="Image Description"></a>
 								</div>
 								<div class="col product-item__body pl-2 pl-lg-3 mr-xl-2 mr-wd-1">
 									<div class="mb-4">
@@ -1233,7 +1233,7 @@
 						<div class="product-item__outer h-100 w-100">
 							<div class="product-item__inner p-md-3 row no-gutters">
 								<div class="col col-lg-auto product-media-left">
-									<a href="../shop/single-product-fullwidth.html" class="max-width-150 d-block"><img class="img-fluid" src="img/150X140/img3.jpg" alt="Image Description"></a>
+									<a href="../shop/single-product-fullwidth.html" class="max-width-150 d-block"><img class="img-fluid" src="/img/150X140/img3.jpg" alt="Image Description"></a>
 								</div>
 								<div class="col product-item__body pl-2 pl-lg-3 mr-xl-2 mr-wd-1">
 									<div class="mb-4">
@@ -1266,7 +1266,7 @@
 						<div class="product-item__outer h-100 w-100">
 							<div class="product-item__inner p-md-3 row no-gutters">
 								<div class="col col-lg-auto product-media-left">
-									<a href="../shop/single-product-fullwidth.html" class="max-width-150 d-block"><img class="img-fluid" src="img/150X140/img1.jpg" alt="Image Description"></a>
+									<a href="../shop/single-product-fullwidth.html" class="max-width-150 d-block"><img class="img-fluid" src="/img/150X140/img1.jpg" alt="Image Description"></a>
 								</div>
 								<div class="col product-item__body pl-2 pl-lg-3 mr-xl-2 mr-wd-1">
 									<div class="mb-4">
@@ -1295,7 +1295,7 @@
 						<div class="product-item__outer h-100 w-100">
 							<div class="product-item__inner p-md-3 row no-gutters">
 								<div class="col col-lg-auto product-media-left">
-									<a href="../shop/single-product-fullwidth.html" class="max-width-150 d-block"><img class="img-fluid" src="img/150X140/img2.jpg" alt="Image Description"></a>
+									<a href="../shop/single-product-fullwidth.html" class="max-width-150 d-block"><img class="img-fluid" src="/img/150X140/img2.jpg" alt="Image Description"></a>
 								</div>
 								<div class="col product-item__body pl-2 pl-lg-3 mr-xl-2 mr-wd-1">
 									<div class="mb-4">
@@ -1324,7 +1324,7 @@
 						<div class="product-item__outer h-100 w-100">
 							<div class="product-item__inner p-md-3 row no-gutters">
 								<div class="col col-lg-auto product-media-left">
-									<a href="../shop/single-product-fullwidth.html" class="max-width-150 d-block"><img class="img-fluid" src="img/150X140/img7.jpg" alt="Image Description"></a>
+									<a href="../shop/single-product-fullwidth.html" class="max-width-150 d-block"><img class="img-fluid" src="/img/150X140/img7.jpg" alt="Image Description"></a>
 								</div>
 								<div class="col product-item__body pl-2 pl-lg-3 mr-xl-2 mr-wd-1">
 									<div class="mb-4">
@@ -1353,7 +1353,7 @@
 						<div class="product-item__outer h-100 w-100">
 							<div class="product-item__inner p-md-3 row no-gutters">
 								<div class="col col-lg-auto product-media-left">
-									<a href="../shop/single-product-fullwidth.html" class="max-width-150 d-block"><img class="img-fluid" src="img/150X140/img3.jpg" alt="Image Description"></a>
+									<a href="../shop/single-product-fullwidth.html" class="max-width-150 d-block"><img class="img-fluid" src="/img/150X140/img3.jpg" alt="Image Description"></a>
 								</div>
 								<div class="col product-item__body pl-2 pl-lg-3 mr-xl-2 mr-wd-1">
 									<div class="mb-4">
@@ -1386,7 +1386,7 @@
 						<div class="product-item__outer h-100 w-100">
 							<div class="product-item__inner p-md-3 row no-gutters">
 								<div class="col col-lg-auto product-media-left">
-									<a href="../shop/single-product-fullwidth.html" class="max-width-150 d-block"><img class="img-fluid" src="img/150X140/img1.jpg" alt="Image Description"></a>
+									<a href="../shop/single-product-fullwidth.html" class="max-width-150 d-block"><img class="img-fluid" src="/img/150X140/img1.jpg" alt="Image Description"></a>
 								</div>
 								<div class="col product-item__body pl-2 pl-lg-3 mr-xl-2 mr-wd-1">
 									<div class="mb-4">
@@ -1415,7 +1415,7 @@
 						<div class="product-item__outer h-100 w-100">
 							<div class="product-item__inner p-md-3 row no-gutters">
 								<div class="col col-lg-auto product-media-left">
-									<a href="../shop/single-product-fullwidth.html" class="max-width-150 d-block"><img class="img-fluid" src="img/150X140/img2.jpg" alt="Image Description"></a>
+									<a href="../shop/single-product-fullwidth.html" class="max-width-150 d-block"><img class="img-fluid" src="/img/150X140/img2.jpg" alt="Image Description"></a>
 								</div>
 								<div class="col product-item__body pl-2 pl-lg-3 mr-xl-2 mr-wd-1">
 									<div class="mb-4">
@@ -1444,7 +1444,7 @@
 						<div class="product-item__outer h-100 w-100">
 							<div class="product-item__inner p-md-3 row no-gutters">
 								<div class="col col-lg-auto product-media-left">
-									<a href="../shop/single-product-fullwidth.html" class="max-width-150 d-block"><img class="img-fluid" src="img/150X140/img7.jpg" alt="Image Description"></a>
+									<a href="../shop/single-product-fullwidth.html" class="max-width-150 d-block"><img class="img-fluid" src="/img/150X140/img7.jpg" alt="Image Description"></a>
 								</div>
 								<div class="col product-item__body pl-2 pl-lg-3 mr-xl-2 mr-wd-1">
 									<div class="mb-4">
@@ -1473,7 +1473,7 @@
 						<div class="product-item__outer h-100 w-100">
 							<div class="product-item__inner p-md-3 row no-gutters">
 								<div class="col col-lg-auto product-media-left">
-									<a href="../shop/single-product-fullwidth.html" class="max-width-150 d-block"><img class="img-fluid" src="img/150X140/img3.jpg" alt="Image Description"></a>
+									<a href="../shop/single-product-fullwidth.html" class="max-width-150 d-block"><img class="img-fluid" src="/img/150X140/img3.jpg" alt="Image Description"></a>
 								</div>
 								<div class="col product-item__body pl-2 pl-lg-3 mr-xl-2 mr-wd-1">
 									<div class="mb-4">
@@ -1548,7 +1548,7 @@
 								<div class="mb-2"><a href="../shop/product-categories-7-column-full-width.html" class="font-size-12 text-gray-5">Speakers</a></div>
 								<h5 class="mb-1 product-item__title"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Wireless Audio System Multiroom 360 degree Full base audio</a></h5>
 								<div class="mb-2">
-									<a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="img/212X200/img1.jpg" alt="Image Description"></a>
+									<a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="/img/212X200/img1.jpg" alt="Image Description"></a>
 								</div>
 								<div class="flex-center-between mb-1">
 									<div class="prodcut-price">
@@ -1577,7 +1577,7 @@
 								<div class="mb-2"><a href="../shop/product-categories-7-column-full-width.html" class="font-size-12 text-gray-5">Speakers</a></div>
 								<h5 class="mb-1 product-item__title"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Wireless Audio System Multiroom 360 degree Full base audio</a></h5>
 								<div class="mb-2">
-									<a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="img/212X200/img2.jpg" alt="Image Description"></a>
+									<a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="/img/212X200/img2.jpg" alt="Image Description"></a>
 								</div>
 								<div class="flex-center-between mb-1">
 									<div class="prodcut-price">
@@ -1606,7 +1606,7 @@
 								<div class="mb-2"><a href="../shop/product-categories-7-column-full-width.html" class="font-size-12 text-gray-5">Speakers</a></div>
 								<h5 class="mb-1 product-item__title"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Wireless Audio System Multiroom 360 degree Full base audio</a></h5>
 								<div class="mb-2">
-									<a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="img/212X200/img3.jpg" alt="Image Description"></a>
+									<a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="/img/212X200/img3.jpg" alt="Image Description"></a>
 								</div>
 								<div class="flex-center-between mb-1">
 									<div class="prodcut-price">
@@ -1635,7 +1635,7 @@
 								<div class="mb-2"><a href="../shop/product-categories-7-column-full-width.html" class="font-size-12 text-gray-5">Speakers</a></div>
 								<h5 class="mb-1 product-item__title"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Wireless Audio System Multiroom 360 degree Full base audio</a></h5>
 								<div class="mb-2">
-									<a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="img/212X200/img4.jpg" alt="Image Description"></a>
+									<a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="/img/212X200/img4.jpg" alt="Image Description"></a>
 								</div>
 								<div class="flex-center-between mb-1">
 									<div class="prodcut-price">
@@ -1664,7 +1664,7 @@
 								<div class="mb-2"><a href="../shop/product-categories-7-column-full-width.html" class="font-size-12 text-gray-5">Speakers</a></div>
 								<h5 class="mb-1 product-item__title"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Wireless Audio System Multiroom 360 degree Full base audio</a></h5>
 								<div class="mb-2">
-									<a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="img/212X200/img5.jpg" alt="Image Description"></a>
+									<a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="/img/212X200/img5.jpg" alt="Image Description"></a>
 								</div>
 								<div class="flex-center-between mb-1">
 									<div class="prodcut-price">
@@ -1693,7 +1693,7 @@
 								<div class="mb-2"><a href="../shop/product-categories-7-column-full-width.html" class="font-size-12 text-gray-5">Speakers</a></div>
 								<h5 class="mb-1 product-item__title"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Wireless Audio System Multiroom 360 degree Full base audio</a></h5>
 								<div class="mb-2">
-									<a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="img/212X200/img6.jpg" alt="Image Description"></a>
+									<a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="/img/212X200/img6.jpg" alt="Image Description"></a>
 								</div>
 								<div class="flex-center-between mb-1">
 									<div class="prodcut-price">
@@ -1722,7 +1722,7 @@
 								<div class="mb-2"><a href="../shop/product-categories-7-column-full-width.html" class="font-size-12 text-gray-5">Speakers</a></div>
 								<h5 class="mb-1 product-item__title"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Wireless Audio System Multiroom 360 degree Full base audio</a></h5>
 								<div class="mb-2">
-									<a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="img/212X200/img7.jpg" alt="Image Description"></a>
+									<a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="/img/212X200/img7.jpg" alt="Image Description"></a>
 								</div>
 								<div class="flex-center-between mb-1">
 									<div class="prodcut-price">
@@ -1751,7 +1751,7 @@
 								<div class="mb-2"><a href="../shop/product-categories-7-column-full-width.html" class="font-size-12 text-gray-5">Speakers</a></div>
 								<h5 class="mb-1 product-item__title"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Wireless Audio System Multiroom 360 degree Full base audio</a></h5>
 								<div class="mb-2">
-									<a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="img/212X200/img1.jpg" alt="Image Description"></a>
+									<a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="/img/212X200/img1.jpg" alt="Image Description"></a>
 								</div>
 								<div class="flex-center-between mb-1">
 									<div class="prodcut-price">
@@ -1780,7 +1780,7 @@
 								<div class="mb-2"><a href="../shop/product-categories-7-column-full-width.html" class="font-size-12 text-gray-5">Speakers</a></div>
 								<h5 class="mb-1 product-item__title"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Wireless Audio System Multiroom 360 degree Full base audio</a></h5>
 								<div class="mb-2">
-									<a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="img/212X200/img1.jpg" alt="Image Description"></a>
+									<a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="/img/212X200/img1.jpg" alt="Image Description"></a>
 								</div>
 								<div class="flex-center-between mb-1">
 									<div class="prodcut-price">
@@ -1809,12 +1809,12 @@
 		<div class="row">
 			<div class="col-md-6 mb-3 mb-md-0">
 				<a href="../shop/shop.html">
-					<img class="img-fluid" src="img/690X150/img1.jpg" alt="Image Description">
+					<img class="img-fluid" src="/img/690X150/img1.jpg" alt="Image Description">
 				</a>
 			</div>
 			<div class="col-md-6">
 				<a href="../shop/shop.html">
-					<img class="img-fluid" src="img/690X150/img2.jpg" alt="Image Description">
+					<img class="img-fluid" src="/img/690X150/img2.jpg" alt="Image Description">
 				</a>
 			</div>
 		</div>
@@ -1843,32 +1843,32 @@
                         }]'>
 			<div class="js-slide">
 				<a href="#" class="link-hover__brand">
-					<img class="img-fluid m-auto max-height-50" src="img/200X60/img1.png" alt="Image Description">
+					<img class="img-fluid m-auto max-height-50" src="/img/200X60/img1.png" alt="Image Description">
 				</a>
 			</div>
 			<div class="js-slide">
 				<a href="#" class="link-hover__brand">
-					<img class="img-fluid m-auto max-height-50" src="img/200X60/img2.png" alt="Image Description">
+					<img class="img-fluid m-auto max-height-50" src="/img/200X60/img2.png" alt="Image Description">
 				</a>
 			</div>
 			<div class="js-slide">
 				<a href="#" class="link-hover__brand">
-					<img class="img-fluid m-auto max-height-50" src="img/200X60/img3.png" alt="Image Description">
+					<img class="img-fluid m-auto max-height-50" src="/img/200X60/img3.png" alt="Image Description">
 				</a>
 			</div>
 			<div class="js-slide">
 				<a href="#" class="link-hover__brand">
-					<img class="img-fluid m-auto max-height-50" src="img/200X60/img4.png" alt="Image Description">
+					<img class="img-fluid m-auto max-height-50" src="/img/200X60/img4.png" alt="Image Description">
 				</a>
 			</div>
 			<div class="js-slide">
 				<a href="#" class="link-hover__brand">
-					<img class="img-fluid m-auto max-height-50" src="img/200X60/img5.png" alt="Image Description">
+					<img class="img-fluid m-auto max-height-50" src="/img/200X60/img5.png" alt="Image Description">
 				</a>
 			</div>
 			<div class="js-slide">
 				<a href="#" class="link-hover__brand">
-					<img class="img-fluid m-auto max-height-50" src="img/200X60/img6.png" alt="Image Description">
+					<img class="img-fluid m-auto max-height-50" src="/img/200X60/img6.png" alt="Image Description">
 				</a>
 			</div>
 		</div>

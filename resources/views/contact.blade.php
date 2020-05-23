@@ -131,32 +131,32 @@
                             }]'>
 				<div class="js-slide">
 					<a href="#" class="link-hover__brand">
-						<img class="img-fluid m-auto max-height-50" src="img/200X60/img1.png" alt="Image Description">
+						<img class="img-fluid m-auto max-height-50" src="/img/200X60/img1.png" alt="Image Description">
 					</a>
 				</div>
 				<div class="js-slide">
 					<a href="#" class="link-hover__brand">
-						<img class="img-fluid m-auto max-height-50" src="img/200X60/img2.png" alt="Image Description">
+						<img class="img-fluid m-auto max-height-50" src="/img/200X60/img2.png" alt="Image Description">
 					</a>
 				</div>
 				<div class="js-slide">
 					<a href="#" class="link-hover__brand">
-						<img class="img-fluid m-auto max-height-50" src="img/200X60/img3.png" alt="Image Description">
+						<img class="img-fluid m-auto max-height-50" src="/img/200X60/img3.png" alt="Image Description">
 					</a>
 				</div>
 				<div class="js-slide">
 					<a href="#" class="link-hover__brand">
-						<img class="img-fluid m-auto max-height-50" src="img/200X60/img4.png" alt="Image Description">
+						<img class="img-fluid m-auto max-height-50" src="/img/200X60/img4.png" alt="Image Description">
 					</a>
 				</div>
 				<div class="js-slide">
 					<a href="#" class="link-hover__brand">
-						<img class="img-fluid m-auto max-height-50" src="img/200X60/img5.png" alt="Image Description">
+						<img class="img-fluid m-auto max-height-50" src="/img/200X60/img5.png" alt="Image Description">
 					</a>
 				</div>
 				<div class="js-slide">
 					<a href="#" class="link-hover__brand">
-						<img class="img-fluid m-auto max-height-50" src="img/200X60/img6.png" alt="Image Description">
+						<img class="img-fluid m-auto max-height-50" src="/img/200X60/img6.png" alt="Image Description">
 					</a>
 				</div>
 			</div>

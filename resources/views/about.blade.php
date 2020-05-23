@@ -1,7 +1,7 @@
 @extends('base')
 
 @section('content')
-<div class="bg-img-hero mb-14" style="background-image: url(img/1920x600/img1.jpg);">
+<div class="bg-img-hero mb-14" style="background-image: url(/img/1920x600/img1.jpg);">
 	<div class="container">
 		<div class="flex-content-center max-width-620-lg flex-column mx-auto text-center min-height-564">
 			<h1 class="h1 font-weight-bold">About Us</h1>
@@ -13,7 +13,7 @@
 	<div class="row">
 		<div class="col-md-4 mb-4 mb-md-0">
 			<div class="card mb-3 border-0 text-center rounded-0">
-				<img class="img-fluid mb-3" src="img/500X300/img1.jpg" alt="Card image cap">
+				<img class="img-fluid mb-3" src="/img/500X300/img1.jpg" alt="Card image cap">
 				<div class="card-body">
 					<h5 class="font-size-18 font-weight-semi-bold mb-3">What we really do?</h5>
 					<p class="text-gray-90 max-width-334 mx-auto">Donec libero dolor, tincidunt id laoreet vitae, ullamcorper eu tortor. Maecenas pellentesque, dui vitae iaculis mattis, tortor nisi faucibus magna,vitae ultrices lacus purus vitae
@@ -23,7 +23,7 @@
 		</div>
 		<div class="col-md-4 mb-4 mb-md-0">
 			<div class="card mb-3 border-0 text-center rounded-0">
-				<img class="img-fluid mb-3" src="img/500X300/img2.jpg" alt="Card image cap">
+				<img class="img-fluid mb-3" src="/img/500X300/img2.jpg" alt="Card image cap">
 				<div class="card-body">
 					<h5 class="font-size-18 font-weight-semi-bold mb-3">Our Vision</h5>
 					<p class="text-gray-90 max-width-334 mx-auto">Donec libero dolor, tincidunt id laoreet vitae, ullamcorper eu tortor. Maecenas pellentesque, dui vitae iaculis mattis, tortor nisi faucibus magna,vitae ultrices lacus purus vitae
@@ -33,7 +33,7 @@
 		</div>
 		<div class="col-md-4">
 			<div class="card mb-3 border-0 text-center rounded-0">
-				<img class="img-fluid mb-3" src="img/500X300/img3.jpg" alt="Card image cap">
+				<img class="img-fluid mb-3" src="/img/500X300/img3.jpg" alt="Card image cap">
 				<div class="card-body">
 					<h5 class="font-size-18 font-weight-semi-bold mb-3">History of Beginning</h5>
 					<p class="text-gray-90 max-width-334 mx-auto">Donec libero dolor, tincidunt id laoreet vitae, ullamcorper eu tortor. Maecenas pellentesque, dui vitae iaculis mattis, tortor nisi faucibus magna,vitae ultrices lacus purus vitae
@@ -47,32 +47,32 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-4 mb-5 mb-xl-0 col-xl text-center">
-				<img class="img-fluid mb-3 rounded-circle" src="img/300X300/img16.jpg" alt="Card image cap">
+				<img class="img-fluid mb-3 rounded-circle" src="/img/300X300/img16.jpg" alt="Card image cap">
 				<h2 class="font-size-18 font-weight-semi-bold mb-0">Thomas Snow</h2>
 				<span class="text-gray-41">CEO/Founder</span>
 			</div>
 			<div class="col-md-4 mb-5 mb-xl-0 col-xl text-center">
-				<img class="img-fluid mb-3 rounded-circle" src="img/300X300/img17.jpg" alt="Card image cap">
+				<img class="img-fluid mb-3 rounded-circle" src="/img/300X300/img17.jpg" alt="Card image cap">
 				<h2 class="font-size-18 font-weight-semi-bold mb-0">Anna Baranov</h2>
 				<span class="text-gray-41">Client Care</span>
 			</div>
 			<div class="col-md-4 mb-5 mb-xl-0 col-xl text-center">
-				<img class="img-fluid mb-3 rounded-circle" src="img/300X300/img18.jpg" alt="Card image cap">
+				<img class="img-fluid mb-3 rounded-circle" src="/img/300X300/img18.jpg" alt="Card image cap">
 				<h2 class="font-size-18 font-weight-semi-bold mb-0">Andre Kowalsy</h2>
 				<span class="text-gray-41">Support Boss</span>
 			</div>
 			<div class="col-md-4 mb-5 mb-xl-0 col-xl text-center">
-				<img class="img-fluid mb-3 rounded-circle" src="img/300X300/img19.jpg" alt="Card image cap">
+				<img class="img-fluid mb-3 rounded-circle" src="/img/300X300/img19.jpg" alt="Card image cap">
 				<h2 class="font-size-18 font-weight-semi-bold mb-0">Pamela Doe</h2>
 				<span class="text-gray-41">Delivery Driver</span>
 			</div>
 			<div class="col-md-4 mb-5 mb-xl-0 col-xl text-center">
-				<img class="img-fluid mb-3 rounded-circle" src="img/300X300/img20.jpg" alt="Card image cap">
+				<img class="img-fluid mb-3 rounded-circle" src="/img/300X300/img20.jpg" alt="Card image cap">
 				<h2 class="font-size-18 font-weight-semi-bold mb-0">Susan McCain</h2>
 				<span class="text-gray-41">Packaging Girl</span>
 			</div>
 			<div class="col-md-4 mb-5 mb-xl-0 col-xl text-center">
-				<img class="img-fluid mb-3 rounded-circle" src="img/300X300/img21.png" alt="Card image cap">
+				<img class="img-fluid mb-3 rounded-circle" src="/img/300X300/img21.png" alt="Card image cap">
 				<h2 class="font-size-18 font-weight-semi-bold mb-0">See Details</h2>
 			</div>
 		</div>
@@ -250,32 +250,32 @@
                             }]'>
 				<div class="js-slide">
 					<a href="#" class="link-hover__brand">
-						<img class="img-fluid m-auto max-height-50" src="img/200X60/img1.png" alt="Image Description">
+						<img class="img-fluid m-auto max-height-50" src="/img/200X60/img1.png" alt="Image Description">
 					</a>
 				</div>
 				<div class="js-slide">
 					<a href="#" class="link-hover__brand">
-						<img class="img-fluid m-auto max-height-50" src="img/200X60/img2.png" alt="Image Description">
+						<img class="img-fluid m-auto max-height-50" src="/img/200X60/img2.png" alt="Image Description">
 					</a>
 				</div>
 				<div class="js-slide">
 					<a href="#" class="link-hover__brand">
-						<img class="img-fluid m-auto max-height-50" src="img/200X60/img3.png" alt="Image Description">
+						<img class="img-fluid m-auto max-height-50" src="/img/200X60/img3.png" alt="Image Description">
 					</a>
 				</div>
 				<div class="js-slide">
 					<a href="#" class="link-hover__brand">
-						<img class="img-fluid m-auto max-height-50" src="img/200X60/img4.png" alt="Image Description">
+						<img class="img-fluid m-auto max-height-50" src="/img/200X60/img4.png" alt="Image Description">
 					</a>
 				</div>
 				<div class="js-slide">
 					<a href="#" class="link-hover__brand">
-						<img class="img-fluid m-auto max-height-50" src="img/200X60/img5.png" alt="Image Description">
+						<img class="img-fluid m-auto max-height-50" src="/img/200X60/img5.png" alt="Image Description">
 					</a>
 				</div>
 				<div class="js-slide">
 					<a href="#" class="link-hover__brand">
-						<img class="img-fluid m-auto max-height-50" src="img/200X60/img6.png" alt="Image Description">
+						<img class="img-fluid m-auto max-height-50" src="/img/200X60/img6.png" alt="Image Description">
 					</a>
 				</div>
 			</div>
