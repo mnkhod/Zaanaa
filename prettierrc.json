@@ -1,0 +1,20 @@
+{
+  "trailingComma": "es5",
+  "tabWidth": 4,
+  "semi": false,
+  "singleQuote": true,
+	"overrides": [
+    {
+      "files": "*.blade.php",
+      "options": {
+        "tabWidth": 2
+      }
+    },
+    {
+      "files": ["*.html", "legacy/**/*.js"],
+      "options": {
+        "tabWidth": 4
+      }
+    }
+  ]
+}
