@@ -43,6 +43,7 @@ Route::get('/products','ProductController@all');
 Route::get('/products/{id}','ProductController@single');
 
 Route::get('/profile/chart','ProfileController@chart');
+Route::get('/profile/checkout','ProfileController@checkout');
 
 
 Route::group(['prefix' => 'admin'], function () {
