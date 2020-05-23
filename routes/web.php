@@ -50,6 +50,10 @@ Route::get('/profile/wishlist','ProfileController@wishlist');
 Route::get('/blogs','BlogController@all');
 Route::get('/blogs/{id}','BlogController@single');
 
+// Authentication routes...
+Route::post('auth/login', 'AuthController@login')->name('login');
+Route::post('auth/register', 'AuthController@register')->name('register');
+
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
 });
