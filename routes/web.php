@@ -23,6 +23,10 @@ Route::get('/about', function(){
 		return view('about');
 });
 
+// Contact Us Index
+Route::get('/contact', function(){
+		return view('contact');
+});
 
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
