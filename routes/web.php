@@ -13,8 +13,14 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+// Home Index
 Route::get('/', function () {
     return view('home');
+});
+
+// About Us Index
+Route::get('/about', function(){
+		return view('about');
 });
 
 
