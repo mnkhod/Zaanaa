@@ -13,4 +13,8 @@ class ProductController extends Controller
     public function single($id){
 			return view('productSingle');
 		}
+
+		public function compare(){
+			return view('productCompare');
+		}
 }

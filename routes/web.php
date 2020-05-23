@@ -40,6 +40,7 @@ Route::get('/terms', function(){
 
 
 Route::get('/products','ProductController@all');
+Route::get('/products/compare','ProductController@compare');
 Route::get('/products/{id}','ProductController@single');
 
 Route::get('/profile/chart','ProfileController@chart');
