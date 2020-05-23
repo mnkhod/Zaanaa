@@ -43,6 +43,8 @@ Route::get('/products','ProductController@all');
 Route::get('/products/compare','ProductController@compare');
 Route::get('/products/{id}','ProductController@single');
 
+Route::get('/categories','CategoryController@all');
+
 Route::get('/profile/chart','ProfileController@chart');
 Route::get('/profile/checkout','ProfileController@checkout');
 Route::get('/profile/wishlist','ProfileController@wishlist');
