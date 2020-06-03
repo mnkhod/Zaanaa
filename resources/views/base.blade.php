@@ -92,7 +92,7 @@
 								<!-- Nav -->
 								<nav class="navbar navbar-expand u-header__navbar py-0 justify-content-xl-between max-width-270 min-width-270">
 									<!-- Logo -->
-									<a class="order-1 order-xl-0 navbar-brand u-header__navbar-brand u-header__navbar-brand-center" href="../home/index.html" aria-label="Electro">
+									<a class="order-1 order-xl-0 navbar-brand u-header__navbar-brand u-header__navbar-brand-center" href="{{ route('home') }}" aria-label="Electro">
 										<img src="/img/logo5.png" alt="">
 									</a>
 									<!-- End Logo -->

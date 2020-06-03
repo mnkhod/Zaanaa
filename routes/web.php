@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Product;
 
 /*
 |--------------------------------------------------------------------------
@@ -15,7 +16,11 @@ use Illuminate\Support\Facades\Route;
 
 // Home
 Route::get('/', function () {
-    return view('home');
+    $featured = Product::where('id',1)->get(); 
+    $onSale = Product::where('id',2)->get(); 
+    $topRated = Product::where('id',3)->get(); 
+    
+    return view('home', [ 'featured' => $featured , 'sale' => $onSale, 'top' => $topRated] );
 })->name('home');
 
 // About Us
