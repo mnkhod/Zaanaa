@@ -75,82 +75,6 @@
 </div>
 <!-- End Slider Section -->
 <div class="container">
-	<!-- Banner -->
-	<div class="row mb-6 flex-nowrap flex-xl-wrap overflow-auto overflow-xl-visble">
-		<div class="col-md-6 mb-4 mb-xl-0 col-xl-4 col-wd-3 flex-shrink-0 flex-xl-shrink-1">
-			<a href="../shop/shop.html" class="min-height-146 py-1 py-xl-2 py-wd-1 banner-bg d-flex align-items-center text-gray-90">
-				<div class="col-6 col-xl-7 col-wd-6 pr-0">
-					<img class="img-fluid" src="/img/246X176/img1.jpg" alt="Image Description">
-				</div>
-				<div class="col-6 col-xl-5 col-wd-6 pr-xl-4 pr-wd-3">
-					<div class="mb-2 pb-1 font-size-18 font-weight-light text-ls-n1 text-lh-23">
-						CATCH BIG <strong>DEALS</strong> ON THE CAMERAS
-					</div>
-					<div class="link text-gray-90 font-weight-bold font-size-15" href="#">
-						Shop now
-						<span class="link__icon ml-1">
-							<span class="link__icon-inner"><i class="ec ec-arrow-right-categproes"></i></span>
-						</span>
-					</div>
-				</div>
-			</a>
-		</div>
-		<div class="col-md-6 mb-4 mb-xl-0 col-xl-4 col-wd-3 flex-shrink-0 flex-xl-shrink-1">
-			<a href="../shop/shop.html" class="min-height-146 py-1 py-xl-2 py-wd-1 banner-bg d-flex align-items-center text-gray-90">
-				<div class="col-6 col-xl-7 col-wd-6 pr-0">
-					<img class="img-fluid" src="/img/246X176/img2.jpg" alt="Image Description">
-				</div>
-				<div class="col-6 col-xl-5 col-wd-6 pr-xl-4 pr-wd-3">
-					<div class="mb-2 pb-1 font-size-18 font-weight-light text-ls-n1 text-lh-23">
-						THE NEW <strong>360 CAMERAS</strong>
-					</div>
-					<div class="link text-gray-90 font-weight-bold font-size-15" href="#">
-						Shop now
-						<span class="link__icon ml-1">
-							<span class="link__icon-inner"><i class="ec ec-arrow-right-categproes"></i></span>
-						</span>
-					</div>
-				</div>
-			</a>
-		</div>
-		<div class="col-md-6 mb-4 mb-xl-0 col-xl-4 col-wd-3 flex-shrink-0 flex-xl-shrink-1">
-			<a href="../shop/shop.html" class="min-height-146 py-1 py-xl-2 py-wd-1 banner-bg d-flex align-items-center text-gray-90">
-				<div class="col-6 col-xl-7 col-wd-6 pr-0">
-					<img class="img-fluid" src="/img/246X176/img3.jpg" alt="Image Description">
-				</div>
-				<div class="col-6 col-xl-5 col-wd-6 pr-xl-4 pr-wd-3">
-					<div class="mb-2 pb-1 font-size-18 font-weight-light text-ls-n1 text-lh-23">
-						CATCH BIG <strong>DEALS</strong> ON THE CAMERAS
-					</div>
-					<div class="link text-gray-90 font-weight-bold font-size-15" href="#">
-						Shop now
-						<span class="link__icon ml-1">
-							<span class="link__icon-inner"><i class="ec ec-arrow-right-categproes"></i></span>
-						</span>
-					</div>
-				</div>
-			</a>
-		</div>
-		<div class="col-md-6 mb-4 mb-xl-0 col-xl-4 col-wd-3 flex-shrink-0 flex-xl-shrink-1 d-xl-none d-wd-block">
-			<a href="../shop/shop.html" class="min-height-146 py-1 py-xl-2 py-wd-1 banner-bg d-flex align-items-center text-gray-90">
-				<div class="col-6 col-xl-5 col-wd-6 pr-0">
-					<img class="img-fluid" src="/img/190X150/img4.png" alt="Image Description">
-				</div>
-				<div class="col-6 col-xl-7 col-wd-6">
-					<div class="mb-2 pb-1 font-size-18 font-weight-light text-ls-n1 text-lh-23">
-						CATCH BIG <strong>DEALS</strong> ON THE CAMERAS
-					</div>
-					<div class="link text-gray-90 font-weight-bold font-size-15" href="#">
-						Shop now
-						<span class="link__icon ml-1">
-							<span class="link__icon-inner"><i class="ec ec-arrow-right-categproes"></i></span>
-						</span>
-					</div>
-				</div>
-			</a>
-		</div>
-	</div>
-	<!-- End Banner -->
 	<!-- Feature List -->
 	<div class="mb-6 row border rounded-lg mx-0 flex-nowrap flex-xl-wrap overflow-auto overflow-xl-visble">
 		<!-- Feature List -->
@@ -197,18 +121,6 @@
 			<div class="media-body text-center">
 				<span class="d-block font-weight-bold text-dark">Payment</span>
 				<div class=" text-secondary">Secure System</div>
-			</div>
-		</div>
-		<!-- End Feature List -->
-
-		<!-- Feature List -->
-		<div class="media col px-6 px-xl-4 px-wd-8 flex-shrink-0 flex-xl-shrink-1 min-width-270-all border-left py-3">
-			<div class="u-avatar mr-2">
-				<i class="text-primary ec ec-tag font-size-46"></i>
-			</div>
-			<div class="media-body text-center">
-				<span class="d-block font-weight-bold text-dark">Only Best</span>
-				<div class=" text-secondary">Brands</div>
 			</div>
 		</div>
 		<!-- End Feature List -->
@@ -753,7 +665,7 @@
 	</div>
 	<!-- End Tab Prodcut Section -->
 </div>
-<!-- Television Entertainment -->
+<!-- Television Entertainment 
 <div class="mb-6" style="background-image: url(/img/1920X1080/img4.jpg);">
 	<div class="container">
 		<div class="row min-height-564 align-items-center">
@@ -1131,9 +1043,9 @@
 		</div>
 	</div>
 </div>
-<!-- End Television Entertainment -->
+ End Television Entertainment -->
+<!-- Trending Products 
 <div class="container">
-	<!-- Trending Products -->
 	<div class="mb-8 position-relative">
 		<dv class="d-flex justify-content-between border-bottom border-color-1 flex-md-nowrap flex-wrap border-sm-bottom-0">
 			<h3 class="section-title section-title__full mb-0 pb-2 font-size-22">Trending Products</h3>
@@ -1502,8 +1414,8 @@
 			</div>
 		</div>
 	</div>
-	<!-- End Trending Products -->
 </div>
+ End Trending Products -->
 
 <div class="container">
 
@@ -1804,7 +1716,7 @@
 		</div>
 	</div>
 	<!-- End Recommendation for you -->
-	<!-- Banner 2 columns -->
+	<!-- Banner 2 columns>
 	<div class="mb-8">
 		<div class="row">
 			<div class="col-md-6 mb-3 mb-md-0">
@@ -1819,9 +1731,9 @@
 			</div>
 		</div>
 	</div>
-	<!-- End Banner 2 columns -->
+	End Banner 2 columns -->
 </div>
-<!-- Brand Carousel -->
+<!-- Brand Carousel 
 <div class="container mb-8">
 	<div class="py-2 border-top border-bottom">
 		<div class="js-slick-carousel u-slick my-1" data-slides-show="5" data-slides-scroll="1" data-arrows-classes="d-none d-lg-inline-block u-slick__arrow-normal u-slick__arrow-centered--y"
@@ -1872,7 +1784,8 @@
 				</a>
 			</div>
 		</div>
+<!--
 	</div>
 </div>
-<!-- End Brand Carousel -->
+ End Brand Carousel -->
 @endsection
