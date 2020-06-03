@@ -16,11 +16,7 @@ use App\Product;
 
 // Home
 Route::get('/', function () {
-    $featured = Product::where('id',1)->get(); 
-    $onSale = Product::where('id',2)->get(); 
-    $topRated = Product::where('id',3)->get(); 
-    
-    return view('home', [ 'featured' => $featured , 'sale' => $onSale, 'top' => $topRated] );
+    return view('home');
 })->name('home');
 
 // About Us
