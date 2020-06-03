@@ -173,7 +173,7 @@
 																<div id="headerSidebarPagesCollapse" class="collapse" data-parent="#headerSidebarContent">
 																	<ul id="headerSidebarPagesMenu" class="u-header-collapse__nav-list">
 																		<!-- Shop Grid -->
-																		<li><a class="u-header-collapse__submenu-nav-link" href="../shop/shop.html">Shop</a></li>
+																		<li><a class="u-header-collapse__submenu-nav-link" href="{{ route('productArchive') }}">Products</a></li>
 																		<!-- End Shop Grid -->
 																	</ul>
 																</div>
@@ -190,7 +190,7 @@
 																<div id="headerSidebarBlogCollapse" class="collapse" data-parent="#headerSidebarContent">
 																	<ul id="headerSidebarBlogMenu" class="u-header-collapse__nav-list">
 																		<!-- 4 Column Sidebar -->
-																		<li><a class="u-header-collapse__submenu-nav-link" href="../shop/product.html">Product</a></li>
+																		<li><a class="u-header-collapse__submenu-nav-link" href="{{ route('categories') }}">Product Categories</a></li>
 																		<!-- End 4 Column Sidebar -->
 																	</ul>
 																</div>
@@ -207,7 +207,7 @@
 																<div id="headerSidebarShopCollapse" class="collapse" data-parent="#headerSidebarContent">
 																	<ul id="headerSidebarShopMenu" class="u-header-collapse__nav-list">
 																		<!-- Single Product Extended -->
-																		<li><a class="u-header-collapse__submenu-nav-link" href="../shop/single-product.html">Single Product</a></li>
+																		<li><a class="u-header-collapse__submenu-nav-link" href="{{ route('productSingle',2) }}">Single Product</a></li>
 																		<!-- End Single Product Extended -->
 																	</ul>
 																</div>
@@ -257,11 +257,11 @@
 																<div id="headerSidebarblogsCollapse" class="collapse" data-parent="#headerSidebarContent">
 																	<ul id="headerSidebarblogsMenu" class="u-header-collapse__nav-list">
 																		<!-- Blog v1 -->
-																		<li><a class="u-header-collapse__submenu-nav-link" href="../blog/blog.html">Blogs</a></li>
+																		<li><a class="u-header-collapse__submenu-nav-link" href="{{ route('blogArchive') }}">Blogs</a></li>
 																		<!-- End Blog v1 -->
 
 																		<!-- Single Blog Post -->
-																		<li><a class="u-header-collapse__submenu-nav-link" href="../blog/single-blog.html">Single Blog</a></li>
+																		<li><a class="u-header-collapse__submenu-nav-link" href="{{ route('blogSingle',2) }}">Single Blog</a></li>
 																		<!-- End Single Blog Post -->
 																	</ul>
 																</div>
