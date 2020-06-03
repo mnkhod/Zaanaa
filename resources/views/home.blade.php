@@ -23,7 +23,7 @@
 							</div>
 						</div>
 						<div class="col-xl-7 col-6 d-flex align-items-end ml-auto ml-md-0" data-scs-animation-in="fadeInRight" data-scs-animation-delay="500">
-							<img class="img-fluid ml-auto mr-10 mr-wd-auto" src="home-page.slider1_image" alt="Image Description">
+							<img class="img-fluid ml-auto mr-10 mr-wd-auto" src="{{ Voyager::image('products/June2020/GDqjyGiD1pPOjdam16lI.jpg') }}" alt="Image Description">
 						</div>
 					</div>
 				</div>
@@ -44,7 +44,7 @@
 							</div>
 						</div>
 						<div class="col-xl-7 col-6 flex-horizontal-center ml-auto ml-md-0" data-scs-animation-in="fadeInRight" data-scs-animation-delay="500">
-							<img class="img-fluid ml-auto mr-10 mr-wd-auto h-100" src="/img/416X420/img1.png" alt="Image Description">
+							<img class="img-fluid ml-auto mr-10 mr-wd-auto h-100" src="{{ Voyager::image('products/June2020/FXsEXEhDLCQW2leWXe9e.jpg') }}" alt="Image Description">
 						</div>
 					</div>
 				</div>
@@ -65,7 +65,7 @@
 							</div>
 						</div>
 						<div class="col-xl-7 col-6 flex-horizontal-center ml-auto ml-md-0" data-scs-animation-in="fadeInRight" data-scs-animation-delay="500">
-							<img class="img-fluid ml-auto mr-10 mr-wd-auto h-100" src="/img/416X420/img3.png" alt="Image Description">
+							<img class="img-fluid ml-auto mr-10 mr-wd-auto h-100" src="{{ Voyager::image('products/June2020/ZokdU2hQOLILy09ZRrPP.jpg') }}" alt="Image Description">
 						</div>
 					</div>
 				</div>
@@ -1275,32 +1275,32 @@
                         }]'>
 			<div class="js-slide">
 				<a href="#" class="link-hover__brand">
-					<img class="img-fluid m-auto max-height-50" src="/img/200X60/img1.png" alt="Image Description">
+					<img class="img-fluid m-auto max-height-50" src="{{ Voyager::image('products/June2020/FXsEXEhDLCQW2leWXe9e.jpg') }}" alt="Image Description">
 				</a>
 			</div>
 			<div class="js-slide">
 				<a href="#" class="link-hover__brand">
-					<img class="img-fluid m-auto max-height-50" src="/img/200X60/img2.png" alt="Image Description">
+					<img class="img-fluid m-auto max-height-50" src="{{ Voyager::image('products/June2020/ZokdU2hQOLILy09ZRrPP.jpg') }}" alt="Image Description">
 				</a>
 			</div>
 			<div class="js-slide">
 				<a href="#" class="link-hover__brand">
-					<img class="img-fluid m-auto max-height-50" src="/img/200X60/img3.png" alt="Image Description">
+					<img class="img-fluid m-auto max-height-50" src="{{ Voyager::image('products/June2020/GDqjyGiD1pPOjdam16lI.jpg') }}" alt="Image Description">
 				</a>
 			</div>
 			<div class="js-slide">
 				<a href="#" class="link-hover__brand">
-					<img class="img-fluid m-auto max-height-50" src="/img/200X60/img4.png" alt="Image Description">
+					<img class="img-fluid m-auto max-height-50" src="{{ Voyager::image('products/June2020/ZokdU2hQOLILy09ZRrPP.jpg') }}" alt="Image Description">
 				</a>
 			</div>
 			<div class="js-slide">
 				<a href="#" class="link-hover__brand">
-					<img class="img-fluid m-auto max-height-50" src="/img/200X60/img5.png" alt="Image Description">
+					<img class="img-fluid m-auto max-height-50" src="{{ Voyager::image('products/June2020/ZokdU2hQOLILy09ZRrPP.jpg') }}" alt="Image Description">
 				</a>
 			</div>
 			<div class="js-slide">
 				<a href="#" class="link-hover__brand">
-					<img class="img-fluid m-auto max-height-50" src="/img/200X60/img6.png" alt="Image Description">
+					<img class="img-fluid m-auto max-height-50" src="{{ Voyager::image('products/June2020/FXsEXEhDLCQW2leWXe9e.jpg') }}" alt="Image Description">
 				</a>
 			</div>
 		</div>
