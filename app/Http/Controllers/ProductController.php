@@ -8,9 +8,9 @@ use App\Product;
 class ProductController extends Controller
 {
     public function all(){
-			return view('productArchive');
+      $p = Product::all();
+			return view('productArchive',['p'=>$p]);
 		}
-
     public function single($id){
       $p = Product::where('id',$id)->first();
 			return view('productSingle',['p'=>$p]);
