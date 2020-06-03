@@ -374,33 +374,33 @@
 														</ul>
 													</div>
 													<div class="col-md-3">
-														<span class="u-header__sub-menu-title">Shop Pages</span>
+														<span class="u-header__sub-menu-title">Shop</span>
 														<ul class="u-header__sub-menu-nav-group mb-3">
-															<li><a href="../shop/shop.html" class="nav-link u-header__sub-menu-nav-link">Shop</a></li>
+															<li><a href="{{ route('productArchive') }}" class="nav-link u-header__sub-menu-nav-link">Products</a></li>
 														</ul>
 														<span class="u-header__sub-menu-title">Product Categories</span>
 														<ul class="u-header__sub-menu-nav-group mb-3">
-															<li><a href="../shop/product.html" class="nav-link u-header__sub-menu-nav-link">Product</a></li>
+															<li><a href="{{ route('categories') }}" class="nav-link u-header__sub-menu-nav-link">Product Categories</a></li>
 														</ul>
-														<span class="u-header__sub-menu-title">Single Product Pages</span>
+														<span class="u-header__sub-menu-title">Single Product</span>
 														<ul class="u-header__sub-menu-nav-group">
-															<li><a href="../shop/single-product-extended.html" class="nav-link u-header__sub-menu-nav-link">Single Product</a></li>
+															<li><a href="{{ route('productSingle',2) }}" class="nav-link u-header__sub-menu-nav-link">Single Product</a></li>
 														</ul>
 													</div>
 													<div class="col-md-3">
-														<span class="u-header__sub-menu-title">Shopping</span>
+														<span class="u-header__sub-menu-title">Profile</span>
 														<ul class="u-header__sub-menu-nav-group">
-															<li><a href="../shop/cart.html" class="nav-link u-header__sub-menu-nav-link">Cart</a></li>
-															<li><a href="../shop/checkout.html" class="nav-link u-header__sub-menu-nav-link">Checkout</a></li>
-															<li><a href="../shop/my-account.html" class="nav-link u-header__sub-menu-nav-link">My Account</a></li>
-															<li><a href="../shop/compare.html" class="nav-link u-header__sub-menu-nav-link">Compare</a></li>
+															<li><a href="{{ route('profileCart') }}" class="nav-link u-header__sub-menu-nav-link">Cart</a></li>
+															<li><a href="{{ route('profileCheckout') }}" class="nav-link u-header__sub-menu-nav-link">Checkout</a></li>
+															<li><a href="{{ route('profileWishlist') }}" class="nav-link u-header__sub-menu-nav-link">Wishlist</a></li>
+															<li><a href="{{ route('productCompare') }}" class="nav-link u-header__sub-menu-nav-link">Compare</a></li>
 														</ul>
 													</div>
 													<div class="col-md-3">
-														<span class="u-header__sub-menu-title">Blog Pages</span>
+														<span class="u-header__sub-menu-title">Blog</span>
 														<ul class="u-header__sub-menu-nav-group mb-3">
-															<li><a href="../blog/blog.html" class="nav-link u-header__sub-menu-nav-link">Blog</a></li>
-															<li><a href="../blog/single-blog-post.html" class="nav-link u-header__sub-menu-nav-link">Single Blog Post</a></li>
+															<li><a href="{{ route('blogArchive') }}" class="nav-link u-header__sub-menu-nav-link">Blog</a></li>
+															<li><a href="{{ route('blogSingle',2) }}" class="nav-link u-header__sub-menu-nav-link">Single Blog Post</a></li>
 														</ul>
 													</div>
 												</div>

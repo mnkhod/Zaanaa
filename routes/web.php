@@ -43,34 +43,19 @@ Route::get('/profileCart', function(){
 		return view('profileCart');
 })->name('profileCart');
 
-// Checkout
-Route::get('/profileCheckout', function(){
-		return view('profileCheckout');
-})->name('profileCheckout');
 
-// Compare
-Route::get('/productCompare', function(){
-		return view('productCompare');
-})->name('productCompare');
+Route::get('/products','ProductController@all')->name('productArchive');
+Route::get('/products/compare','ProductController@compare')->name('productCompare');
+Route::get('/products/{id}','ProductController@single')->name('productSingle');
 
-// Wishlist
-Route::get('/profileWishlist', function(){
-		return view('profileWishlist');
-})->name('profileWishlist');
+Route::get('/categories','CategoryController@all')->name('categories');
 
+Route::get('/profile/cart','ProfileController@chart')->name('profileChart');
+Route::get('/profile/checkout','ProfileController@checkout')->name('profileCheckout');
+Route::get('/profile/wishlist','ProfileController@wishlist')->name('profileWishlist');
 
-Route::get('/products','ProductController@all');
-Route::get('/products/compare','ProductController@compare');
-Route::get('/products/{id}','ProductController@single');
-
-Route::get('/categories','CategoryController@all');
-
-Route::get('/profile/cart','ProfileController@chart');
-Route::get('/profile/checkout','ProfileController@checkout');
-Route::get('/profile/wishlist','ProfileController@wishlist');
-
-Route::get('/blogs','BlogController@all');
-Route::get('/blogs/{id}','BlogController@single');
+Route::get('/blogs','BlogController@all')->name('blogArchive');
+Route::get('/blogs/{id}','BlogController@single')->name('blogSingle');
 
 // Authentication routes...
 Route::post('auth/login', 'AuthController@login')->name('login');
