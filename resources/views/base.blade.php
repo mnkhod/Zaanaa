@@ -518,8 +518,8 @@
                       <div class="col pl-4 d-flex flex-column">
                         <h5 class="product-item__title mb-0"><a href="{{ route('productSingle',$p->id)}}" class="text-blue font-weight-bold">{{$p->name}}</a></h5>
                         <div class="prodcut-price d-flex justify-content-between w-100 pr-2">
-                          <div class="text-gray-100">{{$p->unitPriceER}}¥</div>
-                          <div class="text-gray-100">{{$p->unitPriceUB}}₮</div>
+                          <div class="h6 text-gray-100">{{$p->unitPriceER}}¥</div>
+                          <div class="h6 text-gray-100">{{$p->unitPriceUB}}₮</div>
                         </div>
                       </div>
                     </li>
@@ -542,8 +542,8 @@
                       <div class="col pl-4 d-flex flex-column">
                         <h5 class="product-item__title mb-0"><a href="{{ route('productSingle',$p->id)}}" class="text-blue font-weight-bold">{{$p->name}}</a></h5>
                         <div class="prodcut-price d-flex justify-content-between w-100 pr-2">
-                          <div class="text-gray-100">{{$p->unitPriceER}}¥</div>
-                          <div class="text-gray-100">{{$p->unitPriceUB}}₮</div>
+                          <div class="h6 text-gray-100">{{$p->unitPriceER}}¥</div>
+                          <div class="h6 text-gray-100">{{$p->unitPriceUB}}₮</div>
                         </div>
                       </div>
                     </li>
@@ -565,8 +565,8 @@
                       <div class="col pl-4 d-flex flex-column">
                         <h5 class="product-item__title mb-0"><a href="{{ route('productSingle',$p->id)}}" class="text-blue font-weight-bold">{{$p->name}}</a></h5>
                         <div class="prodcut-price d-flex justify-content-between w-100 pr-2">
-                          <div class="text-gray-100">{{$p->unitPriceER}}¥</div>
-                          <div class="text-gray-100">{{$p->unitPriceUB}}₮</div>
+                          <div class="h6 text-gray-100">{{$p->unitPriceER}}¥</div>
+                          <div class="h6 text-gray-100">{{$p->unitPriceUB}}₮</div>
                         </div>
                       </div>
                     </li>
