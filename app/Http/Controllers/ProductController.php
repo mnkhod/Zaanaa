@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Product;
 
 class ProductController extends Controller
 {
@@ -11,7 +12,8 @@ class ProductController extends Controller
 		}
 
     public function single($id){
-			return view('productSingle');
+      $p = Product::where('id',$id)->first();
+			return view('productSingle',['p'=>$p]);
 		}
 
 		public function compare(){

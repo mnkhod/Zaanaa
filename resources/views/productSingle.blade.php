@@ -8,9 +8,9 @@
 		<div class="my-md-3">
 			<nav aria-label="breadcrumb">
 				<ol class="breadcrumb mb-3 flex-nowrap flex-xl-wrap overflow-auto overflow-xl-visble">
-					<li class="breadcrumb-item flex-shrink-0 flex-xl-shrink-1"><a href="../home/index.html">Home</a></li>
-					<li class="breadcrumb-item flex-shrink-0 flex-xl-shrink-1"><a href="../shop/shop.html">Headphones</a></li>
-					<li class="breadcrumb-item flex-shrink-0 flex-xl-shrink-1 active" aria-current="page">Ultra Wireless S50 Headphones S50 with Bluetooth</li>
+					<li class="breadcrumb-item flex-shrink-0 flex-xl-shrink-1"><a href="{{ route('home') }}">Home</a></li>
+					<li class="breadcrumb-item flex-shrink-0 flex-xl-shrink-1"><a href="{{ route('categories') }}">Playground</a></li>
+					<li class="breadcrumb-item flex-shrink-0 flex-xl-shrink-1 active" aria-current="page">{{ $p->name }}</li>
 				</ol>
 			</nav>
 		</div>
@@ -27,46 +27,26 @@
 				<div id="sliderSyncingNav" class="js-slick-carousel u-slick mb-2" data-infinite="true" data-arrows-classes="d-none d-lg-inline-block u-slick__arrow-classic u-slick__arrow-centered--y rounded-circle"
 				 data-arrow-left-classes="fas fa-arrow-left u-slick__arrow-classic-inner u-slick__arrow-classic-inner--left ml-lg-2 ml-xl-4"
 				 data-arrow-right-classes="fas fa-arrow-right u-slick__arrow-classic-inner u-slick__arrow-classic-inner--right mr-lg-2 mr-xl-4" data-nav-for="#sliderSyncingThumb">
+          @foreach(json_decode($p->picture) as $img)
 					<div class="js-slide">
-						<img class="img-fluid" src="/img/720X660/img1.jpg" alt="Image Description">
+						<img class="img-fluid" src="{{ Voyager::image($img) }}" alt="Image Description">
 					</div>
-					<div class="js-slide">
-						<img class="img-fluid" src="/img/720X660/img2.jpg" alt="Image Description">
-					</div>
-					<div class="js-slide">
-						<img class="img-fluid" src="/img/720X660/img3.jpg" alt="Image Description">
-					</div>
-					<div class="js-slide">
-						<img class="img-fluid" src="/img/720X660/img4.jpg" alt="Image Description">
-					</div>
-					<div class="js-slide">
-						<img class="img-fluid" src="/img/720X660/img5.jpg" alt="Image Description">
-					</div>
+          @endforeach
 				</div>
 
 				<div id="sliderSyncingThumb" class="js-slick-carousel u-slick u-slick--slider-syncing u-slick--slider-syncing-size u-slick--gutters-1 u-slick--transform-off" data-infinite="true" data-slides-show="5" data-is-thumbs="true"
 				 data-nav-for="#sliderSyncingNav">
-					<div class="js-slide" style="cursor: pointer;">
-						<img class="img-fluid" src="/img/720X660/img1.jpg" alt="Image Description">
-					</div>
-					<div class="js-slide" style="cursor: pointer;">
-						<img class="img-fluid" src="/img/720X660/img2.jpg" alt="Image Description">
-					</div>
-					<div class="js-slide" style="cursor: pointer;">
-						<img class="img-fluid" src="/img/720X660/img3.jpg" alt="Image Description">
-					</div>
-					<div class="js-slide" style="cursor: pointer;">
-						<img class="img-fluid" src="/img/720X660/img4.jpg" alt="Image Description">
-					</div>
-					<div class="js-slide" style="cursor: pointer;">
-						<img class="img-fluid" src="/img/720X660/img5.jpg" alt="Image Description">
-					</div>
+          @foreach(json_decode($p->picture) as $img)
+            <div class="js-slide" style="cursor: pointer;">
+              <img class="img-fluid" src="{{ Voyager::image($img) }}" alt="Image Description">
+            </div>
+          @endforeach
 				</div>
 			</div>
 			<div class="col-md-6 col-lg-4 col-xl-4 mb-md-6 mb-lg-0">
 				<div class="mb-2">
 					<a href="#" class="font-size-12 text-gray-5 mb-2 d-inline-block">Headphones</a>
-					<h2 class="font-size-25 text-lh-1dot2">Ultra Wireless S50 Headphones S50 with Bluetooth</h2>
+					<h2 class="font-size-25 text-lh-1dot2">{{ $p->name }}</h2>
 					<div class="mb-2">
 						<a class="d-inline-flex align-items-center small font-size-15 text-lh-1" href="#">
 							<div class="text-warning mr-2">
@@ -79,25 +59,22 @@
 							<span class="text-secondary font-size-13">(3 customer reviews)</span>
 						</a>
 					</div>
-					<a href="#" class="d-inline-block max-width-150 ml-n2 mb-2"><img class="img-fluid" src="/img/200X60/img1.png" alt="Image Description"></a>
 					<div class="mb-2">
 						<ul class="font-size-14 pl-3 ml-1 text-gray-110">
-							<li>4.5 inch HD Touch Screen (1280 x 720)</li>
-							<li>Android 4.4 KitKat OS</li>
-							<li>1.4 GHz Quad Core™ Processor</li>
-							<li>20 MP Electro and 28 megapixel CMOS rear camera</li>
+							<li>Playground</li>
 						</ul>
 					</div>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+					<p>{{ $p->description }}</p>
 					<p><strong>SKU</strong>: FW511948218</p>
 				</div>
 			</div>
 			<div class="mx-md-auto mx-lg-0 col-md-6 col-lg-4 col-xl-3">
 				<div class="mb-2">
 					<div class="card p-5 border-width-2 border-color-1 borders-radius-17">
-						<div class="text-gray-9 font-size-14 pb-2 border-color-1 border-bottom mb-3">Availability: <span class="text-green font-weight-bold">26 in stock</span></div>
+						<div class="text-gray-9 font-size-14 pb-2 border-color-1 border-bottom mb-3">Availability: <span class="text-green font-weight-bold">{{$p->unitsInStock}} in stock</span></div>
 						<div class="mb-3">
-							<div class="font-size-36">$685.00</div>
+              <div class="font-size-36 text-center">{{$p->unitPriceER}}¥</div>
+              <div class="font-size-36 text-center">{{$p->unitPriceUB}}₮</div>
 						</div>
 						<div class="mb-3">
 							<h6 class="font-size-14">Quantity</h6>
@@ -119,26 +96,15 @@
 							</div>
 							<!-- End Quantity -->
 						</div>
-						<div class="mb-3">
-							<h6 class="font-size-14">Color</h6>
-							<!-- Select -->
-							<select class="js-select selectpicker dropdown-select btn-block col-12 px-0" data-style="btn-sm bg-white font-weight-normal py-2 border">
-								<option value="one" selected>White with Gold</option>
-								<option value="two">Red</option>
-								<option value="three">Green</option>
-								<option value="four">Blue</option>
-							</select>
-							<!-- End Select -->
-						</div>
 						<div class="mb-2 pb-0dot5">
-							<a href="#" class="btn btn-block btn-primary-dark"><i class="ec ec-add-to-cart mr-2 font-size-20"></i> Add to Cart</a>
+							<a href="{{ route('profileChart') }}" class="btn btn-block btn-primary-dark"><i class="ec ec-add-to-cart mr-2 font-size-20"></i> Add to Cart</a>
 						</div>
 						<div class="mb-3">
-							<a href="#" class="btn btn-block btn-dark">Buy Now</a>
+							<a href="{{ route('profileCheckout') }}" class="btn btn-block btn-dark">Buy Now</a>
 						</div>
 						<div class="flex-content-center flex-wrap">
-							<a href="#" class="text-gray-6 font-size-13 mr-2"><i class="ec ec-favorites mr-1 font-size-15"></i> Wishlist</a>
-							<a href="#" class="text-gray-6 font-size-13 ml-2"><i class="ec ec-compare mr-1 font-size-15"></i> Compare</a>
+							<a href="{{ route('profileWishlist') }}" class="text-gray-6 font-size-13 mr-2"><i class="ec ec-favorites mr-1 font-size-15"></i> Wishlist</a>
+							<a href="{{ route('productCompare') }}" class="text-gray-6 font-size-13 ml-2"><i class="ec ec-compare mr-1 font-size-15"></i> Compare</a>
 						</div>
 					</div>
 				</div>
@@ -178,47 +144,7 @@
 						</ul>
 					</div>
 					<div class="mx-md-4 pt-1">
-						<h3 class="font-size-24 mb-3">Perfectly Done</h3>
-						<p>Praesent ornare, ex a interdum consectetur, lectus diam sodales elit, vitae egestas est enim ornare nisl. Nullam in lectus nec sem semper viverra. In lobortis egestas massa. Nam nec massa nisi. Suspendisse potenti. Quisque
-							suscipit vulputate dui quis volutpat. Ut id elit facilisis, feugiat est in, tempus lacus. Ut ultrices dictum metus, a ultricies ex vulputate ac. Ut id cursus tellus, non tempor quam. Morbi porta diam nisi, id finibus nunc
-							tincidunt eu.</p>
-						<div class="row">
-							<div class="col-md-6">
-								<div class="pt-lg-8 pt-xl-10">
-									<h3 class="font-size-24 mb-3">Wireless</h3>
-									<p class="mb-6">Fusce vitae nibh mi. Integer posuere, libero et ullamcorper facilisis, enim eros tincidunt orci, eget vestibulum sapien nisi ut leo. Cras finibus vel est ut mollis. Donec luctus condimentum ante et
-										euismod.</p>
-									<h3 class="font-size-24 mb-3">Fresh Design</h3>
-									<p class="mb-6">Integer bibendum aliquet ipsum, in ultrices enim sodales sed. Quisque ut urna vitae lacus laoreet malesuada eu at massa. Pellentesque nibh augue, pellentesque nec dictum vel, pretium a arcu. Duis eu
-										urna suscipit, lobortis elit quis, ullamcorper massa.</p>
-									<h3 class="font-size-24 mb-3">Fabolous Sound</h3>
-									<p class="mb-6">Cras rutrum, nibh a sodales accumsan, elit sapien ultrices sapien, eget semper lectus ex congue elit. Nullam dui elit, fermentum a varius at, iaculis non dolor. In hac habitasse platea dictumst.</p>
-								</div>
-							</div>
-							<div class="col-md-6 text-right">
-								<img class="img-fluid mr-n4 mr-md-n10 mr-xl-n15" src="/img/580X580/img1.jpg" alt="Image Description">
-							</div>
-							<div class="col-md-6 text-left">
-								<img class="img-fluid ml-n4 ml-md-n10 ml-xl-n15" src="/img/580X580/img2.jpg" alt="Image Description">
-							</div>
-							<div class="col-md-6 align-self-center">
-								<div class="pt-lg-8 pt-xl-10 text-right">
-									<h3 class="font-size-24 mb-3">Inteligent Bass</h3>
-									<p class="mb-6">Fusce vitae nibh mi. Integer posuere, libero et ullamcorper facilisis, enim eros tincidunt orci, eget vestibulum sapien nisi ut leo. Cras finibus vel est ut mollis. Donec luctus condimentum ante et
-										euismod.</p>
-									<h3 class="font-size-24 mb-3">Battery Life</h3>
-									<p class="mb-6">Integer bibendum aliquet ipsum, in ultrices enim sodales sed. Quisque ut urna vitae lacus laoreet malesuada eu at massa. Pellentesque nibh augue, pellentesque nec dictum vel, pretium a arcu. Duis eu
-										urna suscipit, lobortis elit quis, ullamcorper massa.</p>
-								</div>
-							</div>
-						</div>
-						<ul class="nav flex-nowrap flex-xl-wrap overflow-auto overflow-xl-visble">
-							<li class="nav-item text-gray-111 flex-shrink-0 flex-xl-shrink-1"><strong>SKU:</strong> <span class="sku">FW511948218</span></li>
-							<li class="nav-item text-gray-111 mx-3 flex-shrink-0 flex-xl-shrink-1">/</li>
-							<li class="nav-item text-gray-111 flex-shrink-0 flex-xl-shrink-1"><strong>Category:</strong> <a href="#" class="text-blue">Headphones</a></li>
-							<li class="nav-item text-gray-111 mx-3 flex-shrink-0 flex-xl-shrink-1">/</li>
-							<li class="nav-item text-gray-111 flex-shrink-0 flex-xl-shrink-1"><strong>Tags:</strong> <a href="#" class="text-blue">Fast</a>, <a href="#" class="text-blue">Gaming</a>, <a href="#" class="text-blue">Strong</a></li>
-						</ul>
+            <p>{{$p->description}}</p>
 					</div>
 				</div>
 			</div>
@@ -257,22 +183,6 @@
 										<th class="px-4 px-xl-5 border-top-0">Weight</th>
 										<td class="border-top-0">7.25kg</td>
 									</tr>
-									<tr>
-										<th class="px-4 px-xl-5">Dimensions</th>
-										<td>90 x 60 x 90 cm</td>
-									</tr>
-									<tr>
-										<th class="px-4 px-xl-5">Size</th>
-										<td>One Size Fits all</td>
-									</tr>
-									<tr>
-										<th class="px-4 px-xl-5">color</th>
-										<td>Black with Red, White with Gold</td>
-									</tr>
-									<tr>
-										<th class="px-4 px-xl-5">Guarantee</th>
-										<td>5 years</td>
-									</tr>
 								</tbody>
 							</table>
 						</div>
@@ -281,76 +191,12 @@
 							<table class="table table-hover">
 								<tbody>
 									<tr>
-										<th class="px-4 px-xl-5 border-top-0">Brand</th>
-										<td class="border-top-0">Apple</td>
-									</tr>
-									<tr>
 										<th class="px-4 px-xl-5">Item Height</th>
 										<td>18 Millimeters</td>
 									</tr>
 									<tr>
 										<th class="px-4 px-xl-5">Item Width</th>
 										<td>31.4 Centimeters</td>
-									</tr>
-									<tr>
-										<th class="px-4 px-xl-5">Screen Size</th>
-										<td>13 Inches</td>
-									</tr>
-									<tr>
-										<th class="px-4 px-xl-5">Item Weight</th>
-										<td>1.6 Kg</td>
-									</tr>
-									<tr>
-										<th class="px-4 px-xl-5">Product Dimensions</th>
-										<td>21.9 x 31.4 x 1.8 cm</td>
-									</tr>
-									<tr>
-										<th class="px-4 px-xl-5">Item model number</th>
-										<td>MF841HN/A</td>
-									</tr>
-									<tr>
-										<th class="px-4 px-xl-5">Processor Brand</th>
-										<td>Intel</td>
-									</tr>
-									<tr>
-										<th class="px-4 px-xl-5">Processor Type</th>
-										<td>Core i5</td>
-									</tr>
-									<tr>
-										<th class="px-4 px-xl-5">Processor Speed</th>
-										<td>2.9 GHz</td>
-									</tr>
-									<tr>
-										<th class="px-4 px-xl-5">RAM Size</th>
-										<td>8 GB</td>
-									</tr>
-									<tr>
-										<th class="px-4 px-xl-5">Hard Drive Size</th>
-										<td>512 GB</td>
-									</tr>
-									<tr>
-										<th class="px-4 px-xl-5">Hard Disk Technology</th>
-										<td>Solid State Drive</td>
-									</tr>
-									<tr>
-										<th class="px-4 px-xl-5">Graphics Coprocessor</th>
-										<td>Intel Integrated Graphics</td>
-									</tr>
-									<tr>
-										<th class="px-4 px-xl-5">Graphics Card Description</th>
-										<td>Integrated Graphics Card</td>
-									</tr>
-									<tr>
-										<th class="px-4 px-xl-5">Hardware Platform</th>
-										<td>Mac</td>
-									</tr>
-									<tr>
-										<th class="px-4 px-xl-5">Operating System</th>
-										<td>Mac OS</td>
-									</tr>
-									<tr>
-										<th class="px-4 px-xl-5">Average Battery Life (in hours)</th>
-										<td>9</td>
 									</tr>
 								</tbody>
 							</table>
@@ -647,170 +493,39 @@
 			<h3 class="section-title mb-0 pb-2 font-size-22">Related products</h3>
 		</div>
 		<ul class="row list-unstyled products-group no-gutters">
-			<li class="col-6 col-md-3 col-xl-2gdot4-only col-wd-2 product-item">
-				<div class="product-item__outer h-100">
-					<div class="product-item__inner px-xl-4 p-3">
-						<div class="product-item__body pb-xl-2">
-							<div class="mb-2"><a href="../shop/product-categories-7-column-full-width.html" class="font-size-12 text-gray-5">Speakers</a></div>
-							<h5 class="mb-1 product-item__title"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Wireless Audio System Multiroom 360 degree Full base audio</a></h5>
-							<div class="mb-2">
-								<a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="/img/212X200/img1.jpg" alt="Image Description"></a>
-							</div>
-							<div class="flex-center-between mb-1">
-								<div class="prodcut-price">
-									<div class="text-gray-100">$685,00</div>
-								</div>
-								<div class="d-none d-xl-block prodcut-add-cart">
-									<a href="../shop/single-product-fullwidth.html" class="btn-add-cart btn-primary transition-3d-hover"><i class="ec ec-add-to-cart"></i></a>
-								</div>
-							</div>
-						</div>
-						<div class="product-item__footer">
-							<div class="border-top pt-2 flex-center-between flex-wrap">
-								<a href="../shop/compare.html" class="text-gray-6 font-size-13"><i class="ec ec-compare mr-1 font-size-15"></i> Compare</a>
-								<a href="../shop/wishlist.html" class="text-gray-6 font-size-13"><i class="ec ec-favorites mr-1 font-size-15"></i> Wishlist</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</li>
-			<li class="col-6 col-md-3 col-xl-2gdot4-only col-wd-2 product-item">
-				<div class="product-item__outer h-100">
-					<div class="product-item__inner px-xl-4 p-3">
-						<div class="product-item__body pb-xl-2">
-							<div class="mb-2"><a href="../shop/product-categories-7-column-full-width.html" class="font-size-12 text-gray-5">Speakers</a></div>
-							<h5 class="mb-1 product-item__title"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Tablet White EliteBook Revolve 810 G2</a></h5>
-							<div class="mb-2">
-								<a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="/img/212X200/img2.jpg" alt="Image Description"></a>
-							</div>
-							<div class="flex-center-between mb-1">
-								<div class="prodcut-price d-flex align-items-center position-relative">
-									<ins class="font-size-20 text-red text-decoration-none">$1999,00</ins>
-									<del class="font-size-12 tex-gray-6 position-absolute bottom-100">$2 299,00</del>
-								</div>
-								<div class="d-none d-xl-block prodcut-add-cart">
-									<a href="../shop/single-product-fullwidth.html" class="btn-add-cart btn-primary transition-3d-hover"><i class="ec ec-add-to-cart"></i></a>
-								</div>
-							</div>
-						</div>
-						<div class="product-item__footer">
-							<div class="border-top pt-2 flex-center-between flex-wrap">
-								<a href="../shop/compare.html" class="text-gray-6 font-size-13"><i class="ec ec-compare mr-1 font-size-15"></i> Compare</a>
-								<a href="../shop/wishlist.html" class="text-gray-6 font-size-13"><i class="ec ec-favorites mr-1 font-size-15"></i> Wishlist</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</li>
-			<li class="col-6 col-md-3 col-xl-2gdot4-only col-wd-2 product-item">
-				<div class="product-item__outer h-100">
-					<div class="product-item__inner px-xl-4 p-3">
-						<div class="product-item__body pb-xl-2">
-							<div class="mb-2"><a href="../shop/product-categories-7-column-full-width.html" class="font-size-12 text-gray-5">Speakers</a></div>
-							<h5 class="mb-1 product-item__title"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Purple Solo 2 Wireless</a></h5>
-							<div class="mb-2">
-								<a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="/img/212X200/img3.jpg" alt="Image Description"></a>
-							</div>
-							<div class="flex-center-between mb-1">
-								<div class="prodcut-price">
-									<div class="text-gray-100">$685,00</div>
-								</div>
-								<div class="d-none d-xl-block prodcut-add-cart">
-									<a href="../shop/single-product-fullwidth.html" class="btn-add-cart btn-primary transition-3d-hover"><i class="ec ec-add-to-cart"></i></a>
-								</div>
-							</div>
-						</div>
-						<div class="product-item__footer">
-							<div class="border-top pt-2 flex-center-between flex-wrap">
-								<a href="../shop/compare.html" class="text-gray-6 font-size-13"><i class="ec ec-compare mr-1 font-size-15"></i> Compare</a>
-								<a href="../shop/wishlist.html" class="text-gray-6 font-size-13"><i class="ec ec-favorites mr-1 font-size-15"></i> Wishlist</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</li>
-			<li class="col-6 col-md-3 col-xl-2gdot4-only col-wd-2 product-item remove-divider-md-lg">
-				<div class="product-item__outer h-100">
-					<div class="product-item__inner px-xl-4 p-3">
-						<div class="product-item__body pb-xl-2">
-							<div class="mb-2"><a href="../shop/product-categories-7-column-full-width.html" class="font-size-12 text-gray-5">Speakers</a></div>
-							<h5 class="mb-1 product-item__title"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Smartphone 6S 32GB LTE</a></h5>
-							<div class="mb-2">
-								<a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="/img/212X200/img4.jpg" alt="Image Description"></a>
-							</div>
-							<div class="flex-center-between mb-1">
-								<div class="prodcut-price">
-									<div class="text-gray-100">$685,00</div>
-								</div>
-								<div class="d-none d-xl-block prodcut-add-cart">
-									<a href="../shop/single-product-fullwidth.html" class="btn-add-cart btn-primary transition-3d-hover"><i class="ec ec-add-to-cart"></i></a>
-								</div>
-							</div>
-						</div>
-						<div class="product-item__footer">
-							<div class="border-top pt-2 flex-center-between flex-wrap">
-								<a href="../shop/compare.html" class="text-gray-6 font-size-13"><i class="ec ec-compare mr-1 font-size-15"></i> Compare</a>
-								<a href="../shop/wishlist.html" class="text-gray-6 font-size-13"><i class="ec ec-favorites mr-1 font-size-15"></i> Wishlist</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</li>
-			<li class="col-6 col-md-3 col-xl-2gdot4-only col-wd-2 product-item remove-divider-xl">
-				<div class="product-item__outer h-100">
-					<div class="product-item__inner px-xl-4 p-3">
-						<div class="product-item__body pb-xl-2">
-							<div class="mb-2"><a href="../shop/product-categories-7-column-full-width.html" class="font-size-12 text-gray-5">Speakers</a></div>
-							<h5 class="mb-1 product-item__title"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Widescreen NX Mini F1 SMART NX</a></h5>
-							<div class="mb-2">
-								<a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="/img/212X200/img5.jpg" alt="Image Description"></a>
-							</div>
-							<div class="flex-center-between mb-1">
-								<div class="prodcut-price">
-									<div class="text-gray-100">$685,00</div>
-								</div>
-								<div class="d-none d-xl-block prodcut-add-cart">
-									<a href="../shop/single-product-fullwidth.html" class="btn-add-cart btn-primary transition-3d-hover"><i class="ec ec-add-to-cart"></i></a>
-								</div>
-							</div>
-						</div>
-						<div class="product-item__footer">
-							<div class="border-top pt-2 flex-center-between flex-wrap">
-								<a href="../shop/compare.html" class="text-gray-6 font-size-13"><i class="ec ec-compare mr-1 font-size-15"></i> Compare</a>
-								<a href="../shop/wishlist.html" class="text-gray-6 font-size-13"><i class="ec ec-favorites mr-1 font-size-15"></i> Wishlist</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</li>
-			<li class="col-6 col-md-3 col-xl-2gdot4-only col-wd-2 product-item remove-divider-wd d-xl-none d-wd-block">
-				<div class="product-item__outer h-100">
-					<div class="product-item__inner px-xl-4 p-3">
-						<div class="product-item__body pb-xl-2">
-							<div class="mb-2"><a href="../shop/product-categories-7-column-full-width.html" class="font-size-12 text-gray-5">Speakers</a></div>
-							<h5 class="mb-1 product-item__title"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Tablet White EliteBook Revolve 810 G2</a></h5>
-							<div class="mb-2">
-								<a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="/img/212X200/img2.jpg" alt="Image Description"></a>
-							</div>
-							<div class="flex-center-between mb-1">
-								<div class="prodcut-price d-flex align-items-center position-relative">
-									<ins class="font-size-20 text-red text-decoration-none">$1999,00</ins>
-									<del class="font-size-12 tex-gray-6 position-absolute bottom-100">$2 299,00</del>
-								</div>
-								<div class="d-none d-xl-block prodcut-add-cart">
-									<a href="../shop/single-product-fullwidth.html" class="btn-add-cart btn-primary transition-3d-hover"><i class="ec ec-add-to-cart"></i></a>
-								</div>
-							</div>
-						</div>
-						<div class="product-item__footer">
-							<div class="border-top pt-2 flex-center-between flex-wrap">
-								<a href="../shop/compare.html" class="text-gray-6 font-size-13"><i class="ec ec-compare mr-1 font-size-15"></i> Compare</a>
-								<a href="../shop/wishlist.html" class="text-gray-6 font-size-13"><i class="ec ec-favorites mr-1 font-size-15"></i> Wishlist</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</li>
+
+      @foreach($sale as $x)
+        @for ($i = 0; $i < 5; $i++)
+          <li class="col-6 col-md-3 col-xl-2gdot4-only col-wd-2 product-item">
+            <div class="product-item__outer h-100">
+              <div class="product-item__inner px-xl-4 p-3">
+                <div class="product-item__body pb-xl-2">
+                  <div class="mb-2"><a href="../shop/product-categories-7-column-full-width.html" class="font-size-12 text-gray-5">Speakers</a></div>
+                  <h5 class="mb-1 product-item__title"><a href="{{ route('productSingle',$p->id)}}" class="text-blue font-weight-bold">{{$x->name}}</a></h5>
+                  <div class="mb-2">
+                    <a href="{{ route('productSingle',$x->id)}}" class="d-block text-center"><img class="img-fluid" src="{{ Voyager::image(json_decode($x->picture)[0]) }}" alt="Image Description"></a>
+                  </div>
+                  <div class="flex-center-between mb-1">
+                    <div class="prodcut-price">
+                      <div class="h6 text-gray-100">{{$x->unitPriceER}}¥</div>
+                      <div class="h6 text-gray-100">{{$x->unitPriceUB}}₮</div>
+                    </div>
+                    <div class="d-none d-xl-block prodcut-add-cart">
+                      <a href="{{ route('productSingle',$x->id)}}" class="text-dark btn-add-cart btn-primary transition-3d-hover"><i class="ec ec-add-to-cart"></i></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="product-item__footer">
+                  <div class="border-top pt-2 flex-center-between flex-wrap">
+                    <a href="{{ route('profileCheckout')}}" class="text-gray-6 font-size-13"><i class="ec ec-compare mr-1 font-size-15"></i> Compare</a>
+                    <a href="{{ route('profileWishlist')}}" class="text-gray-6 font-size-13"><i class="ec ec-favorites mr-1 font-size-15"></i> Wishlist</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+        @endfor
+      @endforeach
 		</ul>
 	</div>
 	<!-- End Related products -->
