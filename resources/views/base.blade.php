@@ -411,7 +411,7 @@
 
 										<!-- Categories -->
 										<li class="nav-item hs-has-mega-menu u-header__nav-item" data-event="hover" data-animation-in="slideInUp" data-animation-out="fadeOut">
-											<a id="MoviesGamesMegaMenu" class="nav-link u-header__nav-link u-header__nav-link-toggle" href="javascript:;" aria-haspopup="true" aria-expanded="false">Movies & Games</a>
+											<a id="MoviesGamesMegaMenu" class="nav-link u-header__nav-link u-header__nav-link-toggle" href="javascript:;" aria-haspopup="true" aria-expanded="false">Playground & Games</a>
 
 											<!-- Movies & Games - Mega Menu -->
 											<div class="hs-mega-menu w-100 u-header__sub-menu" aria-labelledby="MoviesGamesMegaMenu">
@@ -420,17 +420,15 @@
 														<div class="row">
 															<div class="col">
 																<a href="#" class="d-block">
-																	<img class="img-fluid" src="/img/300X275/img9.jpg" alt="Image Description">
+																	<img class="img-fluid" src="{{ Voyager::image('products/June2020/GDqjyGiD1pPOjdam16lI.jpg') }}" alt="Image Description">
 																</a>
 															</div>
 															<div class="col">
-																<span class="u-header__sub-menu-title">Movies &amp; TV Shows</span>
+																<span class="u-header__sub-menu-title">Playgrounds</span>
 																<ul class="u-header__sub-menu-nav-group">
-																	<li><a href="#" class="nav-link u-header__sub-menu-nav-link">All Movies &amp; TV Shows</a></li>
-																	<li><a href="#" class="nav-link u-header__sub-menu-nav-link">Blu-ray</a></li>
-																	<li><a href="#" class="nav-link u-header__sub-menu-nav-link">Latest Movies</a></li>
-																	<li><a href="#" class="nav-link u-header__sub-menu-nav-link">All English</a></li>
-																	<li><a href="#" class="nav-link u-header__sub-menu-nav-link">All Hindi</a></li>
+																	<li><a href="#" class="nav-link u-header__sub-menu-nav-link">All Playgrounds</a></li>
+																	<li><a href="#" class="nav-link u-header__sub-menu-nav-link">Local Playground</a></li>
+																	<li><a href="#" class="nav-link u-header__sub-menu-nav-link">Public Playground</a></li>
 																</ul>
 															</div>
 														</div>
@@ -439,7 +437,7 @@
 														<div class="row">
 															<div class="col">
 																<a href="#" class="d-block">
-																	<img class="img-fluid" src="/img/300X275/img10.jpg" alt="Image Description">
+																	<img class="img-fluid" src="{{ Voyager::image('products/June2020/GDqjyGiD1pPOjdam16lI.jpg') }}" alt="Image Description">
 																</a>
 															</div>
 															<div class="col">
@@ -458,7 +456,7 @@
 														<div class="row">
 															<div class="col">
 																<a href="#" class="d-block">
-																	<img class="img-fluid" src="/img/300X275/img11.jpg" alt="Image Description">
+																	<img class="img-fluid" src="{{ Voyager::image('products/June2020/GDqjyGiD1pPOjdam16lI.jpg') }}" alt="Image Description">
 																</a>
 															</div>
 															<div class="col">

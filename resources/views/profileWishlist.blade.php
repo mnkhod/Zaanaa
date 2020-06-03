@@ -20,7 +20,7 @@
 
 <div class="container">
 	<div class="my-6">
-		<h1 class="text-center">My wishlist on Electro</h1>
+		<h1 class="text-center">My wishlist on Playground</h1>
 	</div>
 	<div class="mb-16 wishlist-table">
 		<form class="mb-4" action="#" method="post">
@@ -42,11 +42,11 @@
 								<a href="#" class="text-gray-32 font-size-26">×</a>
 							</td>
 							<td class="d-none d-md-table-cell">
-								<a href="#"><img class="img-fluid max-width-100 p-1 border border-color-1" src="/img/300X300/img6.jpg" alt="Image Description"></a>
+								<a href="#"><img class="img-fluid max-width-100 p-1 border border-color-1" src="{{ Voyager::image('products/June2020/GDqjyGiD1pPOjdam16lI.jpg') }}" alt="Image Description"></a>
 							</td>
 
 							<td data-title="Product">
-								<a href="#" class="text-gray-90">Ultra Wireless S50 Headphones S50 with Bluetooth</a>
+								<a href="#" class="text-gray-90">Playground G180-5</a>
 							</td>
 
 							<td data-title="Unit Price">
@@ -68,11 +68,11 @@
 								<a href="#" class="text-gray-32 font-size-26">×</a>
 							</td>
 							<td class="d-none d-md-table-cell">
-								<a href="#"><img class="img-fluid max-width-100 p-1 border border-color-1" src="/img/300X300/img7.png" alt="Image Description"></a>
+								<a href="#"><img class="img-fluid max-width-100 p-1 border border-color-1" src="{{ Voyager::image('products/June2020/GDqjyGiD1pPOjdam16lI.jpg') }}" alt="Image Description"></a>
 							</td>
 
 							<td data-title="Product">
-								<a href="#" class="text-gray-90">Widescreen NX Mini F1 SMART NX</a>
+								<a href="#" class="text-gray-90">Playground-G150</a>
 							</td>
 
 							<td data-title="Unit Price">

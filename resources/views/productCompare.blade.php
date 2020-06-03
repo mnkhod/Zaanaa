@@ -28,10 +28,10 @@
 						<a href="#" class="product d-block">
 							<div class="product-compare-image">
 								<div class="d-flex mb-3">
-									<img class="img-fluid mx-auto" src="/img/212X200/img1.jpg" alt="Image Description">
+									<img class="img-fluid mx-auto" src="{{ Voyager::image('products/June2020/GDqjyGiD1pPOjdam16lI.jpg') }}" alt="Image Description">
 								</div>
 							</div>
-							<h3 class="product-item__title text-blue font-weight-bold mb-3">Protection Plan for MacBook Air / 13 inch MacBook Pro</h3>
+							<h3 class="product-item__title text-blue font-weight-bold mb-3">Playground G180</h3>
 						</a>
 						<div class="text-warning mb-2">
 							<small class="fas fa-star"></small>
@@ -45,10 +45,10 @@
 						<a href="#" class="product">
 							<div class="product-compare-image">
 								<div class="d-flex mb-3">
-									<img class="img-fluid mx-auto" src="/img/212X200/img6.jpg" alt="Image Description">
+									<img class="img-fluid mx-auto" src="{{ Voyager::image('products/June2020/GDqjyGiD1pPOjdam16lI.jpg') }}" alt="Image Description">
 								</div>
 							</div>
-							<h3 class="product-item__title text-blue font-weight-bold mb-3">Purple NX Mini F1 aparat SMART NX</h3>
+							<h3 class="product-item__title text-blue font-weight-bold mb-3">Playground G150</h3>
 						</a>
 						<div class="text-warning mb-2">
 							<small class="fas fa-star"></small>
@@ -62,10 +62,10 @@
 						<a href="#" class="product">
 							<div class="product-compare-image">
 								<div class="d-flex mb-3">
-									<img class="img-fluid mx-auto" src="/img/212X200/img7.jpg" alt="Image Description">
+									<img class="img-fluid mx-auto" src="{{ Voyager::image('products/June2020/GDqjyGiD1pPOjdam16lI.jpg') }}" alt="Image Description">
 								</div>
 							</div>
-							<h3 class="product-item__title text-blue font-weight-bold mb-3">White Solo 2 Wireless</h3>
+							<h3 class="product-item__title text-blue font-weight-bold mb-3">Playground G182</h3>
 						</a>
 						<div class="text-warning mb-2">
 							<small class="fas fa-star"></small>
@@ -79,10 +79,10 @@
 						<a href="#" class="product">
 							<div class="product-compare-image">
 								<div class="d-flex mb-3">
-									<img class="img-fluid mx-auto" src="/img/212X200/img8.jpg" alt="Image Description">
+									<img class="img-fluid mx-auto" src="{{ Voyager::image('products/June2020/GDqjyGiD1pPOjdam16lI.jpg') }}" alt="Image Description">
 								</div>
 							</div>
-							<h3 class="product-item__title text-blue font-weight-bold mb-3">Tablet Red EliteBook Revolve 810 G2</h3>
+							<h3 class="product-item__title text-blue font-weight-bold mb-3">Playground G183</h3>
 						</a>
 						<div class="text-warning mb-2">
 							<small class="fas fa-star"></small>
@@ -126,37 +126,22 @@
 					<th>Description</th>
 					<td>
 						<ul>
-							<li><span class="">Intel Core i5 processors (13-inch model)</span></li>
-							<li><span class="">Intel Iris Graphics 6100 (13-inch model)</span></li>
-							<li><span class="">Flash storage</span></li>
-							<li><span class="">Up to 10 hours of battery life2 (13-inch model)</span></li>
-							<li><span class="">Force Touch trackpad (13-inch model)</span></li>
+							<li><span class="">Playground</span></li>
 						</ul>
 					</td>
 					<td>
 						<ul>
-							<li><span class="">No more blur and noise</span></li>
-							<li><span class="">Cloud storage</span></li>
-							<li><span class="">HD video recording</span></li>
-							<li><span class="">Perfect for Selfies</span></li>
-							<li><span class="">Enjoy advanced editing capabilities with the bundled Adobe Photoshop Lightroom 5 software.</span></li>
+							<li><span class="">Playground</span></li>
 						</ul>
 					</td>
 					<td>
 						<ul>
-							<li><span class="">Pair and Play with your Bluetooth® device with 30' range</span></li>
-							<li><span class="">12 hour rechargeable battery with Fuel Gauge</span></li>
-							<li><span class="">Take hands-free calls with built-in mic*</span></li>
-							<li><span class="">Fine-tuned acoustics for clarity, breadth and balance</span></li>
+							<li><span class="">Playground</span></li>
 						</ul>
 					</td>
 					<td>
 						<ul>
-							<li><span class="">Intel Core i5 processors (13-inch model)</span></li>
-							<li><span class="">Intel Iris Graphics 6100 (13-inch model)</span></li>
-							<li><span class="">Flash storage</span></li>
-							<li><span class="">Up to 10 hours of battery life2 (13-inch model)</span></li>
-							<li><span class="">Force Touch trackpad (13-inch model)</span></li>
+							<li><span class="">Playground</span></li>
 						</ul>
 					</td>
 				</tr>
@@ -189,27 +174,6 @@
 					<td>40g</td>
 					<td>1759g</td>
 					<td>90g</td>
-				</tr>
-				<tr>
-					<th>Dimensions</th>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-				</tr>
-				<tr>
-					<th>brands</th>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-				</tr>
-				<tr>
-					<th>color</th>
-					<td>Red</td>
-					<td>Green</td>
-					<td>Blue</td>
-					<td>Yellow</td>
 				</tr>
 
 				<tr>

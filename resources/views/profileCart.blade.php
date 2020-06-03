@@ -8,7 +8,7 @@
 		<div class="my-md-3">
 			<nav aria-label="breadcrumb">
 				<ol class="breadcrumb mb-3 flex-nowrap flex-xl-wrap overflow-auto overflow-xl-visble">
-					<li class="breadcrumb-item flex-shrink-0 flex-xl-shrink-1"><a href="../home/index.html">Home</a></li>
+					<li class="breadcrumb-item flex-shrink-0 flex-xl-shrink-1"><a href="{{ route('home') }}">Home</a></li>
 					<li class="breadcrumb-item flex-shrink-0 flex-xl-shrink-1 active" aria-current="page">Cart</li>
 				</ol>
 			</nav>
@@ -41,11 +41,11 @@
 							<a href="#" class="text-gray-32 font-size-26">×</a>
 						</td>
 						<td class="d-none d-md-table-cell">
-							<a href="#"><img class="img-fluid max-width-100 p-1 border border-color-1" src="/img/300X300/img6.jpg" alt="Image Description"></a>
+							<a href="#"><img class="img-fluid max-width-100 p-1 border border-color-1" src="{{ Voyager::image('products/June2020/GDqjyGiD1pPOjdam16lI.jpg') }}" alt="Image Description"></a>
 						</td>
 
 						<td data-title="Product">
-							<a href="#" class="text-gray-90">Ultra Wireless S50 Headphones S50 with Bluetooth</a>
+							<a href="#" class="text-gray-90">Playground G180-6</a>
 						</td>
 
 						<td data-title="Price">
@@ -82,11 +82,11 @@
 							<a href="#" class="text-gray-32 font-size-26">×</a>
 						</td>
 						<td class="d-none d-md-table-cell">
-							<a href="#"><img class="img-fluid max-width-100 p-1 border border-color-1" src="/img/300X300/img7.png" alt="Image Description"></a>
+							<a href="#"><img class="img-fluid max-width-100 p-1 border border-color-1" src="{{ Voyager::image('products/June2020/GDqjyGiD1pPOjdam16lI.jpg') }}" alt="Image Description"></a>
 						</td>
 
 						<td data-title="Product">
-							<a href="#" class="text-gray-90">Widescreen NX Mini F1 SMART NX</a>
+							<a href="#" class="text-gray-90">Playground G180-5</a>
 						</td>
 
 						<td data-title="Price">
@@ -137,7 +137,7 @@
 									</div>
 									<div class="d-md-flex">
 										<button type="button" class="btn btn-soft-secondary mb-3 mb-md-0 font-weight-normal px-5 px-md-4 px-lg-5 w-100 w-md-auto">Update cart</button>
-										<a href="../shop/checkout.html" class="btn btn-primary-dark-w ml-md-2 px-5 px-md-4 px-lg-5 w-100 w-md-auto d-none d-md-inline-block">Proceed to checkout</a>
+										<a href="{{ route('profileCart') }}" class="btn btn-primary-dark-w ml-md-2 px-5 px-md-4 px-lg-5 w-100 w-md-auto d-none d-md-inline-block">Proceed to checkout</a>
 									</div>
 								</div>
 							</div>

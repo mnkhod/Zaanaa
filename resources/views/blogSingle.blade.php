@@ -8,9 +8,9 @@
 		<div class="my-md-3">
 			<nav aria-label="breadcrumb">
 				<ol class="breadcrumb mb-3 flex-nowrap flex-xl-wrap overflow-auto overflow-xl-visble">
-					<li class="breadcrumb-item flex-shrink-0 flex-xl-shrink-1"><a href="../home/index.html">Home</a></li>
-					<li class="breadcrumb-item flex-shrink-0 flex-xl-shrink-1"><a href="../blog/blog-v1.html">Design</a></li>
-					<li class="breadcrumb-item flex-shrink-0 flex-xl-shrink-1 active" aria-current="page">Robot Wars – Now Closed</li>
+					<li class="breadcrumb-item flex-shrink-0 flex-xl-shrink-1"><a href="{{ route('home') }}">Home</a></li>
+					<li class="breadcrumb-item flex-shrink-0 flex-xl-shrink-1"><a href="{{ route('blogArchive') }}">News</a></li>
+					<li class="breadcrumb-item flex-shrink-0 flex-xl-shrink-1 active" aria-current="page">Demo Article</li>
 				</ol>
 			</nav>
 		</div>
@@ -24,20 +24,20 @@
 		<div class="col-xl-9 col-wd">
 			<div class="min-width-1100-wd">
 				<article class="card mb-8 border-0">
-					<img class="img-fluid" src="/img/1500X730/img6.jpg" alt="Image Description">
+					<img class="img-fluid" src="{{ Voyager::image('products/June2020/GDqjyGiD1pPOjdam16lI.jpg') }}" alt="Image Description">
 					<div class="card-body pt-5 pb-0 px-0">
 						<div class="d-block d-md-flex flex-center-between mb-4 mb-md-0">
-							<h4 class="mb-md-3 mb-1">Robot Wars – Now Closed</h4>
+							<h4 class="mb-md-3 mb-1">Demo Article</h4>
 							<a href="#" class="font-size-12 text-gray-5 ml-md-4"><i class="far fa-comment"></i> Leave a comment</a>
 						</div>
 						<div class="mb-3 pb-3 border-bottom">
 							<div class="list-group list-group-horizontal flex-wrap list-group-borderless align-items-center mx-n0dot5">
-								<a href="../blog/single-blog-post.html" class="mx-0dot5 text-gray-5">Design,</a>
-								<a href="../blog/single-blog-post.html" class="mx-0dot5 text-gray-5"> Technology,</a>
-								<a href="../blog/single-blog-post.html" class="mx-0dot5 text-gray-5"> News,</a>
-								<a href="../blog/single-blog-post.html" class="mx-0dot5 text-gray-5"> Image</a>
+								<a href="{{ route('blogArchive') }}" class="mx-0dot5 text-gray-5">Design,</a>
+								<a href="{{ route('blogArchive') }}" class="mx-0dot5 text-gray-5"> Technology,</a>
+								<a href="{{ route('blogArchive') }}" class="mx-0dot5 text-gray-5"> News,</a>
+								<a href="{{ route('blogArchive') }}" class="mx-0dot5 text-gray-5"> Image</a>
 								<span class="mx-2 font-size-n5 mt-1 text-gray-5"><i class="fas fa-circle"></i></span>
-								<a href="../blog/single-blog-post.html" class="mx-0dot5 text-gray-5">March 4, 2016</a>
+								<a href="#" class="mx-0dot5 text-gray-5">March 4, 2016</a>
 							</div>
 						</div>
 						<p><strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt, erat in malesuada aliquam, est erat faucibus purus, eget viverra nulla sem vitae neque. Quisque id sodales libero. In nec enim nisi, in
@@ -46,26 +46,13 @@
 							Sed lacinia feugiat velit, cursus molestie lectus.</p>
 						<p>Mauris tempus erat laoreet turpis lobortis, eu tincidunt erat fermentum. Aliquam non tincidunt urna. Integer tincidunt nec nisl vitae ullamcorper. Proin sed ultrices erat. Praesent varius ultrices massa at faucibus. Aenean
 							dignissim, orci sed faucibus pharetra, dui mi dignissim tortor, sit amet condimentum mi ligula sit amet augue. Pellentesque vitae eros eget enim mollis placerat.</p>
-						<div class="row">
-							<div class="col-md-6">
-								<p>Mauris tempus erat laoreet turpis lobortis, eu tincidunt erat fermentum.</p>
-								<p>Aliquam non tincidunt urna. Integer tincidunt nec nisl vitae ullamcorper. Proin sed ultrices erat. Praesent varius ultrices massa at faucibus. Aenean dignissim, orci sed faucibus pharetra, dui mi dignissim tortor,
-									sit amet condimentum mi ligula sit amet augue. Pellentesque vitae eros eget enim mollis placerat.</p>
-							</div>
-							<div class="col-md-6">
-								<blockquote>
-									<p>Pellentesque sodales augue eget ultricies ultricies. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur sagittis ultrices condimentum.</p>
-									<p>Pellentesque ullamcorper libero in enim pellentesque lobortis. Praesent ut dui ac metus iaculis scelerisque at eget metus.</p>
-								</blockquote>
-							</div>
-						</div>
 					</div>
 				</article>
 				<div class="bg-gray-1 px-3 py-5 mb-10">
 					<!-- Review -->
 					<div class="d-block d-md-flex media">
 						<div class="u-xl-avatar mb-4 mb-md-0 mr-md-4">
-							<img class="img-fluid" src="/img/100X100/img17.jpg" alt="Image Description">
+							<img class="img-fluid" src="{{ Voyager::image('products/June2020/GDqjyGiD1pPOjdam16lI.jpg') }}" alt="Image Description">
 						</div>
 						<div class="media-body">
 							<h3 class="font-size-18 mb-3"><a href="../blog/single-blog-post.html">Jane Smith</a></h3>
@@ -86,7 +73,7 @@
 							<!-- Review -->
 							<div class="d-block d-md-flex media">
 								<div class="u-xl-avatar mr-md-4 mb-4 mb-md-0">
-									<img class="img-fluid rounded-circle" src="/img/100X100/img19.jpg" alt="Image Description">
+									<img class="img-fluid rounded-circle" src="{{ Voyager::image('products/June2020/GDqjyGiD1pPOjdam16lI.jpg') }}" alt="Image Description">
 								</div>
 								<div class="media-body">
 									<p>Fusce vitae nibh mi. Integer posuere, libero et ullamcorper facilisis, enim eros tincidunt orci, eget vestibulum sapien nisi ut leo. Cras finibus vel est ut mollis. Donec luctus condimentum ante et euismod.</p>
@@ -103,7 +90,7 @@
 							<!-- Review -->
 							<div class="d-block d-md-flex media">
 								<div class="u-xl-avatar mr-md-4 mb-4 mb-md-0">
-									<img class="img-fluid rounded-circle" src="/img/100X100/img18.jpg" alt="Image Description">
+									<img class="img-fluid rounded-circle" src="{{ Voyager::image('products/June2020/GDqjyGiD1pPOjdam16lI.jpg') }}" alt="Image Description">
 								</div>
 								<div class="media-body">
 									<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse eget facilisis odio. Duis sodales augue eu tincidunt faucibus.</p>
@@ -120,7 +107,7 @@
 							<!-- Review -->
 							<div class="d-block d-md-flex media">
 								<div class="u-xl-avatar mr-md-4 mb-4 mb-md-0">
-									<img class="img-fluid rounded-circle" src="/img/100X100/img20.jpg" alt="Image Description">
+									<img class="img-fluid rounded-circle" src="{{ Voyager::image('products/June2020/GDqjyGiD1pPOjdam16lI.jpg') }}" alt="Image Description">
 								</div>
 								<div class="media-body">
 									<p>Sed id tincidunt sapien. Pellentesque cursus accumsan tellus, nec ultricies nulla sollicitudin eget. Donec feugiat orci vestibulum porttitor sagittis.</p>
@@ -211,62 +198,19 @@
 				<div class="border-bottom border-color-1 mb-5">
 					<h3 class="section-title section-title__sm mb-0 pb-2 font-size-18">Recent Posts</h3>
 				</div>
-				<article class="mb-4">
-					<div class="media">
-						<div class="width-75 height-75 mr-3">
-							<img class="img-fluid object-fit-cover" src="/img/1500X730/img1.jpg" alt="Image Description">
-						</div>
-						<div class="media-body">
-							<h4 class="font-size-14 mb-1"><a href="../blog/single-blog-post.html" class="text-gray-39">Robot Wars – Post with Gallery</a></h4>
-							<span class="text-gray-5">March 3, 2020</span>
-						</div>
-					</div>
-				</article>
-				<article class="mb-4">
-					<div class="media">
-						<div class="width-75 height-75 mr-3">
-							<img class="img-fluid object-fit-cover" src="/img/1500X730/img4.jpg" alt="Image Description">
-						</div>
-						<div class="media-body">
-							<h4 class="font-size-14 mb-1"><a href="../blog/single-blog-post.html" class="text-gray-39">Robot Wars – Now Closed – Post with Audio</a></h4>
-							<span class="text-gray-5">March 3, 2020</span>
-						</div>
-					</div>
-				</article>
-				<article class="mb-4">
-					<div class="media">
-						<div class="width-75 height-75 mr-3">
-							<img class="img-fluid object-fit-cover" src="/img/1500X730/img5.jpg" alt="Image Description">
-						</div>
-						<div class="media-body">
-							<h4 class="font-size-14 mb-1"><a href="../blog/single-blog-post.html" class="text-gray-39">Robot Wars – Now Closed – Post with Video</a></h4>
-							<span class="text-gray-5">March 3, 2020</span>
-						</div>
-					</div>
-				</article>
-				<article class="mb-4">
-					<div class="media">
-						<div class="width-75 height-75 mr-3 position-relative">
-							<img class="img-fluid object-fit-cover" src="https://placehold.it/150x150/DDD/DDD/" alt="Image Description">
-							<i class="fa fa-paragraph position-absolute-center text-white"></i>
-						</div>
-						<div class="media-body">
-							<h4 class="font-size-14 mb-1"><a href="../blog/single-blog-post.html" class="text-gray-39">Announcement – Post without Image</a></h4>
-							<span class="text-gray-5">March 3, 2020</span>
-						</div>
-					</div>
-				</article>
-				<article class="mb-4">
-					<div class="media">
-						<div class="width-75 height-75 mr-3">
-							<img class="img-fluid object-fit-cover" src="/img/1500X730/img6.jpg" alt="Image Description">
-						</div>
-						<div class="media-body">
-							<h4 class="font-size-14 mb-1"><a href="../blog/single-blog-post.html" class="text-gray-39">Robot Wars – Now Closed</a></h4>
-							<span class="text-gray-5">March 3, 2020</span>
-						</div>
-					</div>
-				</article>
+        @for ($i = 0; $i < 3; $i++)
+          <article class="mb-4">
+            <div class="media">
+              <div class="width-75 height-75 mr-3">
+                <img class="img-fluid object-fit-cover" src="{{ Voyager::image('products/June2020/GDqjyGiD1pPOjdam16lI.jpg') }}" alt="Image Description">
+              </div>
+              <div class="media-body">
+                <h4 class="font-size-14 mb-1"><a href="{{ route('blogSingle',2) }}" class="text-gray-39">Demo Article</a></h4>
+                <span class="text-gray-5">March 3, 2020</span>
+              </div>
+            </div>
+          </article>
+        @endfor
 			</aside>
 		</div>
 	</div>

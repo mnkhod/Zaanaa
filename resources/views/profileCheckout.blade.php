@@ -137,12 +137,8 @@
 								</thead>
 								<tbody>
 									<tr class="cart_item">
-										<td>Ultra Wireless S50 Headphones S50 with Bluetooth&nbsp;<strong class="product-quantity">× 1</strong></td>
+										<td>Playground G180-6&nbsp;<strong class="product-quantity">× 1</strong></td>
 										<td>$1,100.00</td>
-									</tr>
-									<tr class="cart_item">
-										<td>Widescreen NX Mini F1 SMART NX&nbsp;<strong class="product-quantity">× 1</strong></td>
-										<td>$685.00</td>
 									</tr>
 								</tbody>
 								<tfoot>
