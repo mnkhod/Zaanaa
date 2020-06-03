@@ -3,14 +3,14 @@
 
 	<head>
 		<!-- Title -->
-		<title>Home | Zaanaa Store</title>
+		<title>Zaanaa</title>
 
 		<!-- Required Meta Tags Always Come First -->
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 		<!-- Favicon -->
-		<link rel="shortcut icon" href="favicon.png">
+		<link rel="shortcut icon" href="">
 
 		<!-- Google Fonts -->
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap" rel="stylesheet">
@@ -40,7 +40,7 @@
 					<div class="container">
 						<div class="d-flex align-items-center">
 							<div class="topbar-left">
-								<a href="#" class="text-gray-110 font-size-13 u-header-topbar__nav-link">Welcome to Zaanaa Store</a>
+								<a href="#" class="text-gray-110 font-size-13 u-header-topbar__nav-link">Zaanaa Ecommerce Website</a>
 							</div>
 							<div class="topbar-right ml-auto">
 								<ul class="list-inline mb-0">
@@ -126,7 +126,7 @@
 												<div class="js-scrollbar u-sidebar__body">
 													<div id="headerSidebarContent" class="u-sidebar__content u-header-sidebar__content">
 														<!-- Logo -->
-														<a class="d-flex ml-0 navbar-brand u-header__navbar-brand u-header__navbar-brand-vertical" href="../home/index.html" aria-label="Electro">
+														<a class="d-flex ml-0 navbar-brand u-header__navbar-brand u-header__navbar-brand-vertical" href="{{ route('home') }}" aria-label="Electro">
 															<img src="/img/logo1.png" alt="Company Logo">
 														</a>
 														<!-- End Logo -->
@@ -143,23 +143,20 @@
 																<div id="headerSidebarHomeCollapse" class="collapse" data-parent="#headerSidebarContent">
 																	<ul id="headerSidebarHomeMenu" class="u-header-collapse__nav-list">
 																		<!-- Home - v1 -->
-																		<li><a class="u-header-collapse__submenu-nav-link" href="../home/home.html">Home</a></li>
+																		<li><a class="u-header-collapse__submenu-nav-link" href="{{ route('home') }}">Home</a></li>
 																		<!-- End Home - v1 -->
 
 																		<!-- About -->
-																		<li><a class="u-header-collapse__submenu-nav-link" href="../home/about.html">About</a></li>
+																		<li><a class="u-header-collapse__submenu-nav-link" href="{{ route('about') }}">About</a></li>
 																		<!-- End About -->
 																		<!-- Contact -->
-																		<li><a class="u-header-collapse__submenu-nav-link" href="../home/contact.html">Contact</a></li>
+																		<li><a class="u-header-collapse__submenu-nav-link" href="{{ route('contact') }}">Contact</a></li>
 																		<!-- End Contact -->
 																		<!-- FAQ -->
-																		<li><a class="u-header-collapse__submenu-nav-link" href="../home/faq.html">FAQ</a></li>
+																		<li><a class="u-header-collapse__submenu-nav-link" href="{{ route('faq') }}">FAQ</a></li>
 																		<!-- End FAQ -->
-																		<!-- Store Directory -->
-																		<li><a class="u-header-collapse__submenu-nav-link" href="../home/store-directory.html">Store Directory</a></li>
-																		<!-- End Store Directory -->
 																		<!-- Terms and Conditions -->
-																		<li><a class="u-header-collapse__submenu-nav-link" href="../home/terms-and-conditions.html">Terms and Conditions</a></li>
+																		<li><a class="u-header-collapse__submenu-nav-link" href="{{ route('terms') }}">Terms and Conditions</a></li>
 																		<!-- End Terms and Conditions -->
 																	</ul>
 																</div>
@@ -227,23 +224,23 @@
 																<div id="headerSidebarDemosCollapse" class="collapse" data-parent="#headerSidebarContent">
 																	<ul id="headerSidebarDemosMenu" class="u-header-collapse__nav-list">
 																		<!-- Cart -->
-																		<li><a class="u-header-collapse__submenu-nav-link" href="../shop/cart.html">Cart</a></li>
+																		<li><a class="u-header-collapse__submenu-nav-link" href="{{ route('profileCart') }}">Cart</a></li>
 																		<!-- End Cart -->
 
 																		<!-- Checkout -->
-																		<li><a class="u-header-collapse__submenu-nav-link" href="../shop/checkout.html">Checkout</a></li>
+																		<li><a class="u-header-collapse__submenu-nav-link" href="{{ route('profileCheckout') }}">Checkout</a></li>
 																		<!-- End Checkout -->
 
 																		<!-- My Account -->
-																		<li><a class="u-header-collapse__submenu-nav-link" href="../shop/my-account.html">My Account</a></li>
+																		<li><a class="u-header-collapse__submenu-nav-link" href="{{ route('profileCart') }}">My Account</a></li>
 																		<!-- End My Account -->
 
 																		<!-- Compare -->
-																		<li><a class="u-header-collapse__submenu-nav-link" href="../shop/compare.html">Compare</a></li>
+																		<li><a class="u-header-collapse__submenu-nav-link" href="{{ route('productCompare') }}">Compare</a></li>
 																		<!-- End Compare -->
 
 																		<!-- wishlist -->
-																		<li><a class="u-header-collapse__submenu-nav-link" href="../shop/wishlist.html">Wishlist</a></li>
+																		<li><a class="u-header-collapse__submenu-nav-link" href="{{ route('profileWishlist') }}">Wishlist</a></li>
 																		<!-- End wishlist -->
 																	</ul>
 																</div>
@@ -369,12 +366,11 @@
 													<div class="col-md-3">
 														<span class="u-header__sub-menu-title">About Zaanaa Store</span>
 														<ul class="u-header__sub-menu-nav-group">
-															<li><a href="home.html" class="nav-link u-header__sub-menu-nav-link">Home</a></li>
-															<li><a href="about.html" class="nav-link u-header__sub-menu-nav-link">About</a></li>
-															<li><a href="contact.html" class="nav-link u-header__sub-menu-nav-link">Contact</a></li>
-															<li><a href="faq.html" class="nav-link u-header__sub-menu-nav-link">FAQ</a></li>
-															<li><a href="store-directory.html" class="nav-link u-header__sub-menu-nav-link">Store Directory</a></li>
-															<li><a href="terms-and-conditions.html" class="nav-link u-header__sub-menu-nav-link">Terms and Conditions</a></li>
+															<li><a href="{{ route('home') }}" class="nav-link u-header__sub-menu-nav-link">Home</a></li>
+															<li><a href="{{ route('about') }}" class="nav-link u-header__sub-menu-nav-link">About</a></li>
+															<li><a href="{{ route('contact') }}" class="nav-link u-header__sub-menu-nav-link">Contact</a></li>
+															<li><a href="{{ route('faq') }}" class="nav-link u-header__sub-menu-nav-link">FAQ</a></li>
+															<li><a href="{{ route('terms') }}" class="nav-link u-header__sub-menu-nav-link">Terms and Conditions</a></li>
 														</ul>
 													</div>
 													<div class="col-md-3">

@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 class ProfileController extends Controller
 {
 	public function chart(){
-			return view('profileChart');
+			return view('profileCart');
 	}
 
 	public function checkout(){

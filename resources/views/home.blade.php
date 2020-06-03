@@ -23,7 +23,7 @@
 							</div>
 						</div>
 						<div class="col-xl-7 col-6 d-flex align-items-end ml-auto ml-md-0" data-scs-animation-in="fadeInRight" data-scs-animation-delay="500">
-							<img class="img-fluid ml-auto mr-10 mr-wd-auto" src="/img/468X417/img1.png" alt="Image Description">
+							<img class="img-fluid ml-auto mr-10 mr-wd-auto" src="home-page.slider1_image" alt="Image Description">
 						</div>
 					</div>
 				</div>
