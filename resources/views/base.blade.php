@@ -619,14 +619,14 @@
 									</div>
 									<div class="col pl-3">
 										<div class="font-size-13 font-weight-light">Got questions? Call us 24/7!</div>
-										<a href="tel:+8618804798666" class="font-size-20 text-gray-90">(976) 95250211</a>
+										<a href="tel:+8618804798666" class="font-size-20 text-gray-90">(976) 95541132</a>
 									</div>
 								</div>
 							</div>
 							<div class="mb-4">
 								<h6 class="mb-1 font-weight-bold">Contact info</h6>
 								<address class="">
-									17 Princess Road, London, Greater London NW1 8JR, UK
+									Zaanaa Store, Ereen, China
 								</address>
 							</div>
 							<div class="my-4 my-md-4">

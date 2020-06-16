@@ -480,9 +480,7 @@
 			<h3 class="section-title mb-0 pb-2 font-size-22">Related products</h3>
 		</div>
 		<ul class="row list-unstyled products-group no-gutters">
-
-      @foreach($sale as $x)
-        @for ($i = 0; $i < 5; $i++)
+      @foreach($related as $x)
           <li class="col-6 col-md-3 col-xl-2gdot4-only col-wd-2 product-item">
             <div class="product-item__outer h-100">
               <div class="product-item__inner px-xl-4 p-3">
@@ -511,7 +509,6 @@
               </div>
             </div>
           </li>
-        @endfor
       @endforeach
 		</ul>
 	</div>

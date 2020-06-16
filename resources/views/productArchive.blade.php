@@ -238,7 +238,7 @@
                         <!-- Tab Content -->
                         <div class="tab-content" id="pills-tabContent">
                                 @foreach($p as $p)
-                                <ul class="d-block list-unstyled products-group prodcut-list-view">
+                                <ul class="d-block list-unstyled products-group prodcut-list-view item-list">
                                     <li class="product-item remove-divider">
                                         <div class="product-item__outer w-100">
                                             <div class="product-item__inner remove-prodcut-hover py-4 row">
@@ -266,7 +266,7 @@
                                                             </a>
                                                         </div>
                                                         <ul class="font-size-12 p-0 text-gray-110 mb-4 d-none d-md-block">
-                                                            <li class="line-clamp-1 mb-1 list-bullet">Brand new and high quality</li>
+                                                            <li class="line-clamp-1 mb-1 list-bullet">{{$p->description}}</li>
                                                         </ul>
                                                     </div>
                                                 </div>

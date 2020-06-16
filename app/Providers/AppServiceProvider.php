@@ -29,10 +29,14 @@ class AppServiceProvider extends ServiceProvider
       $onSale = Product::where('blyat','sales')->get(); 
       $topRated = Product::where('blyat','top')->get(); 
       $latestProducts = Product::all()->take(8);
+      $relatedProducts = Product::all()->take(10);
+      $cheapestProducts = Product::all()->take(4);
 
       View::share('featured', $featured );
       View::share('sale', $onSale );
       View::share('top', $topRated  );
       View::share('latest', $latestProducts);
+      View::share('related', $relatedProducts);
+      View::share('cheapest', $cheapestProducts);
     }
 }
