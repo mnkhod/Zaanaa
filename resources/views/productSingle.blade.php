@@ -65,6 +65,7 @@
 						</ul>
 					</div>
 					<p>{{ $p->description }}</p>
+					<p>Size: <strong>{{ $p->size }}</strong></p>
 					<p><strong>SKU</strong>: FW511948218</p>
 				</div>
 			</div>
@@ -73,8 +74,8 @@
 					<div class="card p-5 border-width-2 border-color-1 borders-radius-17">
 						<div class="text-gray-9 font-size-14 pb-2 border-color-1 border-bottom mb-3">Availability: <span class="text-green font-weight-bold">{{$p->unitsInStock}} in stock</span></div>
 						<div class="mb-3">
-              <div class="font-size-36 text-center">{{$p->unitPriceER}}¥</div>
-              <div class="font-size-36 text-center">{{$p->unitPriceUB}}₮</div>
+						<div class="font-size-36 text-center">ER: {{$p->unitPriceER}}¥</div>
+						<div class="font-size-36 text-center">UB: {{$p->unitPriceUB}}¥</div>
 						</div>
 						<div class="mb-3">
 							<h6 class="font-size-14">Quantity</h6>
@@ -176,27 +177,13 @@
 						</ul>
 					</div>
 					<div class="mx-md-5 pt-1">
-						<div class="table-responsive mb-4">
-							<table class="table table-hover">
-								<tbody>
-									<tr>
-										<th class="px-4 px-xl-5 border-top-0">Weight</th>
-										<td class="border-top-0">7.25kg</td>
-									</tr>
-								</tbody>
-							</table>
-						</div>
 						<h3 class="font-size-18 mb-4">Technical Specifications</h3>
 						<div class="table-responsive">
 							<table class="table table-hover">
 								<tbody>
 									<tr>
-										<th class="px-4 px-xl-5">Item Height</th>
-										<td>18 Millimeters</td>
-									</tr>
-									<tr>
-										<th class="px-4 px-xl-5">Item Width</th>
-										<td>31.4 Centimeters</td>
+										<th class="px-4 px-xl-5">Item Size</th>
+										<td>{{$p->size}}</td>
 									</tr>
 								</tbody>
 							</table>
@@ -507,8 +494,8 @@
                   </div>
                   <div class="flex-center-between mb-1">
                     <div class="prodcut-price">
-                      <div class="h6 text-gray-100">{{$x->unitPriceER}}¥</div>
-                      <div class="h6 text-gray-100">{{$x->unitPriceUB}}₮</div>
+                      <div class="h6 text-gray-100">ER: {{$x->unitPriceER}}¥</div>
+                      <div class="h6 text-gray-100">UB: {{$x->unitPriceUB}}¥</div>
                     </div>
                     <div class="d-none d-xl-block prodcut-add-cart">
                       <a href="{{ route('productSingle',$x->id)}}" class="text-dark btn-add-cart btn-primary transition-3d-hover"><i class="ec ec-add-to-cart"></i></a>

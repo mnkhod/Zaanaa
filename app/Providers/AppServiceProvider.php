@@ -25,12 +25,14 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-      $featured = Product::where('id',1)->get(); 
-      $onSale = Product::where('id',2)->get(); 
-      $topRated = Product::where('id',3)->get(); 
+      $featured = Product::where('blyat','featured')->get(); 
+      $onSale = Product::where('blyat','sales')->get(); 
+      $topRated = Product::where('blyat','top')->get(); 
+      $latestProducts = Product::all()->take(8);
 
       View::share('featured', $featured );
       View::share('sale', $onSale );
       View::share('top', $topRated  );
+      View::share('latest', $latestProducts);
     }
 }

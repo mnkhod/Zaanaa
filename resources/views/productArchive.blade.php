@@ -26,13 +26,13 @@
                                 <h3 class="section-title section-title__sm mb-0 pb-2 font-size-18">Filters</h3>
                             </div>
                             <div class="border-bottom pb-4 mb-4">
-                                <h4 class="font-size-14 mb-3 font-weight-bold">Brands</h4>
+                                <h4 class="font-size-14 mb-3 font-weight-bold">Categories</h4>
 
                                 <!-- Checkboxes -->
                                 <div class="form-group d-flex align-items-center justify-content-between mb-2 pb-1">
                                     <div class="custom-control custom-checkbox">
                                         <input type="checkbox" class="custom-control-input" id="brandAdidas">
-                                        <label class="custom-control-label" for="brandAdidas">Adidas
+                                        <label class="custom-control-label" for="brandAdidas">Playground
                                             <span class="text-gray-25 font-size-12 font-weight-normal"> (56)</span>
                                         </label>
                                     </div>
@@ -40,7 +40,7 @@
                                 <div class="form-group d-flex align-items-center justify-content-between mb-2 pb-1">
                                     <div class="custom-control custom-checkbox">
                                         <input type="checkbox" class="custom-control-input" id="brandNewBalance">
-                                        <label class="custom-control-label" for="brandNewBalance">New Balance
+                                        <label class="custom-control-label" for="brandNewBalance">New
                                             <span class="text-gray-25 font-size-12 font-weight-normal"> (56)</span>
                                         </label>
                                     </div>
@@ -48,7 +48,7 @@
                                 <div class="form-group d-flex align-items-center justify-content-between mb-2 pb-1">
                                     <div class="custom-control custom-checkbox">
                                         <input type="checkbox" class="custom-control-input" id="brandNike">
-                                        <label class="custom-control-label" for="brandNike">Nike
+                                        <label class="custom-control-label" for="brandNike">Lorem
                                             <span class="text-gray-25 font-size-12 font-weight-normal"> (56)</span>
                                         </label>
                                     </div>
@@ -64,7 +64,7 @@
                                 <div class="form-group d-flex align-items-center justify-content-between mb-2 pb-1">
                                     <div class="custom-control custom-checkbox">
                                         <input type="checkbox" class="custom-control-input" id="brandTnf">
-                                        <label class="custom-control-label" for="brandTnf">The North Face
+                                        <label class="custom-control-label" for="brandTnf">Decorations
                                             <span class="text-gray-25 font-size-12 font-weight-normal"> (56)</span>
                                         </label>
                                     </div>
@@ -76,7 +76,7 @@
                                     <div class="form-group d-flex align-items-center justify-content-between mb-2 pb-1">
                                         <div class="custom-control custom-checkbox">
                                             <input type="checkbox" class="custom-control-input" id="brandGucci">
-                                            <label class="custom-control-label" for="brandGucci">Gucci
+                                            <label class="custom-control-label" for="brandGucci">Outside
                                                 <span class="text-gray-25 font-size-12 font-weight-normal"> (56)</span>
                                             </label>
                                         </div>
@@ -84,7 +84,7 @@
                                     <div class="form-group d-flex align-items-center justify-content-between mb-2 pb-1">
                                         <div class="custom-control custom-checkbox">
                                             <input type="checkbox" class="custom-control-input" id="brandMango">
-                                            <label class="custom-control-label" for="brandMango">Mango
+                                            <label class="custom-control-label" for="brandMango">Equipments
                                                 <span class="text-gray-25 font-size-12 font-weight-normal"> (56)</span>
                                             </label>
                                         </div>
@@ -121,10 +121,10 @@
                                 <!-- End Range Slider -->
                                 <div class="mt-1 text-gray-111 d-flex mb-4">
                                     <span class="mr-0dot5">Price: </span>
-                                    <span>$</span>
+                                    <span>¥</span>
                                     <span id="rangeSliderExample3MinResult" class=""></span>
                                     <span class="mx-0dot5"> — </span>
-                                    <span>$</span>
+                                    <span>¥</span>
                                     <span id="rangeSliderExample3MaxResult" class=""></span>
                                 </div>
                                 <button type="submit" class="btn px-4 btn-primary-dark-w py-2 rounded-lg">Filter</button>
@@ -135,8 +135,7 @@
                                 <h3 class="section-title section-title__sm mb-0 pb-2 font-size-18">Latest Products</h3>
                             </div>
                             <ul class="list-unstyled">
-                                @foreach($top as $item)
-                                  @for ($i = 0; $i < 5; $i++)
+                                @foreach($latest as $item)
                                     <li class="mb-4">
                                         <div class="row">
                                             <div class="col-auto">
@@ -154,13 +153,12 @@
                                                     <small class="far fa-star text-muted"></small>
                                                 </div>
                                                 <div class="font-weight-bold font-size-15 d-flex justify-content-between">
-                                                  <div class="h6 text-gray-100">{{$item->unitPriceER}}¥</div>
-                                                  <div class="h6 text-gray-100">{{$item->unitPriceUB}}₮</div>
+                                                  <div class="h6 text-gray-100" style="font-size: 0.8rem !important">ER: {{$item->unitPriceER}}¥</div>
+                                                  <div class="h6 text-gray-100" style="font-size: 0.8rem !important">UB: {{$item->unitPriceUB}}¥</div>
                                                 </div>
                                             </div>
                                         </div>
                                     </li>
-                                  @endfor
                                 @endforeach
                             </ul>
                         </div>
@@ -275,8 +273,8 @@
                                                 <div class="product-item__footer col-md-3 d-md-block">
                                                     <div class="mb-3">
                                                         <div class="prodcut-price mb-2 d-flex justify-content-between">
-                                                            <div class="h6 text-gray-100">{{$p->unitPriceER}}¥</div>
-                                                            <div class="h6 text-gray-100">{{$p->unitPriceUB}}₮</div>
+                                                            <div class="h6 text-gray-100">ER: {{$p->unitPriceER}}¥</div>
+                                                            <div class="h6 text-gray-100">UB: {{$p->unitPriceUB}}¥</div>
                                                         </div>
                                                         <div class="prodcut-add-cart">
                                                             <a href="{{ route('profileChart')}}" class="btn btn-sm btn-block btn-primary-dark btn-wide transition-3d-hover">Add to cart</a>

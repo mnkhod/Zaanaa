@@ -12,18 +12,39 @@
 						<div class="col-xl col col-md-6 mt-md-8 mt-lg-10">
 							<div class="ml-xl-4">
 								<h6 class="font-size-15 font-weight-bold mb-2 text-cyan" data-scs-animation-in="fadeInUp">
-									SHOP TO GET WHAT YOU LOVE
+									SHOP TO FIND WHAT YOU NEED
 								</h6>
 								<h1 class="font-size-46 text-lh-50 font-weight-light mb-8" data-scs-animation-in="fadeInUp" data-scs-animation-delay="200">
-									TIMEPIECES THAT MAKE A STATEMENT UP TO <stong class="font-weight-bold">40% OFF</stong>
+									BEST QUALITY ITEMS HERE AT ZAANAA STORE 
 								</h1>
-								<a href="../shop/single-product.html" class="btn btn-primary transition-3d-hover rounded-lg font-weight-normal py-2 px-md-7 px-3 font-size-16" data-scs-animation-in="fadeInUp" data-scs-animation-delay="300">
+								<a href="/products" class="btn btn-primary transition-3d-hover rounded-lg font-weight-normal py-2 px-md-7 px-3 font-size-16" data-scs-animation-in="fadeInUp" data-scs-animation-delay="300">
 									Start Buying
 								</a>
 							</div>
 						</div>
 						<div class="col-xl-7 col-6 d-flex align-items-end ml-auto ml-md-0" data-scs-animation-in="fadeInRight" data-scs-animation-delay="500">
-							<img class="img-fluid ml-auto mr-10 mr-wd-auto" src="{{ Voyager::image('products/June2020/GDqjyGiD1pPOjdam16lI.jpg') }}" alt="Image Description">
+							<img class="img-fluid ml-auto mr-10 mr-wd-auto p-5" src="{{ Voyager::image('/products/June2020/EaP3Xu30aLK63f5c7pgp.jpg') }}" alt="Image Description">
+						</div>
+					</div>
+				</div>
+				<div class="js-slide">
+					<div class="row pt-7 py-md-0">
+						<div class="d-none d-wd-block offset-1"></div>
+					   	<div class="col-xl col col-md-6 mt-md-8 mt-lg-10">
+							<div class="ml-xl-4">
+								<h6 class="font-size-15 font-weight-bold mb-2 text-cyan" data-scs-animation-in="fadeInUp">
+									SHOP TO FIND WHAT YOU NEED
+								</h6>
+								<h1 class="font-size-46 text-lh-50 font-weight-light mb-8" data-scs-animation-in="fadeInUp" data-scs-animation-delay="200">
+									NEW ITEMS COMING SOON WITH A SALE UP TO <stong class="font-weight-bold">20% OFF</stong>
+								</h1>
+								<a href="/products" class="btn btn-primary transition-3d-hover rounded-lg font-weight-normal py-2 px-md-7 px-3 font-size-16" data-scs-animation-in="fadeInUp" data-scs-animation-delay="300">
+									Start Buying
+								</a>
+							</div>
+						</div>
+						<div class="col-xl-7 col-6 flex-horizontal-center ml-auto ml-md-0" data-scs-animation-in="fadeInRight" data-scs-animation-delay="500">
+							<img class="img-fluid ml-auto mr-10 mr-wd-auto h-100 p-5" src="{{ Voyager::image('products/June2020/G3NlnrU502Y6CB0VCCDc.jpg') }}" alt="Image Description">
 						</div>
 					</div>
 				</div>
@@ -33,39 +54,18 @@
 						<div class="col-xl col col-md-6 mt-md-8 mt-lg-10">
 							<div class="ml-xl-4">
 								<h6 class="font-size-15 font-weight-bold mb-2 text-cyan" data-scs-animation-in="fadeInUp">
-									SHOP TO GET WHAT YOU LOVE
+									SHOP TO FIND WHAT YOU NEED
 								</h6>
 								<h1 class="font-size-46 text-lh-50 font-weight-light mb-8" data-scs-animation-in="fadeInUp" data-scs-animation-delay="200">
-									TIMEPIECES THAT MAKE A STATEMENT UP TO <stong class="font-weight-bold">40% OFF</stong>
+									OFFERS <stong class="font-weight-bold">100% GUARANTEED</stong> PRODUCTS
 								</h1>
-								<a href="../shop/single-product.html" class="btn btn-primary transition-3d-hover rounded-lg font-weight-normal py-2 px-md-7 px-3 font-size-16" data-scs-animation-in="fadeInUp" data-scs-animation-delay="300">
+								<a href="/products" class="btn btn-primary transition-3d-hover rounded-lg font-weight-normal py-2 px-md-7 px-3 font-size-16" data-scs-animation-in="fadeInUp" data-scs-animation-delay="300">
 									Start Buying
 								</a>
 							</div>
 						</div>
 						<div class="col-xl-7 col-6 flex-horizontal-center ml-auto ml-md-0" data-scs-animation-in="fadeInRight" data-scs-animation-delay="500">
-							<img class="img-fluid ml-auto mr-10 mr-wd-auto h-100" src="{{ Voyager::image('products/June2020/FXsEXEhDLCQW2leWXe9e.jpg') }}" alt="Image Description">
-						</div>
-					</div>
-				</div>
-				<div class="js-slide">
-					<div class="row pt-7 py-md-0">
-						<div class="d-none d-wd-block offset-1"></div>
-						<div class="col-xl col col-md-6 mt-md-8 mt-lg-10">
-							<div class="ml-xl-4">
-								<h6 class="font-size-15 font-weight-bold mb-2 text-cyan" data-scs-animation-in="fadeInUp">
-									SHOP TO GET WHAT YOU LOVE
-								</h6>
-								<h1 class="font-size-46 text-lh-50 font-weight-light mb-8" data-scs-animation-in="fadeInUp" data-scs-animation-delay="200">
-									TIMEPIECES THAT MAKE A STATEMENT UP TO <stong class="font-weight-bold">40% OFF</stong>
-								</h1>
-								<a href="../shop/single-product.html" class="btn btn-primary transition-3d-hover rounded-lg font-weight-normal py-2 px-md-7 px-3 font-size-16" data-scs-animation-in="fadeInUp" data-scs-animation-delay="300">
-									Start Buying
-								</a>
-							</div>
-						</div>
-						<div class="col-xl-7 col-6 flex-horizontal-center ml-auto ml-md-0" data-scs-animation-in="fadeInRight" data-scs-animation-delay="500">
-							<img class="img-fluid ml-auto mr-10 mr-wd-auto h-100" src="{{ Voyager::image('products/June2020/ZokdU2hQOLILy09ZRrPP.jpg') }}" alt="Image Description">
+							<img class="img-fluid ml-auto mr-10 mr-wd-auto h-100 p-5" src="{{ Voyager::image('products/June2020/w0GYujJDpXHKSo6ZnTBS.jpg') }}" alt="Image Description">
 						</div>
 					</div>
 				</div>
@@ -84,7 +84,7 @@
 			</div>
 			<div class="media-body text-center">
 				<span class="d-block font-weight-bold text-dark">Fast Delivery</span>
-				<div class=" text-secondary">14 days</div>
+				<div class=" text-secondary">4 days</div>
 			</div>
 		</div>
 		<!-- End Feature List -->
@@ -107,7 +107,7 @@
 				<i class="text-primary ec ec-returning font-size-46"></i>
 			</div>
 			<div class="media-body text-center">
-				<span class="d-block font-weight-bold text-dark">365 Days</span>
+				<span class="d-block font-weight-bold text-dark">7 Days</span>
 				<div class=" text-secondary">for free return</div>
 			</div>
 		</div>
@@ -120,7 +120,7 @@
 			</div>
 			<div class="media-body text-center">
 				<span class="d-block font-weight-bold text-dark">Payment</span>
-				<div class=" text-secondary">Secure System</div>
+				<div class=" text-secondary">Secure and safe</div>
 			</div>
 		</div>
 		<!-- End Feature List -->
@@ -132,24 +132,21 @@
 		<div class="position-relative bg-white text-center z-index-2">
 			<ul class="nav nav-classic nav-tab justify-content-center" id="pills-tab" role="tablist">
 				<li class="nav-item">
-					<a class="nav-link active js-animation-link" id="pills-one-example1-tab" data-toggle="pill" href="#pills-one-example1" role="tab" aria-controls="pills-one-example1" aria-selected="true" data-target="#pills-one-example1"
-					 data-link-group="groups" data-animation-in="slideInUp">
+					<a class="nav-link active js-animation-link" id="pills-one-example1-tab" data-toggle="pill" href="#pills-one-example1" role="tab" aria-controls="pills-one-example1" aria-selected="true" data-target="#pills-one-example1" data-link-group="groups" data-animation-in="slideInUp">
 						<div class="d-md-flex justify-content-md-center align-items-md-center">
-							Featured
+							Playgrounds
 						</div>
 					</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link js-animation-link" id="pills-two-example1-tab" data-toggle="pill" href="#pills-two-example1" role="tab" aria-controls="pills-two-example1" aria-selected="false" data-target="#pills-two-example1"
-					 data-link-group="groups" data-animation-in="slideInUp">
+					<a class="nav-link js-animation-link" id="pills-two-example1-tab" data-toggle="pill" href="#pills-two-example1" role="tab" aria-controls="pills-two-example1" aria-selected="false" data-target="#pills-two-example1" data-link-group="groups" data-animation-in="slideInUp">
 						<div class="d-md-flex justify-content-md-center align-items-md-center">
 							On Sale
 						</div>
 					</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link js-animation-link" id="pills-three-example1-tab" data-toggle="pill" href="#pills-three-example1" role="tab" aria-controls="pills-three-example1" aria-selected="false" data-target="#pills-three-example1"
-					 data-link-group="groups" data-animation-in="slideInUp">
+					<a class="nav-link js-animation-link" id="pills-three-example1-tab" data-toggle="pill" href="#pills-three-example1" role="tab" aria-controls="pills-three-example1" aria-selected="false" data-target="#pills-three-example1" data-link-group="groups" data-animation-in="slideInUp">
 						<div class="d-md-flex justify-content-md-center align-items-md-center">
 							Top Rated
 						</div>
@@ -162,39 +159,37 @@
 		<div class="tab-content" id="pills-tabContent">
 			<div class="tab-pane fade pt-2 show active" id="pills-one-example1" role="tabpanel" aria-labelledby="pills-one-example1-tab" data-target-group="groups">
 				<ul class="row list-unstyled products-group no-gutters">
-          @foreach($featured as $p)
-            @for ($i = 0; $i < 3; $i++)
-              <li class="col-6 col-md-4 col-xl product-item">
-                <div class="product-item__outer h-100 w-100">
-                  <div class="product-item__inner px-xl-4 p-3">
-                    <div class="product-item__body pb-xl-2">
-                      <div class="mb-2"><a href="{{ route('productSingle',$p->id)}}" class="font-size-12 text-gray-5">Speakers</a></div>
-                      <h5 class="mb-1 product-item__title"><a href="{{ route('productSingle',$p->id)}}" class="text-blue font-weight-bold">{{$p->name}}</a></h5>
-                      <div class="mb-2">
-                        <a href="{{ route('productSingle',$p->id)}}" class="d-block text-center"><img class="img-fluid" src="{{ Voyager::image(json_decode($p->picture)[0]) }}" alt="Image Description"></a>
-                      </div>
-                      <div class="flex-center-between mb-1">
-                        <div class="prodcut-price d-flex justify-content-between w-100 pr-2">
-                          <div class="text-gray-100">{{$p->unitPriceER}}¥</div>
-                          <div class="text-gray-100">{{$p->unitPriceUB}}₮</div>
-                        </div>
-                        <div class="d-none d-xl-block prodcut-add-cart">
-                          <a href="{{ route('profileCart')}}" class="btn-add-cart text-dark btn-primary transition-3d-hover"><i class="ec ec-add-to-cart"></i></a>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="product-item__footer">
-                      <div class="border-top pt-2 flex-center-between flex-wrap">
-                        <a href="{{ route('profileCheckout')}}" class="text-gray-6 font-size-13"><i class="ec ec-compare mr-1 font-size-15"></i> Compare</a>
-                        <a href="{{ route('profileWishlist')}}" class="text-gray-6 font-size-13"><i class="ec ec-favorites mr-1 font-size-15"></i> Wishlist</a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </li>
-            @endfor
-          @endforeach
-          <!-- Need this later
+					@foreach($featured as $p)
+					<li class="col-6 col-md-4 col-xl product-item">
+						<div class="product-item__outer h-100 w-100">
+							<div class="product-item__inner px-xl-4 p-3">
+								<div class="product-item__body pb-xl-2">
+									<div class="mb-2"><a href="{{ route('productSingle',$p->id)}}" class="font-size-12 text-gray-5">Speakers</a></div>
+									<h5 class="mb-1 product-item__title"><a href="{{ route('productSingle',$p->id)}}" class="text-blue font-weight-bold">{{$p->name}}</a></h5>
+									<div class="mb-2">
+										<a href="{{ route('productSingle',$p->id)}}" class="d-block text-center"><img class="img-fluid" src="{{ Voyager::image(json_decode($p->picture)[0]) }}" alt="Image Description"></a>
+									</div>
+									<div class="flex-center-between mb-1">
+										<div class="prodcut-price d-flex justify-content-between w-100 pr-2">
+											<div class="text-gray-100">ER: {{$p->unitPriceER}}¥</div>
+											<div class="text-gray-100">UB: {{$p->unitPriceUB}}¥</div>
+										</div>
+										<div class="d-none d-xl-block prodcut-add-cart">
+											<a href="{{ route('profileCart')}}" class="btn-add-cart text-dark btn-primary transition-3d-hover"><i class="ec ec-add-to-cart"></i></a>
+										</div>
+									</div>
+								</div>
+								<div class="product-item__footer">
+									<div class="border-top pt-2 flex-center-between flex-wrap">
+										<a href="{{ route('profileCheckout')}}" class="text-gray-6 font-size-13"><i class="ec ec-compare mr-1 font-size-15"></i> Compare</a>
+										<a href="{{ route('profileWishlist')}}" class="text-gray-6 font-size-13"><i class="ec ec-favorites mr-1 font-size-15"></i> Wishlist</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						</li>
+						@endforeach
+						<!-- Need this later
 					<li class="col-6 col-md-4 col-xl product-item">
 						<div class="product-item__outer h-100 w-100">
 							<div class="product-item__inner px-xl-4 p-3">
@@ -337,74 +332,70 @@
 			</div>
 			<div class="tab-pane fade pt-2" id="pills-two-example1" role="tabpanel" aria-labelledby="pills-two-example1-tab" data-target-group="groups">
 				<ul class="row list-unstyled products-group no-gutters">
-          @foreach($sale as $p)
-            @for ($i = 0; $i < 4; $i++)
-              <li class="col-6 col-md-4 col-xl product-item">
-                <div class="product-item__outer h-100 w-100">
-                  <div class="product-item__inner px-xl-4 p-3">
-                    <div class="product-item__body pb-xl-2">
-                      <div class="mb-2"><a href="{{ route('productSingle',$p->id)}}" class="font-size-12 text-gray-5">Speakers</a></div>
-                      <h5 class="mb-1 product-item__title"><a href="{{ route('productSingle',$p->id)}}" class="text-blue font-weight-bold">{{$p->name}}</a></h5>
-                      <div class="mb-2">
-                        <a href="{{ route('productSingle',$p->id)}}" class="d-block text-center"><img class="img-fluid" src="{{ Voyager::image(json_decode($p->picture)[0]) }}" alt="Image Description"></a>
-                      </div>
-                      <div class="flex-center-between mb-1">
-                        <div class="prodcut-price d-flex justify-content-between w-100 pr-2">
-                          <div class="text-gray-100">{{$p->unitPriceER}}¥</div>
-                          <div class="text-gray-100">{{$p->unitPriceUB}}₮</div>
-                        </div>
-                        <div class="d-none d-xl-block prodcut-add-cart">
-                          <a href="{{ route('profileCart')}}" class="btn-add-cart text-dark btn-primary transition-3d-hover"><i class="ec ec-add-to-cart"></i></a>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="product-item__footer">
-                      <div class="border-top pt-2 flex-center-between flex-wrap">
-                        <a href="{{ route('profileCheckout')}}" class="text-gray-6 font-size-13"><i class="ec ec-compare mr-1 font-size-15"></i> Compare</a>
-                        <a href="{{ route('profileWishlist')}}" class="text-gray-6 font-size-13"><i class="ec ec-favorites mr-1 font-size-15"></i> Wishlist</a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </li>
-            @endfor
-          @endforeach
+					@foreach($sale as $p)
+					<li class="col-6 col-md-4 col-xl product-item">
+						<div class="product-item__outer h-100 w-100">
+							<div class="product-item__inner px-xl-4 p-3">
+								<div class="product-item__body pb-xl-2">
+									<div class="mb-2"><a href="{{ route('productSingle',$p->id)}}" class="font-size-12 text-gray-5">Speakers</a></div>
+									<h5 class="mb-1 product-item__title"><a href="{{ route('productSingle',$p->id)}}" class="text-blue font-weight-bold">{{$p->name}}</a></h5>
+									<div class="mb-2">
+										<a href="{{ route('productSingle',$p->id)}}" class="d-block text-center"><img class="img-fluid" src="{{ Voyager::image(json_decode($p->picture)[0]) }}" alt="Image Description"></a>
+									</div>
+									<div class="flex-center-between mb-1">
+										<div class="prodcut-price d-flex justify-content-between w-100 pr-2">
+											<div class="text-gray-100">ER: {{$p->unitPriceER}}¥</div>
+											<div class="text-gray-100">UB: {{$p->unitPriceUB}}¥</div>
+										</div>
+										<div class="d-none d-xl-block prodcut-add-cart">
+											<a href="{{ route('profileCart')}}" class="btn-add-cart text-dark btn-primary transition-3d-hover"><i class="ec ec-add-to-cart"></i></a>
+										</div>
+									</div>
+								</div>
+								<div class="product-item__footer">
+									<div class="border-top pt-2 flex-center-between flex-wrap">
+										<a href="{{ route('profileCheckout')}}" class="text-gray-6 font-size-13"><i class="ec ec-compare mr-1 font-size-15"></i> Compare</a>
+										<a href="{{ route('profileWishlist')}}" class="text-gray-6 font-size-13"><i class="ec ec-favorites mr-1 font-size-15"></i> Wishlist</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						</li>
+						@endforeach
 				</ul>
 			</div>
 			<div class="tab-pane fade pt-2" id="pills-three-example1" role="tabpanel" aria-labelledby="pills-three-example1-tab" data-target-group="groups">
 				<ul class="row list-unstyled products-group no-gutters">
-          @foreach($top as $p)
-            @for ($i = 0; $i < 4; $i++)
-              <li class="col-6 col-md-4 col-xl product-item">
-                <div class="product-item__outer h-100 w-100">
-                  <div class="product-item__inner px-xl-4 p-3">
-                    <div class="product-item__body pb-xl-2">
-                      <div class="mb-2"><a href="{{ route('productSingle',$p->id)}}" class="font-size-12 text-gray-5">Speakers</a></div>
-                      <h5 class="mb-1 product-item__title"><a href="{{ route('productSingle',$p->id)}}" class="text-blue font-weight-bold">{{$p->name}}</a></h5>
-                      <div class="mb-2">
-                        <a href="{{ route('productSingle',$p->id)}}" class="d-block text-center"><img class="img-fluid" src="{{ Voyager::image(json_decode($p->picture)[0]) }}" alt="Image Description"></a>
-                      </div>
-                      <div class="flex-center-between mb-1">
-                        <div class="prodcut-price d-flex justify-content-between w-100 pr-2">
-                          <div class="text-gray-100">{{$p->unitPriceER}}¥</div>
-                          <div class="text-gray-100">{{$p->unitPriceUB}}₮</div>
-                        </div>
-                        <div class="d-none d-xl-block prodcut-add-cart">
-                          <a href="{{ route('profileCart')}}" class="btn-add-cart text-dark btn-primary transition-3d-hover"><i class="ec ec-add-to-cart"></i></a>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="product-item__footer">
-                      <div class="border-top pt-2 flex-center-between flex-wrap">
-                        <a href="{{ route('profileCheckout')}}" class="text-gray-6 font-size-13"><i class="ec ec-compare mr-1 font-size-15"></i> Compare</a>
-                        <a href="{{ route('profileWishlist')}}" class="text-gray-6 font-size-13"><i class="ec ec-favorites mr-1 font-size-15"></i> Wishlist</a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </li>
-            @endfor
-          @endforeach
+					@foreach($top as $p)
+				 	<li class="col-6 col-md-4 col-xl product-item">
+						<div class="product-item__outer h-100 w-100">
+							<div class="product-item__inner px-xl-4 p-3">
+								<div class="product-item__body pb-xl-2">
+									<div class="mb-2"><a href="{{ route('productSingle',$p->id)}}" class="font-size-12 text-gray-5">Speakers</a></div>
+									<h5 class="mb-1 product-item__title"><a href="{{ route('productSingle',$p->id)}}" class="text-blue font-weight-bold">{{$p->name}}</a></h5>
+									<div class="mb-2">
+										<a href="{{ route('productSingle',$p->id)}}" class="d-block text-center"><img class="img-fluid" src="{{ Voyager::image(json_decode($p->picture)[0]) }}" alt="Image Description"></a>
+									</div>
+									<div class="flex-center-between mb-1">
+										<div class="prodcut-price d-flex justify-content-between w-100 pr-2">
+											<div class="text-gray-100">ER: {{$p->unitPriceER}}¥</div>
+											<div class="text-gray-100">UB: {{$p->unitPriceUB}}¥</div>
+										</div>
+										<div class="d-none d-xl-block prodcut-add-cart">
+											<a href="{{ route('profileCart')}}" class="btn-add-cart text-dark btn-primary transition-3d-hover"><i class="ec ec-add-to-cart"></i></a>
+										</div>
+									</div>
+								</div>
+								<div class="product-item__footer">
+									<div class="border-top pt-2 flex-center-between flex-wrap">
+										<a href="{{ route('profileCheckout')}}" class="text-gray-6 font-size-13"><i class="ec ec-compare mr-1 font-size-15"></i> Compare</a>
+										<a href="{{ route('profileWishlist')}}" class="text-gray-6 font-size-13"><i class="ec ec-favorites mr-1 font-size-15"></i> Wishlist</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+					@endforeach
 				</ul>
 			</div>
 		</div>
@@ -1171,9 +1162,7 @@
 		<div class="border-bottom border-color-1 mb-2">
 			<h3 class="section-title section-title__full d-inline-block mb-0 pb-2 font-size-22">Recommendation for you</h3>
 		</div>
-		<div class="js-slick-carousel u-slick position-static overflow-hidden u-slick-overflow-visble pb-7 pt-2 px-1" data-pagi-classes="text-center right-0 bottom-1 left-0 u-slick__pagination u-slick__pagination--long mb-0 z-index-n1 mt-3 mt-md-0"
-		 data-slides-show="7" data-slides-scroll="1" data-arrows-classes="position-absolute top-0 font-size-17 u-slick__arrow-normal top-10" data-arrow-left-classes="fa fa-angle-left right-1" data-arrow-right-classes="fa fa-angle-right right-0"
-		 data-responsive='[{
+		<div class="js-slick-carousel u-slick position-static overflow-hidden u-slick-overflow-visble pb-7 pt-2 px-1" data-pagi-classes="text-center right-0 bottom-1 left-0 u-slick__pagination u-slick__pagination--long mb-0 z-index-n1 mt-3 mt-md-0" data-slides-show="7" data-slides-scroll="1" data-arrows-classes="position-absolute top-0 font-size-17 u-slick__arrow-normal top-10" data-arrow-left-classes="fa fa-angle-left right-1" data-arrow-right-classes="fa fa-angle-right right-0" data-responsive='[{
                           "breakpoint": 1400,
                           "settings": {
                             "slidesToShow": 6
@@ -1199,44 +1188,42 @@
                             "slidesToShow": 2
                           }
                         }]'>
-      @foreach($sale as $p)
-        @for ($i = 0; $i < 12; $i++)
-        <div class="js-slide products-group">
-          <div class="product-item">
-            <div class="product-item__outer h-100 w-100">
-              <div class="product-item__inner px-wd-4 p-2 p-md-3">
-                <div class="product-item__body pb-xl-2">
-                  <div class="mb-2"><a href="{{ route('productSingle',$p->id)}}" class="font-size-12 text-gray-5">Speakers</a></div>
-                    <h5 class="mb-1 product-item__title"><a href="{{ route('productSingle',$p->id)}}" class="text-blue font-weight-bold">{{$p->name}}</a></h5>
-                  <div class="mb-2">
-                    <a href="{{ route('productSingle',$p->id)}}" class="d-block text-center"><img class="img-fluid" src="{{ Voyager::image(json_decode($p->picture)[0]) }}" alt="Image Description"></a>
-                  </div>
-                  <div class="flex-center-between mb-1">
-                    <div class="prodcut-price">
-                      <div class="h6 text-gray-100">{{$p->unitPriceER}}¥</div>
-                      <div class="h6 text-gray-100">{{$p->unitPriceUB}}₮</div>
-                    </div>
-                    <div class="d-none d-xl-block prodcut-add-cart">
-                      <a href="{{ route('productSingle',$p->id)}}" class="text-dark btn-add-cart btn-primary transition-3d-hover"><i class="ec ec-add-to-cart"></i></a>
-                    </div>
-                  </div>
-                </div>
-                <div class="product-item__footer">
-                  <div class="border-top pt-2 flex-center-between flex-wrap">
-                        <a href="{{ route('profileCheckout')}}" class="text-gray-6 font-size-13"><i class="ec ec-compare mr-1 font-size-15"></i> Compare</a>
-                        <a href="{{ route('profileWishlist')}}" class="text-gray-6 font-size-13"><i class="ec ec-favorites mr-1 font-size-15"></i> Wishlist</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        @endfor
-      @endforeach
+			@foreach($latest as $p)
+			<div class="js-slide products-group">
+				<div class="product-item">
+					<div class="product-item__outer h-100 w-100">
+						<div class="product-item__inner px-wd-4 p-2 p-md-3">
+							<div class="product-item__body pb-xl-2">
+								<div class="mb-2"><a href="{{ route('productSingle',$p->id)}}" class="font-size-12 text-gray-5">Speakers</a></div>
+								<h5 class="mb-1 product-item__title"><a href="{{ route('productSingle',$p->id)}}" class="text-blue font-weight-bold">{{$p->name}}</a></h5>
+								<div class="mb-2">
+									<a href="{{ route('productSingle',$p->id)}}" class="d-block text-center"><img class="img-fluid" src="{{ Voyager::image(json_decode($p->picture)[0]) }}" alt="Image Description"></a>
+								</div>
+								<div class="flex-center-between mb-1">
+									<div class="prodcut-price">
+										<div class="h6 text-gray-100">ER: {{$p->unitPriceER}}¥</div>
+										<div class="h6 text-gray-100">UB: {{$p->unitPriceUB}}¥</div>
+									</div>
+									<div class="d-none d-xl-block prodcut-add-cart">
+										<a href="{{ route('productSingle',$p->id)}}" class="text-dark btn-add-cart btn-primary transition-3d-hover"><i class="ec ec-add-to-cart"></i></a>
+									</div>
+								</div>
+							</div>
+							<div class="product-item__footer">
+								<div class="border-top pt-2 flex-center-between flex-wrap">
+									<a href="{{ route('profileCheckout')}}" class="text-gray-6 font-size-13"><i class="ec ec-compare mr-1 font-size-15"></i> Compare</a>
+									<a href="{{ route('profileWishlist')}}" class="text-gray-6 font-size-13"><i class="ec ec-favorites mr-1 font-size-15"></i> Wishlist</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 		</div>
+		@endforeach
 	</div>
-	<!-- End Recommendation for you -->
-	<!-- Banner 2 columns>
+</div>
+<!-- End Recommendation for you -->
+<!-- Banner 2 columns>
 	<div class="mb-8">
 		<div class="row">
 			<div class="col-md-6 mb-3 mb-md-0">
