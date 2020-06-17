@@ -332,10 +332,10 @@
 										<li class="col d-none d-xl-block"><a href="../shop/wishlist.html" class="text-gray-90" data-toggle="tooltip" data-placement="top" title="Favorites"><i class="font-size-22 ec ec-favorites"></i></a></li>
 										<li class="col d-xl-none px-2 px-sm-3"><a href="../shop/my-account.html" class="text-gray-90" data-toggle="tooltip" data-placement="top" title="My Account"><i class="font-size-22 ec ec-user"></i></a></li>
 										<li class="col pr-xl-0 px-2 px-sm-3">
-											<a href="../shop/cart.html" class="text-gray-90 position-relative d-flex " data-toggle="tooltip" data-placement="top" title="Cart">
+											<a href="../shop/cart.html" class="text-gray-90 position-relative d-flex " data-toggle="tooltip" data-placement="top" title="Coming soon">
 												<i class="font-size-22 ec ec-shopping-bag"></i>
 												<span class="bg-lg-down-black width-22 height-22 bg-primary position-absolute d-flex align-items-center justify-content-center rounded-circle left-12 top-8 font-weight-bold font-size-12">2</span>
-												<span class="d-none d-xl-block font-weight-bold font-size-16 text-gray-90 ml-3">$1785.00</span>
+												<span class="d-none d-xl-block font-weight-bold font-size-16 text-gray-90 ml-3">Cart</span>
 											</a>
 										</li>
 									</ul>
@@ -355,7 +355,7 @@
 							<nav class="js-mega-menu navbar navbar-expand-md u-header__navbar u-header__navbar--wide u-header__navbar--no-space">
 								<!-- Navigation -->
 								<div id="navBar" class="collapse navbar-collapse u-header__navbar-collapse">
-									<ul class="navbar-nav u-header__navbar-nav d-flex justify-content-between">
+									<ul class="navbar-nav u-header__navbar-nav d-flex">
 										<!-- Home -->
 										<li class="nav-item hs-has-mega-menu u-header__nav-item" data-event="hover" data-animation-in="slideInUp" data-animation-out="fadeOut" data-position="left">
 											<a id="homeMegaMenu" class="nav-link u-header__nav-link u-header__nav-link-toggle" href="javascript:;" aria-haspopup="true" aria-expanded="false">Home</a>
@@ -441,7 +441,7 @@
 																</a>
 															</div>
 															<div class="col">
-																<span class="u-header__sub-menu-title">Video Games</span>
+																<span class="u-header__sub-menu-title">Children Sliders</span>
 																<ul class="u-header__sub-menu-nav-group">
 																	<li><a href="#" class="nav-link u-header__sub-menu-nav-link">Games &amp; Accessories</a></li>
 																	<li><a href="#" class="nav-link u-header__sub-menu-nav-link">PC Games</a></li>
@@ -460,7 +460,7 @@
 																</a>
 															</div>
 															<div class="col">
-																<span class="u-header__sub-menu-title">Music</span>
+																<span class="u-header__sub-menu-title">New Items</span>
 																<ul class="u-header__sub-menu-nav-group">
 																	<li><a href="#" class="nav-link u-header__sub-menu-nav-link">5.1 Speaker</a></li>
 																	<li><a href="#" class="nav-link u-header__sub-menu-nav-link">Home Theatres</a></li>
@@ -508,7 +508,6 @@
 							</div>
 							<ul class="list-unstyled products-group">
                 @foreach($featured as $p)
-                  @for ($i = 0; $i < 3; $i++)
                     <li class="product-item product-item__list row no-gutters mb-6 remove-divider">
                       <div class="col-auto">
                         <a href="{{ route('productSingle',$p->id)}}" class="d-block width-75 text-center"><img class="img-fluid" src="{{ Voyager::image(json_decode($p->picture)[0]) }}" alt="Image Description"></a>
@@ -516,12 +515,11 @@
                       <div class="col pl-4 d-flex flex-column">
                         <h5 class="product-item__title mb-0"><a href="{{ route('productSingle',$p->id)}}" class="text-blue font-weight-bold">{{$p->name}}</a></h5>
                         <div class="prodcut-price d-flex justify-content-between w-100 pr-2">
-                          <div class="h6 text-gray-100">{{$p->unitPriceER}}¥</div>
-                          <div class="h6 text-gray-100">{{$p->unitPriceUB}}₮</div>
+                          <div class="h6 text-gray-100">ER: {{$p->unitPriceER}}¥</div>
+                          <div class="h6 text-gray-100">UB: {{$p->unitPriceUB}}¥</div>
                         </div>
                       </div>
                     </li>
-                  @endfor
                 @endforeach
 							</ul>
 						</div>
@@ -532,7 +530,6 @@
 						</div>
 						<ul class="list-unstyled products-group">
                 @foreach($sale as $p)
-                  @for ($i = 0; $i < 3; $i++)
                     <li class="product-item product-item__list row no-gutters mb-6 remove-divider">
                       <div class="col-auto">
                         <a href="{{ route('productSingle',$p->id)}}" class="d-block width-75 text-center"><img class="img-fluid" src="{{ Voyager::image(json_decode($p->picture)[0]) }}" alt="Image Description"></a>
@@ -540,12 +537,11 @@
                       <div class="col pl-4 d-flex flex-column">
                         <h5 class="product-item__title mb-0"><a href="{{ route('productSingle',$p->id)}}" class="text-blue font-weight-bold">{{$p->name}}</a></h5>
                         <div class="prodcut-price d-flex justify-content-between w-100 pr-2">
-                          <div class="h6 text-gray-100">{{$p->unitPriceER}}¥</div>
-                          <div class="h6 text-gray-100">{{$p->unitPriceUB}}₮</div>
+                          <div class="h6 text-gray-100">ER: {{$p->unitPriceER}}¥</div>
+                          <div class="h6 text-gray-100">UB: {{$p->unitPriceUB}}¥</div>
                         </div>
                       </div>
                     </li>
-                  @endfor
                 @endforeach
 						</ul>
 					</div>
@@ -555,7 +551,6 @@
 						</div>
 						<ul class="list-unstyled products-group">
                 @foreach($top as $p)
-                  @for ($i = 0; $i < 3; $i++)
                     <li class="product-item product-item__list row no-gutters mb-6 remove-divider">
                       <div class="col-auto">
                         <a href="{{ route('productSingle',$p->id)}}" class="d-block width-75 text-center"><img class="img-fluid" src="{{ Voyager::image(json_decode($p->picture)[0]) }}" alt="Image Description"></a>
@@ -563,12 +558,11 @@
                       <div class="col pl-4 d-flex flex-column">
                         <h5 class="product-item__title mb-0"><a href="{{ route('productSingle',$p->id)}}" class="text-blue font-weight-bold">{{$p->name}}</a></h5>
                         <div class="prodcut-price d-flex justify-content-between w-100 pr-2">
-                          <div class="h6 text-gray-100">{{$p->unitPriceER}}¥</div>
-                          <div class="h6 text-gray-100">{{$p->unitPriceUB}}₮</div>
+                          <div class="h6 text-gray-100">ER: {{$p->unitPriceER}}¥</div>
+                          <div class="h6 text-gray-100">UB: {{$p->unitPriceUB}}¥</div>
                         </div>
                       </div>
                     </li>
-                  @endfor
                 @endforeach
 						</ul>
 					</div>
@@ -625,14 +619,14 @@
 									</div>
 									<div class="col pl-3">
 										<div class="font-size-13 font-weight-light">Got questions? Call us 24/7!</div>
-										<a href="tel:+8618804798666" class="font-size-20 text-gray-90">(976) 95250211</a>
+										<a href="tel:+8618804798666" class="font-size-20 text-gray-90">(976) 95541132</a>
 									</div>
 								</div>
 							</div>
 							<div class="mb-4">
 								<h6 class="mb-1 font-weight-bold">Contact info</h6>
 								<address class="">
-									17 Princess Road, London, Greater London NW1 8JR, UK
+									Zaanaa Store, Ereen, China
 								</address>
 							</div>
 							<div class="my-4 my-md-4">
@@ -809,7 +803,7 @@
 									<div id="signup" style="display: none; opacity: 0;" data-target-group="idForm">
 										<!-- Title -->
 										<header class="text-center mb-7">
-											<h2 class="h4 mb-0">Welcome to Electro.</h2>
+											<h2 class="h4 mb-0">Welcome to Zaanaa.</h2>
 											<p>Fill out the form to get started.</p>
 										</header>
 										<!-- End Title -->

@@ -17,12 +17,12 @@ use App\Product;
 // Home
 Route::get('/', function () {
     return view('home');
-})->name('home');
+}, )->name('home');
 
 // About Us
 Route::get('/about', function(){
 		return view('about');
-})->name('about');
+},)->name('about');
 
 // Contact Us
 Route::get('/contact', function(){
