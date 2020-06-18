@@ -408,7 +408,7 @@
 		<div class="container">
 			<div class="row min-height-564 align-items-center">
 				<div class="col-12 col-lg-4 col-xl-5 col-wd-6 d-none d-md-block">
-					<img class="img-fluid" src="{{ Voyager::image('products/June2020/TyRHFDEreV3QDoTpOsX4.png') }}" alt="Image Description">
+					<img class="img-fluid" src="{{ Voyager::image('products/June2020/slider.jpg') }}" alt="Image Description">
 				</div>
 				<div class="col-12 col-lg-8 col-xl-7 col-wd-6 pt-6 pt-md-0">
 					<div class=" d-flex border-bottom border-color-1 mr-md-2">
@@ -937,7 +937,7 @@
                             "slidesToShow": 2
                           }
                         }]'>
-			@foreach($latest as $p)
+			@foreach($fb as $p)
 			<div class="js-slide products-group">
 				<div class="product-item">
 					<div class="product-item__outer h-100 w-100">

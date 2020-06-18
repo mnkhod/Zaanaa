@@ -567,7 +567,7 @@
 						</ul>
 					</div>
 					<div class="col-wd-3 d-none d-wd-block">
-						<a href="../shop/shop.html" class="d-block"><img class="img-fluid" src="/img/330X360/img1.jpg" alt="Image Description"></a>
+						<a href="../shop/shop.html" class="d-block"><img class="img-fluid" src="/products/June2020/bFjEjo3xcdxTBRsOXPCh.JPG" alt="Image Description"></a>
 					</div>
 				</div>
 			</div>
