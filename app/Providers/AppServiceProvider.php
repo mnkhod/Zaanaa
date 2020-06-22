@@ -32,6 +32,9 @@ class AppServiceProvider extends ServiceProvider
       $latestProducts = Product::all()->take(8);
       $relatedProducts = Product::all()->take(10);
       $cheapestProducts = Product::all()->take(4);
+      $fea = Product::where('blyat','fea')->take(6)->get(); 
+      $fee = Product::where('blyat','fee')->take(6)->get(); 
+      $faa = Product::where('blyat','fee')->take(6)->get(); 
 
       View::share('featured', $featured );
       View::share('sale', $onSale );
@@ -40,5 +43,8 @@ class AppServiceProvider extends ServiceProvider
       View::share('related', $relatedProducts);
       View::share('cheapest', $cheapestProducts);
       View::share('fb', $fbItems);
+      View::share('fea', $fea );
+      View::share('fee', $fee );
+      View::share('faa', $faa );
     }
 }
