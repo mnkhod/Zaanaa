@@ -150,7 +150,7 @@
                                                     <small class="fas fa-star"></small>
                                                     <small class="fas fa-star"></small>
                                                     <small class="fas fa-star"></small>
-                                                    <small class="far fa-star text-muted"></small>
+                                                    <small class="far fa-star"></small>
                                                 </div>
                                                 <div class="font-weight-bold font-size-15 d-flex justify-content-between">
                                                   <div class="h6 text-gray-100" style="font-size: 0.8rem !important">ER: {{$item->unitPriceER}}¥</div>
@@ -168,7 +168,7 @@
                         <!-- Shop-control-bar Title -->
                         <div class="flex-center-between mb-3">
                             <h3 class="font-size-25 mb-0">Shop</h3>
-                            <p class="font-size-14 text-gray-90 mb-0">Showing 1–25 of 56 results</p>
+                            <p class="font-size-14 text-gray-90 mb-0">Showing <span id="fromto"> 1–25 </span> of <span id="allcount"> 56 </span> results</p>
                         </div>
                         <!-- End shop-control-bar Title -->
                         <!-- Shop-control-bar -->
@@ -237,9 +237,9 @@
                         <!-- Shop Body -->
                         <!-- Tab Content -->
                         <div class="tab-content" id="pills-tabContent">
-                                @foreach($p as $p)
-                                <ul class="d-block list-unstyled products-group prodcut-list-view item-list">
-                                    <li class="product-item remove-divider">
+                                <ul id="item-list" class="d-block list-unstyled products-group prodcut-list-view">
+                                    @foreach($p as $p)
+                                    <li class="product-item remove-divider archive-item">
                                         <div class="product-item__outer w-100">
                                             <div class="product-item__inner remove-prodcut-hover py-4 row">
                                                 <div class="product-item__header col-6 col-md-4">
@@ -260,9 +260,9 @@
                                                                     <small class="fas fa-star"></small>
                                                                     <small class="fas fa-star"></small>
                                                                     <small class="fas fa-star"></small>
-                                                                    <small class="far fa-star text-muted"></small>
+                                                                    <small class="far fa-star"></small>
                                                                 </div>
-                                                                <span class="text-secondary">(40)</span>
+                                                                <span class="text-secondary">(0)</span>
                                                             </a>
                                                         </div>
                                                         <ul class="font-size-12 p-0 text-gray-110 mb-4 d-none d-md-block">
@@ -295,16 +295,75 @@
                         <!-- End Shop Body -->
                         <!-- Shop Pagination -->
                         <nav class="d-md-flex justify-content-between align-items-center border-top pt-3" aria-label="Page navigation example">
-                            <div class="text-center text-md-left mb-3 mb-md-0">Showing 1–25 of 56 results</div>
+                            <div class="text-center text-md-left mb-3 mb-md-0">
+                                Showing 
+                                <span id="fromto"> 1–20 </span>
+                                of 
+                                <span id="allcount2"> 56 </span>
+                                results
+                            </div>
                             <ul class="pagination mb-0 pagination-shop justify-content-center justify-content-md-start">
-                                <li class="page-item"><a class="page-link current" href="#">1</a></li>
-                                <li class="page-item"><a class="page-link" href="#">2</a></li>
-                                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                <!-- <li class="page-item"><a class="page-link current" href="">1</a></li>
+                                <li class="page-item"><a class="page-link" href="">2</a></li>
+                                <li class="page-item"><a class="page-link" href="">3</a></li>
+                                <li class="page-item"><a class="page-link" href="">4</a></li>
+                                <li class="page-item"><a class="page-link" href="">5</a></li>
+                                <li class="page-item"><a class="page-link" href="">6</a></li>
+                                <li class="page-item"><a class="page-link" href="">7</a></li>
+                                <li class="page-item"><a class="page-link" href="">8</a></li>
+                                <li class="page-item"><a class="page-link" href="">9</a></li>
+                                <li class="page-item"><a class="page-link" href="">10</a></li> -->
                             </ul>
                         </nav>
                         <!-- End Shop Pagination -->
                     </div>
                 </div>
             </div>
+
+            <!-- <script>
+                // Pagination Button Action
+                var allButtons = document.querySelectorAll('.page-link');
+                for(i = 0; i < allButtons.length; i++) {
+
+                    var a = i;
+                    allButtons[a].addEventListener('click', function(){
+                        current_page = a + 1;
+                    })
+                }
+
+                // Pagination for product archive
+
+                var itemList = document.querySelectorAll('.archive-item');
+
+                // Set Product Information based on pagination
+
+                document.getElementById('allcount').innerHTML = itemList.length;
+                document.getElementById('allcount2').innerHTML = itemList.length;
+
+                var list_element = document.getElementById('item-list');
+                var paginationElement = document.querySelector('.pagination');
+
+                var rows = 20;
+
+                    list_element.innerHTML = "";
+                    current_page--;
+
+                    let start = rows * current_page;
+                    let end = start + rows;
+
+                    var paginatedItems = [];
+                    for (let i = start; i < end; i++) {
+                        paginatedItems.push(itemList[i]);
+                    }
+
+                    for (let i = 0; i < rows; i++) {
+                        let itemCount = paginatedItems[i];
+                        list_element.innerHTML = list_element.innerHTML + itemCount.innerHTML;
+                    }
+
+
+                // Setup Pagination
+                var page_count = Math.ceil(itemList.length / rows);
+            </script> -->
 
 @endsection
