@@ -5,7 +5,7 @@
 	<div class="container">
 		<div class="flex-content-center max-width-620-lg flex-column mx-auto text-center min-height-564">
 			<h1 class="h1 font-weight-bold">About Us</h1>
-			<p class="text-gray-39 font-size-18 text-lh-default">Passion may be a friendly or eager interest in or admiration for a proposal, cause, discovery, or activity or love to a feeling of unusual excitement.</p>
+			<p class="text-gray-39 font-size-18 text-lh-default">We serve to present our various outside playgrounds and environmental equipments.</p>
 		</div>
 	</div>
 </div>
