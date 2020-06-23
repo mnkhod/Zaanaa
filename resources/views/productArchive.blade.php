@@ -150,7 +150,7 @@
                                                     <small class="fas fa-star"></small>
                                                     <small class="fas fa-star"></small>
                                                     <small class="fas fa-star"></small>
-                                                    <small class="far fa-star text-muted"></small>
+                                                    <small class="far fa-star"></small>
                                                 </div>
                                                 <div class="font-weight-bold font-size-15 d-flex justify-content-between">
                                                   <div class="h6 text-gray-100" style="font-size: 0.8rem !important">ER: {{$item->unitPriceER}}¥</div>
@@ -168,7 +168,7 @@
                         <!-- Shop-control-bar Title -->
                         <div class="flex-center-between mb-3">
                             <h3 class="font-size-25 mb-0">Shop</h3>
-                            <p class="font-size-14 text-gray-90 mb-0">Showing 1–25 of 56 results</p>
+                            <p class="font-size-14 text-gray-90 mb-0">Showing <span id="fromto"> 1–25 </span> of <span id="allcount"> 56 </span> results</p>
                         </div>
                         <!-- End shop-control-bar Title -->
                         <!-- Shop-control-bar -->
@@ -237,9 +237,9 @@
                         <!-- Shop Body -->
                         <!-- Tab Content -->
                         <div class="tab-content" id="pills-tabContent">
-                                @foreach($p as $p)
-                                <ul class="d-block list-unstyled products-group prodcut-list-view item-list">
-                                    <li class="product-item remove-divider">
+                                <ul id="item-list" class="d-block list-unstyled products-group prodcut-list-view">
+                                    @foreach($p as $p)
+                                    <li class="product-item remove-divider archive-item">
                                         <div class="product-item__outer w-100">
                                             <div class="product-item__inner remove-prodcut-hover py-4 row">
                                                 <div class="product-item__header col-6 col-md-4">
@@ -251,7 +251,8 @@
                                                     <div class="pr-lg-10">
                                                         <div class="mb-2"><a href="{{ route('productSingle',$p->id)}}" class="font-size-12 text-gray-5">Speakers</a></div> <h5 class="mb-2 product-item__title"><a href="{{ route('productSingle',$p->id)}}" class="text-blue font-weight-bold">{{$p->name}}</a></h5>
                                                         <div class="prodcut-price mb-2 d-md-none">
-                                                            <div class="text-gray-100">$685,00</div>
+                                                            <div class="text-gray-100">ER: {{$p->unitPriceER}}¥</div>
+                                                            <div class="text-gray-100">UB: {{$p->unitPriceUB}}¥</div>
                                                         </div>
                                                         <div class="mb-3 d-none d-md-block">
                                                             <a class="d-inline-flex align-items-center small font-size-14" href="#">
@@ -260,9 +261,9 @@
                                                                     <small class="fas fa-star"></small>
                                                                     <small class="fas fa-star"></small>
                                                                     <small class="fas fa-star"></small>
-                                                                    <small class="far fa-star text-muted"></small>
+                                                                    <small class="far fa-star"></small>
                                                                 </div>
-                                                                <span class="text-secondary">(40)</span>
+                                                                <span class="text-secondary">(0)</span>
                                                             </a>
                                                         </div>
                                                         <ul class="font-size-12 p-0 text-gray-110 mb-4 d-none d-md-block">
@@ -295,16 +296,81 @@
                         <!-- End Shop Body -->
                         <!-- Shop Pagination -->
                         <nav class="d-md-flex justify-content-between align-items-center border-top pt-3" aria-label="Page navigation example">
-                            <div class="text-center text-md-left mb-3 mb-md-0">Showing 1–25 of 56 results</div>
+                            <div class="text-center text-md-left mb-3 mb-md-0">
+                                Showing 
+                                <span id="fromto"> 1–20 </span>
+                                of 
+                                <span id="allcount2"> 56 </span>
+                                results
+                            </div>
                             <ul class="pagination mb-0 pagination-shop justify-content-center justify-content-md-start">
-                                <li class="page-item"><a class="page-link current" href="#">1</a></li>
-                                <li class="page-item"><a class="page-link" href="#">2</a></li>
-                                <li class="page-item"><a class="page-link" href="#">3</a></li>
                             </ul>
                         </nav>
                         <!-- End Shop Pagination -->
                     </div>
                 </div>
             </div>
+
+            <script>
+
+                // Pagination for product archive
+                var itemList = document.querySelectorAll('.archive-item'); // Single items
+                var rows = 20;
+                let current_page = 1;
+                var list_element = document.getElementById('item-list'); // Items container
+                var paginationElement = document.querySelector('.pagination'); //Pagination container
+                var paginationButton = document.querySelector('.pagination').innerHTML; // Button HTML for loop
+                document.querySelector('.pagination').innerHTML = "";
+
+                // Setup Pagination
+                var page_count = Math.ceil(itemList.length / rows);
+
+                // Button loop
+                for(i = 0; i < page_count; i++) {
+                    paginationElement.innerHTML = paginationElement.innerHTML + '<li class="page-item"><a class="page-link">' + (i + 1) + '</a></li>';
+                }
+
+
+                // Set Product Information based on pagination
+
+                document.getElementById('allcount').innerHTML = itemList.length;
+                document.getElementById('allcount2').innerHTML = itemList.length;
+
+                function displayList(items, wrapper, rows_per_page, pages) {
+                    wrapper.innerHTML = "";
+                    pages--;
+
+                    let start = rows_per_page * pages;
+                    let end = start + rows_per_page;
+
+                    var paginatedItems = [];
+                    for (i = start; i < end; i++) {
+                        paginatedItems.push(items[i]);
+                    }
+
+                    for (let i = 0; i < rows_per_page; i++) {
+                        var itemCount = paginatedItems[i];
+                        wrapper.innerHTML = wrapper.innerHTML + itemCount.innerHTML;
+                    }   
+                }
+
+                displayList(itemList, list_element, rows, current_page);
+
+                // Pagination Button Action
+                var allButtons = document.querySelectorAll('.page-link');
+                allButtons[0].classList.add('current');
+                for(let i = 0; i < allButtons.length; i++) {
+                    let btn = allButtons[i];
+
+                    btn.addEventListener('click', function(){
+                        current_page = i + 1;
+                        displayList(itemList, list_element, rows, current_page);
+                        $('.page-link').removeClass("current");
+                        btn.classList.add('current');
+                        $('html, body').animate({ scrollTop: $('#fromto').offset().top }, 'fast');
+                    });
+                }
+                
+            </script>
 
 @endsection

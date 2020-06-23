@@ -30,25 +30,3 @@ Vue.component('example-component', require('./components/ExampleComponent.vue').
 const app = new Vue({
     el: '#app',
 });
-
-
-
-// Pagination for product archive
-
-var itemList = document.querySelectorAll('item-list');
-const paginationElement = document.getElementById('pagination');
-
-let current_page = 1;
-let rows = 20;
-
-function displayList (items, wrapper, rows_per_page, page) {
-    page--;
-
-    let start = rows_per_page * page;
-    let end = loop_start + rows_per_page;
-    let paginatedItems = items.slice(start, end);
-
-    for (let i = loop_start; i < rows; i++) {
-
-    }
-}

@@ -531,7 +531,7 @@
 	</div>
  <!-- End Television Entertainment -->
  
-<!-- Trending Products 
+<!-- Trending Products  -->
 <div class="container">
 	<div class="mb-8 position-relative">
 		<dv class="d-flex justify-content-between border-bottom border-color-1 flex-md-nowrap flex-wrap border-sm-bottom-0">
@@ -541,23 +541,25 @@
 		 data-arrow-left-classes="fa fa-angle-left right-1" data-arrow-right-classes="fa fa-angle-right right-0" data-pagi-classes="text-center right-0 bottom-1 left-0 u-slick__pagination u-slick__pagination--long mb-0 z-index-n1 mt-4">
 			<div class="js-slide">
 				<ul class="row list-unstyled products-group no-gutters mb-0 overflow-visible">
+					@foreach($fea as $p)
 					<li class="col-wd-3 col-md-4 product-item product-item__card pb-2 mb-2 pb-md-0 mb-md-0 border-bottom border-md-bottom-0">
 						<div class="product-item__outer h-100 w-100">
 							<div class="product-item__inner p-md-3 row no-gutters">
 								<div class="col col-lg-auto product-media-left">
-									<a href="../shop/single-product-fullwidth.html" class="max-width-150 d-block"><img class="img-fluid" src="/img/150X140/img1.jpg" alt="Image Description"></a>
+									<a href="{{ route('productSingle',$p->id)}}" class="max-width-150 d-block"><img class="img-fluid" src="{{ Voyager::image(json_decode($p->picture)[0]) }}" alt="Image Description"></a>
 								</div>
 								<div class="col product-item__body pl-2 pl-lg-3 mr-xl-2 mr-wd-1">
 									<div class="mb-4">
 										<div class="mb-2"><a href="../shop/product-categories-7-column-full-width.html" class="font-size-12 text-gray-5">Tablets</a></div>
-										<h5 class="product-item__title"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Tablet Air 3 WiFi 64GB Gold</a></h5>
+										<h5 class="product-item__title"><a href="{{ route('productSingle',$p->id)}}" class="text-blue font-weight-bold">{{$p->name}}</a></h5>
 									</div>
 									<div class="flex-center-between mb-3">
-										<div class="prodcut-price">
-											<div class="text-gray-100">$629,00</div>
+										<div class="prodcut-price" style="font-size: 0.9rem !important">
+											<div class="text-gray-100">ER: {{$p->unitPriceER}}¥</div>
+											<div class="text-gray-100">UB: {{$p->unitPriceUB}}¥</div>
 										</div>
 										<div class="d-none d-xl-block prodcut-add-cart">
-											<a href="../shop/single-product-fullwidth.html" class="btn-add-cart btn-primary transition-3d-hover"><i class="ec ec-add-to-cart"></i></a>
+											<a href="{{ route('productSingle',$p->id)}}" class="btn-add-cart btn-primary transition-3d-hover"><i class="ec ec-add-to-cart"></i></a>
 										</div>
 									</div>
 									<div class="product-item__footer">
@@ -570,114 +572,30 @@
 							</div>
 						</div>
 					</li>
-					<li class="col-wd-3 col-md-4 product-item product-item__card pb-2 mb-2 pb-md-0 mb-md-0 border-bottom border-md-bottom-0">
-						<div class="product-item__outer h-100 w-100">
-							<div class="product-item__inner p-md-3 row no-gutters">
-								<div class="col col-lg-auto product-media-left">
-									<a href="../shop/single-product-fullwidth.html" class="max-width-150 d-block"><img class="img-fluid" src="/img/150X140/img2.jpg" alt="Image Description"></a>
-								</div>
-								<div class="col product-item__body pl-2 pl-lg-3 mr-xl-2 mr-wd-1">
-									<div class="mb-4">
-										<div class="mb-2"><a href="../shop/product-categories-7-column-full-width.html" class="font-size-12 text-gray-5">Laptops & Computers</a></div>
-										<h5 class="product-item__title"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Tablet White EliteBook Revolve 810 G2</a></h5>
-									</div>
-									<div class="flex-center-between mb-3">
-										<div class="prodcut-price">
-											<div class="text-gray-100">$1 299,00</div>
-										</div>
-										<div class="d-none d-xl-block prodcut-add-cart">
-											<a href="../shop/single-product-fullwidth.html" class="btn-add-cart btn-primary transition-3d-hover"><i class="ec ec-add-to-cart"></i></a>
-										</div>
-									</div>
-									<div class="product-item__footer">
-										<div class="border-top pt-2 flex-center-between flex-wrap">
-											<a href="../shop/compare.html" class="text-gray-6 font-size-13"><i class="ec ec-compare mr-1 font-size-15"></i> Compare</a>
-											<a href="../shop/wishlist.html" class="text-gray-6 font-size-13"><i class="ec ec-favorites mr-1 font-size-15"></i> Wishlist</a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</li>
-					<li class="col-wd-3 col-md-4 product-item product-item__card d-none d-md-block pb-2 mb-2 pb-md-0 mb-md-0 border-bottom border-md-bottom-0">
-						<div class="product-item__outer h-100 w-100">
-							<div class="product-item__inner p-md-3 row no-gutters">
-								<div class="col col-lg-auto product-media-left">
-									<a href="../shop/single-product-fullwidth.html" class="max-width-150 d-block"><img class="img-fluid" src="/img/150X140/img7.jpg" alt="Image Description"></a>
-								</div>
-								<div class="col product-item__body pl-2 pl-lg-3 mr-xl-2 mr-wd-1">
-									<div class="mb-4">
-										<div class="mb-2"><a href="../shop/product-categories-7-column-full-width.html" class="font-size-12 text-gray-5">Headphones</a></div>
-										<h5 class="product-item__title"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">White Solo 2 Wireless</a></h5>
-									</div>
-									<div class="flex-center-between mb-3">
-										<div class="prodcut-price">
-											<div class="text-gray-100">$110,00</div>
-										</div>
-										<div class="d-none d-xl-block prodcut-add-cart">
-											<a href="../shop/single-product-fullwidth.html" class="btn-add-cart btn-primary transition-3d-hover"><i class="ec ec-add-to-cart"></i></a>
-										</div>
-									</div>
-									<div class="product-item__footer">
-										<div class="border-top pt-2 flex-center-between flex-wrap">
-											<a href="../shop/compare.html" class="text-gray-6 font-size-13"><i class="ec ec-compare mr-1 font-size-15"></i> Compare</a>
-											<a href="../shop/wishlist.html" class="text-gray-6 font-size-13"><i class="ec ec-favorites mr-1 font-size-15"></i> Wishlist</a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</li>
-					<li class="col-wd-3 col-md-4 product-item product-item__card pb-2 mb-2 pb-md-0 mb-md-0 remove-divider">
-						<div class="product-item__outer h-100 w-100">
-							<div class="product-item__inner p-md-3 row no-gutters">
-								<div class="col col-lg-auto product-media-left">
-									<a href="../shop/single-product-fullwidth.html" class="max-width-150 d-block"><img class="img-fluid" src="/img/150X140/img3.jpg" alt="Image Description"></a>
-								</div>
-								<div class="col product-item__body pl-2 pl-lg-3 mr-xl-2 mr-wd-1">
-									<div class="mb-4">
-										<div class="mb-2"><a href="../shop/product-categories-7-column-full-width.html" class="font-size-12 text-gray-5">Accesories</a></div>
-										<h5 class="product-item__title"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Pendrive USB 3.0 Flash 64 GB</a></h5>
-									</div>
-									<div class="flex-center-between mb-3">
-										<div class="prodcut-price">
-											<div class="text-gray-100">$110,00</div>
-										</div>
-										<div class="d-none d-xl-block prodcut-add-cart">
-											<a href="../shop/single-product-fullwidth.html" class="btn-add-cart btn-primary transition-3d-hover"><i class="ec ec-add-to-cart"></i></a>
-										</div>
-									</div>
-									<div class="product-item__footer">
-										<div class="border-top pt-2 flex-center-between flex-wrap">
-											<a href="../shop/compare.html" class="text-gray-6 font-size-13"><i class="ec ec-compare mr-1 font-size-15"></i> Compare</a>
-											<a href="../shop/wishlist.html" class="text-gray-6 font-size-13"><i class="ec ec-favorites mr-1 font-size-15"></i> Wishlist</a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</li>
+					@endforeach
 				</ul>
 			</div>
 			<div class="js-slide">
 				<ul class="row list-unstyled products-group no-gutters mb-0 overflow-visible">
+					@foreach($fee as $p)
 					<li class="col-wd-3 col-md-4 product-item product-item__card pb-2 mb-2 pb-md-0 mb-md-0 border-bottom border-md-bottom-0">
 						<div class="product-item__outer h-100 w-100">
 							<div class="product-item__inner p-md-3 row no-gutters">
 								<div class="col col-lg-auto product-media-left">
-									<a href="../shop/single-product-fullwidth.html" class="max-width-150 d-block"><img class="img-fluid" src="/img/150X140/img1.jpg" alt="Image Description"></a>
+									<a href="{{ route('productSingle',$p->id)}}" class="max-width-150 d-block"><img class="img-fluid" src="{{ Voyager::image(json_decode($p->picture)[0]) }}" alt="Image Description"></a>
 								</div>
 								<div class="col product-item__body pl-2 pl-lg-3 mr-xl-2 mr-wd-1">
 									<div class="mb-4">
 										<div class="mb-2"><a href="../shop/product-categories-7-column-full-width.html" class="font-size-12 text-gray-5">Tablets</a></div>
-										<h5 class="product-item__title"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Tablet Air 3 WiFi 64GB Gold</a></h5>
+										<h5 class="product-item__title"><a href="{{ route('productSingle',$p->id)}}" class="text-blue font-weight-bold">{{$p->name}}</a></h5>
 									</div>
 									<div class="flex-center-between mb-3">
-										<div class="prodcut-price">
-											<div class="text-gray-100">$629,00</div>
+										<div class="prodcut-price" style="font-size: 0.9rem !important">
+											<div class="text-gray-100">ER: {{$p->unitPriceER}}¥</div>
+											<div class="text-gray-100">UB: {{$p->unitPriceUB}}¥</div>
 										</div>
 										<div class="d-none d-xl-block prodcut-add-cart">
-											<a href="../shop/single-product-fullwidth.html" class="btn-add-cart btn-primary transition-3d-hover"><i class="ec ec-add-to-cart"></i></a>
+											<a href="{{ route('productSingle',$p->id)}}" class="btn-add-cart btn-primary transition-3d-hover"><i class="ec ec-add-to-cart"></i></a>
 										</div>
 									</div>
 									<div class="product-item__footer">
@@ -690,114 +608,30 @@
 							</div>
 						</div>
 					</li>
-					<li class="col-wd-3 col-md-4 product-item product-item__card pb-2 mb-2 pb-md-0 mb-md-0 border-bottom border-md-bottom-0">
-						<div class="product-item__outer h-100 w-100">
-							<div class="product-item__inner p-md-3 row no-gutters">
-								<div class="col col-lg-auto product-media-left">
-									<a href="../shop/single-product-fullwidth.html" class="max-width-150 d-block"><img class="img-fluid" src="/img/150X140/img2.jpg" alt="Image Description"></a>
-								</div>
-								<div class="col product-item__body pl-2 pl-lg-3 mr-xl-2 mr-wd-1">
-									<div class="mb-4">
-										<div class="mb-2"><a href="../shop/product-categories-7-column-full-width.html" class="font-size-12 text-gray-5">Laptops & Computers</a></div>
-										<h5 class="product-item__title"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Tablet White EliteBook Revolve 810 G2</a></h5>
-									</div>
-									<div class="flex-center-between mb-3">
-										<div class="prodcut-price">
-											<div class="text-gray-100">$1 299,00</div>
-										</div>
-										<div class="d-none d-xl-block prodcut-add-cart">
-											<a href="../shop/single-product-fullwidth.html" class="btn-add-cart btn-primary transition-3d-hover"><i class="ec ec-add-to-cart"></i></a>
-										</div>
-									</div>
-									<div class="product-item__footer">
-										<div class="border-top pt-2 flex-center-between flex-wrap">
-											<a href="../shop/compare.html" class="text-gray-6 font-size-13"><i class="ec ec-compare mr-1 font-size-15"></i> Compare</a>
-											<a href="../shop/wishlist.html" class="text-gray-6 font-size-13"><i class="ec ec-favorites mr-1 font-size-15"></i> Wishlist</a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</li>
-					<li class="col-wd-3 col-md-4 product-item product-item__card d-none d-md-block pb-2 mb-2 pb-md-0 mb-md-0 border-bottom border-md-bottom-0">
-						<div class="product-item__outer h-100 w-100">
-							<div class="product-item__inner p-md-3 row no-gutters">
-								<div class="col col-lg-auto product-media-left">
-									<a href="../shop/single-product-fullwidth.html" class="max-width-150 d-block"><img class="img-fluid" src="/img/150X140/img7.jpg" alt="Image Description"></a>
-								</div>
-								<div class="col product-item__body pl-2 pl-lg-3 mr-xl-2 mr-wd-1">
-									<div class="mb-4">
-										<div class="mb-2"><a href="../shop/product-categories-7-column-full-width.html" class="font-size-12 text-gray-5">Headphones</a></div>
-										<h5 class="product-item__title"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">White Solo 2 Wireless</a></h5>
-									</div>
-									<div class="flex-center-between mb-3">
-										<div class="prodcut-price">
-											<div class="text-gray-100">$110,00</div>
-										</div>
-										<div class="d-none d-xl-block prodcut-add-cart">
-											<a href="../shop/single-product-fullwidth.html" class="btn-add-cart btn-primary transition-3d-hover"><i class="ec ec-add-to-cart"></i></a>
-										</div>
-									</div>
-									<div class="product-item__footer">
-										<div class="border-top pt-2 flex-center-between flex-wrap">
-											<a href="../shop/compare.html" class="text-gray-6 font-size-13"><i class="ec ec-compare mr-1 font-size-15"></i> Compare</a>
-											<a href="../shop/wishlist.html" class="text-gray-6 font-size-13"><i class="ec ec-favorites mr-1 font-size-15"></i> Wishlist</a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</li>
-					<li class="col-wd-3 col-md-4 product-item product-item__card pb-2 mb-2 pb-md-0 mb-md-0 remove-divider">
-						<div class="product-item__outer h-100 w-100">
-							<div class="product-item__inner p-md-3 row no-gutters">
-								<div class="col col-lg-auto product-media-left">
-									<a href="../shop/single-product-fullwidth.html" class="max-width-150 d-block"><img class="img-fluid" src="/img/150X140/img3.jpg" alt="Image Description"></a>
-								</div>
-								<div class="col product-item__body pl-2 pl-lg-3 mr-xl-2 mr-wd-1">
-									<div class="mb-4">
-										<div class="mb-2"><a href="../shop/product-categories-7-column-full-width.html" class="font-size-12 text-gray-5">Accesories</a></div>
-										<h5 class="product-item__title"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Pendrive USB 3.0 Flash 64 GB</a></h5>
-									</div>
-									<div class="flex-center-between mb-3">
-										<div class="prodcut-price">
-											<div class="text-gray-100">$110,00</div>
-										</div>
-										<div class="d-none d-xl-block prodcut-add-cart">
-											<a href="../shop/single-product-fullwidth.html" class="btn-add-cart btn-primary transition-3d-hover"><i class="ec ec-add-to-cart"></i></a>
-										</div>
-									</div>
-									<div class="product-item__footer">
-										<div class="border-top pt-2 flex-center-between flex-wrap">
-											<a href="../shop/compare.html" class="text-gray-6 font-size-13"><i class="ec ec-compare mr-1 font-size-15"></i> Compare</a>
-											<a href="../shop/wishlist.html" class="text-gray-6 font-size-13"><i class="ec ec-favorites mr-1 font-size-15"></i> Wishlist</a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</li>
+					@endforeach
 				</ul>
 			</div>
 			<div class="js-slide">
 				<ul class="row list-unstyled products-group no-gutters mb-0 overflow-visible">
+					@foreach($faa as $p)
 					<li class="col-wd-3 col-md-4 product-item product-item__card pb-2 mb-2 pb-md-0 mb-md-0 border-bottom border-md-bottom-0">
 						<div class="product-item__outer h-100 w-100">
 							<div class="product-item__inner p-md-3 row no-gutters">
 								<div class="col col-lg-auto product-media-left">
-									<a href="../shop/single-product-fullwidth.html" class="max-width-150 d-block"><img class="img-fluid" src="/img/150X140/img1.jpg" alt="Image Description"></a>
+									<a href="{{ route('productSingle',$p->id)}}" class="max-width-150 d-block"><img class="img-fluid" src="{{ Voyager::image(json_decode($p->picture)[0]) }}" alt="Image Description"></a>
 								</div>
 								<div class="col product-item__body pl-2 pl-lg-3 mr-xl-2 mr-wd-1">
 									<div class="mb-4">
 										<div class="mb-2"><a href="../shop/product-categories-7-column-full-width.html" class="font-size-12 text-gray-5">Tablets</a></div>
-										<h5 class="product-item__title"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Tablet Air 3 WiFi 64GB Gold</a></h5>
+										<h5 class="product-item__title"><a href="{{ route('productSingle',$p->id)}}" class="text-blue font-weight-bold">{{$p->name}}</a></h5>
 									</div>
 									<div class="flex-center-between mb-3">
-										<div class="prodcut-price">
-											<div class="text-gray-100">$629,00</div>
+										<div class="prodcut-price" style="font-size: 0.9rem !important">
+											<div class="text-gray-100">ER: {{$p->unitPriceER}}¥</div>
+											<div class="text-gray-100">UB: {{$p->unitPriceUB}}¥</div>
 										</div>
 										<div class="d-none d-xl-block prodcut-add-cart">
-											<a href="../shop/single-product-fullwidth.html" class="btn-add-cart btn-primary transition-3d-hover"><i class="ec ec-add-to-cart"></i></a>
+											<a href="{{ route('productSingle',$p->id)}}" class="btn-add-cart btn-primary transition-3d-hover"><i class="ec ec-add-to-cart"></i></a>
 										</div>
 									</div>
 									<div class="product-item__footer">
@@ -810,99 +644,13 @@
 							</div>
 						</div>
 					</li>
-					<li class="col-wd-3 col-md-4 product-item product-item__card pb-2 mb-2 pb-md-0 mb-md-0 border-bottom border-md-bottom-0">
-						<div class="product-item__outer h-100 w-100">
-							<div class="product-item__inner p-md-3 row no-gutters">
-								<div class="col col-lg-auto product-media-left">
-									<a href="../shop/single-product-fullwidth.html" class="max-width-150 d-block"><img class="img-fluid" src="/img/150X140/img2.jpg" alt="Image Description"></a>
-								</div>
-								<div class="col product-item__body pl-2 pl-lg-3 mr-xl-2 mr-wd-1">
-									<div class="mb-4">
-										<div class="mb-2"><a href="../shop/product-categories-7-column-full-width.html" class="font-size-12 text-gray-5">Laptops & Computers</a></div>
-										<h5 class="product-item__title"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Tablet White EliteBook Revolve 810 G2</a></h5>
-									</div>
-									<div class="flex-center-between mb-3">
-										<div class="prodcut-price">
-											<div class="text-gray-100">$1 299,00</div>
-										</div>
-										<div class="d-none d-xl-block prodcut-add-cart">
-											<a href="../shop/single-product-fullwidth.html" class="btn-add-cart btn-primary transition-3d-hover"><i class="ec ec-add-to-cart"></i></a>
-										</div>
-									</div>
-									<div class="product-item__footer">
-										<div class="border-top pt-2 flex-center-between flex-wrap">
-											<a href="../shop/compare.html" class="text-gray-6 font-size-13"><i class="ec ec-compare mr-1 font-size-15"></i> Compare</a>
-											<a href="../shop/wishlist.html" class="text-gray-6 font-size-13"><i class="ec ec-favorites mr-1 font-size-15"></i> Wishlist</a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</li>
-					<li class="col-wd-3 col-md-4 product-item product-item__card d-none d-md-block pb-2 mb-2 pb-md-0 mb-md-0 border-bottom border-md-bottom-0">
-						<div class="product-item__outer h-100 w-100">
-							<div class="product-item__inner p-md-3 row no-gutters">
-								<div class="col col-lg-auto product-media-left">
-									<a href="../shop/single-product-fullwidth.html" class="max-width-150 d-block"><img class="img-fluid" src="/img/150X140/img7.jpg" alt="Image Description"></a>
-								</div>
-								<div class="col product-item__body pl-2 pl-lg-3 mr-xl-2 mr-wd-1">
-									<div class="mb-4">
-										<div class="mb-2"><a href="../shop/product-categories-7-column-full-width.html" class="font-size-12 text-gray-5">Headphones</a></div>
-										<h5 class="product-item__title"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">White Solo 2 Wireless</a></h5>
-									</div>
-									<div class="flex-center-between mb-3">
-										<div class="prodcut-price">
-											<div class="text-gray-100">$110,00</div>
-										</div>
-										<div class="d-none d-xl-block prodcut-add-cart">
-											<a href="../shop/single-product-fullwidth.html" class="btn-add-cart btn-primary transition-3d-hover"><i class="ec ec-add-to-cart"></i></a>
-										</div>
-									</div>
-									<div class="product-item__footer">
-										<div class="border-top pt-2 flex-center-between flex-wrap">
-											<a href="../shop/compare.html" class="text-gray-6 font-size-13"><i class="ec ec-compare mr-1 font-size-15"></i> Compare</a>
-											<a href="../shop/wishlist.html" class="text-gray-6 font-size-13"><i class="ec ec-favorites mr-1 font-size-15"></i> Wishlist</a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</li>
-					<li class="col-wd-3 col-md-4 product-item product-item__card pb-2 mb-2 pb-md-0 mb-md-0 remove-divider">
-						<div class="product-item__outer h-100 w-100">
-							<div class="product-item__inner p-md-3 row no-gutters">
-								<div class="col col-lg-auto product-media-left">
-									<a href="../shop/single-product-fullwidth.html" class="max-width-150 d-block"><img class="img-fluid" src="/img/150X140/img3.jpg" alt="Image Description"></a>
-								</div>
-								<div class="col product-item__body pl-2 pl-lg-3 mr-xl-2 mr-wd-1">
-									<div class="mb-4">
-										<div class="mb-2"><a href="../shop/product-categories-7-column-full-width.html" class="font-size-12 text-gray-5">Accesories</a></div>
-										<h5 class="product-item__title"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Pendrive USB 3.0 Flash 64 GB</a></h5>
-									</div>
-									<div class="flex-center-between mb-3">
-										<div class="prodcut-price">
-											<div class="text-gray-100">$110,00</div>
-										</div>
-										<div class="d-none d-xl-block prodcut-add-cart">
-											<a href="../shop/single-product-fullwidth.html" class="btn-add-cart btn-primary transition-3d-hover"><i class="ec ec-add-to-cart"></i></a>
-										</div>
-									</div>
-									<div class="product-item__footer">
-										<div class="border-top pt-2 flex-center-between flex-wrap">
-											<a href="../shop/compare.html" class="text-gray-6 font-size-13"><i class="ec ec-compare mr-1 font-size-15"></i> Compare</a>
-											<a href="../shop/wishlist.html" class="text-gray-6 font-size-13"><i class="ec ec-favorites mr-1 font-size-15"></i> Wishlist</a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</li>
+					@endforeach
 				</ul>
 			</div>
 		</div>
 	</div>
 </div>
- End Trending Products -->
+ <!-- End Trending Products -->
 
 <div class="container">
 

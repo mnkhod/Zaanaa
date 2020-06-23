@@ -45,7 +45,7 @@
 							<div class="topbar-right ml-auto">
 								<ul class="list-inline mb-0">
 									<li class="list-inline-item mr-0 u-header-topbar__nav-item u-header-topbar__nav-item-border">
-										<a href="#" class="u-header-topbar__nav-link"><i class="ec ec-map-pointer mr-1"></i> Store Locator</a>
+										<a href="{{ route('contact') }}" class="u-header-topbar__nav-link"><i class="ec ec-map-pointer mr-1"></i> Store Locator</a>
 									</li>
 									<li class="list-inline-item mr-0 u-header-topbar__nav-item u-header-topbar__nav-item-border u-header-topbar__nav-item-no-border u-header-topbar__nav-item-border-single">
 										<div class="d-flex align-items-center">
@@ -55,13 +55,13 @@
 												 aria-controls="languageDropdown" aria-haspopup="true" aria-expanded="false" data-unfold-event="hover" data-unfold-target="#languageDropdown" data-unfold-type="css-animation" data-unfold-duration="300"
 												 data-unfold-delay="300" data-unfold-hide-on-scroll="true" data-unfold-animation-in="slideInUp" data-unfold-animation-out="fadeOut">
 													<span class="d-inline-block d-sm-none">US</span>
-													<span class="d-none d-sm-inline-flex align-items-center"><i class="ec ec-dollar mr-1"></i> Dollar (US)</span>
+													<span class="d-none d-sm-inline-flex align-items-center"> Choose Language: </span>
 												</a>
 
 												<div id="languageDropdown" class="dropdown-menu dropdown-unfold" aria-labelledby="languageDropdownInvoker">
 													<a class="dropdown-item active" href="#">English</a>
-													<a class="dropdown-item" href="#">Deutsch</a>
-													<a class="dropdown-item" href="#">Español‎</a>
+													<a class="dropdown-item" href="#">Chinese</a>
+													<a class="dropdown-item" href="#">Mongolia</a>
 												</div>
 											</div>
 											<!-- End Language -->
@@ -420,15 +420,16 @@
 														<div class="row">
 															<div class="col">
 																<a href="#" class="d-block">
-																	<img class="img-fluid" src="{{ Voyager::image('products/June2020/GDqjyGiD1pPOjdam16lI.jpg') }}" alt="Image Description">
+																	<img class="img-fluid" src="{{ Voyager::image('products/June2020/EsDc7c8SSnHxiRpHu8RZ.jpg') }}" alt="Image Description">
 																</a>
 															</div>
 															<div class="col">
 																<span class="u-header__sub-menu-title">Playgrounds</span>
 																<ul class="u-header__sub-menu-nav-group">
-																	<li><a href="#" class="nav-link u-header__sub-menu-nav-link">All Playgrounds</a></li>
-																	<li><a href="#" class="nav-link u-header__sub-menu-nav-link">Local Playground</a></li>
-																	<li><a href="#" class="nav-link u-header__sub-menu-nav-link">Public Playground</a></li>
+																	@foreach($featured as $p)
+																		<li><a href="{{ route('productSingle',$p->id)}}" class="nav-link u-header__sub-menu-nav-link">{{$p->name}}</a></li>
+													
+																	@endforeach
 																</ul>
 															</div>
 														</div>
@@ -437,17 +438,15 @@
 														<div class="row">
 															<div class="col">
 																<a href="#" class="d-block">
-																	<img class="img-fluid" src="{{ Voyager::image('products/June2020/GDqjyGiD1pPOjdam16lI.jpg') }}" alt="Image Description">
+																	<img class="img-fluid" src="{{ Voyager::image('products/June2020/iq7g0RgXEDt0Pbc7sTVL.JPG') }}" alt="Image Description">
 																</a>
 															</div>
 															<div class="col">
-																<span class="u-header__sub-menu-title">Children Sliders</span>
+																<span class="u-header__sub-menu-title">Environment Decoration</span>
 																<ul class="u-header__sub-menu-nav-group">
-																	<li><a href="#" class="nav-link u-header__sub-menu-nav-link">Games &amp; Accessories</a></li>
-																	<li><a href="#" class="nav-link u-header__sub-menu-nav-link">PC Games</a></li>
-																	<li><a href="#" class="nav-link u-header__sub-menu-nav-link">New Releases</a></li>
-																	<li><a href="#" class="nav-link u-header__sub-menu-nav-link">Consoles</a></li>
-																	<li><a href="#" class="nav-link u-header__sub-menu-nav-link">Accessories</a></li>
+																	@foreach($maintenance as $p)
+																		<li><a href="{{ route('productSingle',$p->id)}}" class="nav-link u-header__sub-menu-nav-link">{{$p->name}}</a></li>
+																	@endforeach
 																</ul>
 															</div>
 														</div>
@@ -456,17 +455,15 @@
 														<div class="row">
 															<div class="col">
 																<a href="#" class="d-block">
-																	<img class="img-fluid" src="{{ Voyager::image('products/June2020/GDqjyGiD1pPOjdam16lI.jpg') }}" alt="Image Description">
+																	<img class="img-fluid" src="{{ Voyager::image('products/June2020/bFjEjo3xcdxTBRsOXPCh.JPG') }}" alt="Image Description">
 																</a>
 															</div>
 															<div class="col">
 																<span class="u-header__sub-menu-title">New Items</span>
 																<ul class="u-header__sub-menu-nav-group">
-																	<li><a href="#" class="nav-link u-header__sub-menu-nav-link">5.1 Speaker</a></li>
-																	<li><a href="#" class="nav-link u-header__sub-menu-nav-link">Home Theatres</a></li>
-																	<li><a href="#" class="nav-link u-header__sub-menu-nav-link">Soundbars</a></li>
-																	<li><a href="#" class="nav-link u-header__sub-menu-nav-link">Accessories</a></li>
-																	<li><a href="#" class="nav-link u-header__sub-menu-nav-link">Consoles</a></li>
+																	@foreach($hoop as $p)
+																		<li><a href="{{ route('productSingle',$p->id)}}" class="nav-link u-header__sub-menu-nav-link">{{$p->name}}</a></li>
+																	@endforeach
 																</ul>
 															</div>
 														</div>
