@@ -303,16 +303,6 @@
                                 results
                             </div>
                             <ul class="pagination mb-0 pagination-shop justify-content-center justify-content-md-start">
-                                <!-- <li class="page-item"><a class="page-link current" href="">1</a></li>
-                                <li class="page-item"><a class="page-link" href="">2</a></li>
-                                <li class="page-item"><a class="page-link" href="">3</a></li>
-                                <li class="page-item"><a class="page-link" href="">4</a></li>
-                                <li class="page-item"><a class="page-link" href="">5</a></li>
-                                <li class="page-item"><a class="page-link" href="">6</a></li>
-                                <li class="page-item"><a class="page-link" href="">7</a></li>
-                                <li class="page-item"><a class="page-link" href="">8</a></li>
-                                <li class="page-item"><a class="page-link" href="">9</a></li>
-                                <li class="page-item"><a class="page-link" href="">10</a></li> -->
                             </ul>
                         </nav>
                         <!-- End Shop Pagination -->
@@ -320,50 +310,66 @@
                 </div>
             </div>
 
-            <!-- <script>
-                // Pagination Button Action
-                var allButtons = document.querySelectorAll('.page-link');
-                for(i = 0; i < allButtons.length; i++) {
-
-                    var a = i;
-                    allButtons[a].addEventListener('click', function(){
-                        current_page = a + 1;
-                    })
-                }
+            <script>
 
                 // Pagination for product archive
+                var itemList = document.querySelectorAll('.archive-item'); // Single items
+                var rows = 20;
+                let current_page = 1;
+                var list_element = document.getElementById('item-list'); // Items container
+                var paginationElement = document.querySelector('.pagination'); //Pagination container
+                var paginationButton = document.querySelector('.pagination').innerHTML; // Button HTML for loop
+                document.querySelector('.pagination').innerHTML = "";
 
-                var itemList = document.querySelectorAll('.archive-item');
+                // Setup Pagination
+                var page_count = Math.ceil(itemList.length / rows);
+
+                // Button loop
+                for(i = 0; i < page_count; i++) {
+                    paginationElement.innerHTML = paginationElement.innerHTML + '<li class="page-item"><a class="page-link">' + (i + 1) + '</a></li>';
+                }
+
 
                 // Set Product Information based on pagination
 
                 document.getElementById('allcount').innerHTML = itemList.length;
                 document.getElementById('allcount2').innerHTML = itemList.length;
 
-                var list_element = document.getElementById('item-list');
-                var paginationElement = document.querySelector('.pagination');
+                function displayList(items, wrapper, rows_per_page, pages) {
+                    wrapper.innerHTML = "";
+                    pages--;
 
-                var rows = 20;
-
-                    list_element.innerHTML = "";
-                    current_page--;
-
-                    let start = rows * current_page;
-                    let end = start + rows;
+                    let start = rows_per_page * pages;
+                    let end = start + rows_per_page;
 
                     var paginatedItems = [];
-                    for (let i = start; i < end; i++) {
-                        paginatedItems.push(itemList[i]);
+                    for (i = start; i < end; i++) {
+                        paginatedItems.push(items[i]);
                     }
 
-                    for (let i = 0; i < rows; i++) {
-                        let itemCount = paginatedItems[i];
-                        list_element.innerHTML = list_element.innerHTML + itemCount.innerHTML;
-                    }
+                    for (let i = 0; i < rows_per_page; i++) {
+                        var itemCount = paginatedItems[i];
+                        wrapper.innerHTML = wrapper.innerHTML + itemCount.innerHTML;
+                    }   
+                }
 
+                displayList(itemList, list_element, rows, current_page);
 
-                // Setup Pagination
-                var page_count = Math.ceil(itemList.length / rows);
-            </script> -->
+                // Pagination Button Action
+                var allButtons = document.querySelectorAll('.page-link');
+                allButtons[0].classList.add('current');
+                for(let i = 0; i < allButtons.length; i++) {
+                    let btn = allButtons[i];
+
+                    btn.addEventListener('click', function(){
+                        current_page = i + 1;
+                        displayList(itemList, list_element, rows, current_page);
+                        $('.page-link').removeClass("current");
+                        btn.classList.add('current');
+                        $('html, body').animate({ scrollTop: $('#fromto').offset().top }, 'fast');
+                    });
+                }
+                
+            </script>
 
 @endsection
