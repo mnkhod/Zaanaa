@@ -404,7 +404,7 @@
 	<!-- End Tab Prodcut Section -->
 </div>
 <!-- Television Entertainment -->
-	<div class="mb-6" style="background-image: url(/img/1920X422/silder3.jpg); background-size: contain">
+	<div class="mb-6" style="background-image: url(/img/1920X422/silder3.jpg); background-size: contain; margin-top: 20px">
 		<div class="container">
 			<div class="row min-height-564 align-items-center">
 				<div class="col-12 col-lg-4 col-xl-5 col-wd-6 d-none d-md-block">
