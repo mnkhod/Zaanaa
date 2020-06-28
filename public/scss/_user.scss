@@ -1,3 +1,13 @@
 /*------------------------------------
   File for your custom SCSS style
 ------------------------------------*/
+
+
+.slider-image{
+  padding: 2rem !important;
+  margin-right: 4.5rem !important;
+
+  @media screen and (max-width: 768px){
+    padding: 0 !important;
+  }
+}

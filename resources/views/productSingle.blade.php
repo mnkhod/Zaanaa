@@ -56,7 +56,6 @@
 								<small class="fas fa-star"></small>
 								<small class="far fa-star text-muted"></small>
 							</div>
-							<span class="text-secondary font-size-13">(3 customer reviews)</span>
 						</a>
 					</div>
 					<div class="mb-2">
@@ -65,20 +64,20 @@
 						</ul>
 					</div>
 					<p>{{ $p->description }}</p>
-					<p>Size: <strong>{{ $p->size }}</strong></p>
+					<p>{{__('Size')}}: <strong>{{ $p->size }}</strong></p>
 					<p><strong>SKU</strong>: FW511948218</p>
 				</div>
 			</div>
 			<div class="mx-md-auto mx-lg-0 col-md-6 col-lg-4 col-xl-3">
 				<div class="mb-2">
 					<div class="card p-5 border-width-2 border-color-1 borders-radius-17">
-						<div class="text-gray-9 font-size-14 pb-2 border-color-1 border-bottom mb-3">Availability: <span class="text-green font-weight-bold">{{$p->unitsInStock}} in stock</span></div>
+						<div class="text-gray-9 font-size-14 pb-2 border-color-1 border-bottom mb-3">{{__('Availability')}}: <span class="text-green font-weight-bold">{{$p->unitsInStock}} {{__('in stock')}}</span></div>
 						<div class="mb-3">
 						<div class="font-size-36 text-center">ER: {{$p->unitPriceER}}¥</div>
 						<div class="font-size-36 text-center">UB: {{$p->unitPriceUB}}¥</div>
 						</div>
 						<div class="mb-3">
-							<h6 class="font-size-14">Quantity</h6>
+							<h6 class="font-size-14">{{__('Quantity')}}</h6>
 							<!-- Quantity -->
 							<div class="border rounded-pill py-1 w-md-60 height-35 px-3 border-color-1">
 								<div class="js-quantity row align-items-center">
@@ -98,14 +97,14 @@
 							<!-- End Quantity -->
 						</div>
 						<div class="mb-2 pb-0dot5">
-							<a href="{{ route('profileChart') }}" class="btn btn-block btn-primary-dark"><i class="ec ec-add-to-cart mr-2 font-size-20"></i> Add to Cart</a>
+							<a href="{{ route('profileChart') }}" class="btn btn-block btn-primary-dark"><i class="ec ec-add-to-cart mr-2 font-size-20"></i>{{__('Add to Cart')}}</a>
 						</div>
 						<div class="mb-3">
-							<a href="{{ route('profileCheckout') }}" class="btn btn-block btn-dark">Buy Now</a>
+							<a href="{{ route('profileCheckout') }}" class="btn btn-block btn-dark">{{__('Buy Now')}}</a>
 						</div>
 						<div class="flex-content-center flex-wrap">
-							<a href="{{ route('profileWishlist') }}" class="text-gray-6 font-size-13 mr-2"><i class="ec ec-favorites mr-1 font-size-15"></i> Wishlist</a>
-							<a href="{{ route('productCompare') }}" class="text-gray-6 font-size-13 ml-2"><i class="ec ec-compare mr-1 font-size-15"></i> Compare</a>
+							<a href="{{ route('profileWishlist') }}" class="text-gray-6 font-size-13 mr-2"><i class="ec ec-favorites mr-1 font-size-15"></i> {{__('Wishlist')}}</a>
+							<a href="{{ route('productCompare') }}" class="text-gray-6 font-size-13 ml-2"><i class="ec ec-compare mr-1 font-size-15"></i> {{__('Compare')}}</a>
 						</div>
 					</div>
 				</div>
@@ -124,28 +123,28 @@
 							<li class="nav-item flex-shrink-0 flex-xl-shrink-1 z-index-2">
 								<a class="nav-link active" href="#Description">
 									<div class="d-md-flex justify-content-md-center align-items-md-center">
-										Description
+										{{__('Description')}}
 									</div>
 								</a>
 							</li>
 							<li class="nav-item flex-shrink-0 flex-xl-shrink-1 z-index-2">
 								<a class="nav-link" href="#Specification">
 									<div class="d-md-flex justify-content-md-center align-items-md-center">
-										Specification
+										{{__('Specification')}}
 									</div>
 								</a>
 							</li>
-							<li class="nav-item flex-shrink-0 flex-xl-shrink-1 z-index-2">
+							<!-- <li class="nav-item flex-shrink-0 flex-xl-shrink-1 z-index-2">
 								<a class="nav-link" href="#Reviews">
 									<div class="d-md-flex justify-content-md-center align-items-md-center">
 										Reviews
 									</div>
 								</a>
-							</li>
+							</li> -->
 						</ul>
 					</div>
 					<div class="mx-md-4 pt-1">
-            <p>{{$p->description}}</p>
+            			<p>{{$p->description}}</p>
 					</div>
 				</div>
 			</div>
@@ -156,33 +155,33 @@
 							<li class="nav-item flex-shrink-0 flex-xl-shrink-1 z-index-2">
 								<a class="nav-link" href="#Description">
 									<div class="d-md-flex justify-content-md-center align-items-md-center">
-										Description
+										{{__('Description')}}
 									</div>
 								</a>
 							</li>
 							<li class="nav-item flex-shrink-0 flex-xl-shrink-1 z-index-2">
 								<a class="nav-link active" href="#Specification">
 									<div class="d-md-flex justify-content-md-center align-items-md-center">
-										Specification
+										{{__('Specification')}}
 									</div>
 								</a>
 							</li>
-							<li class="nav-item flex-shrink-0 flex-xl-shrink-1 z-index-2">
+							<!-- <li class="nav-item flex-shrink-0 flex-xl-shrink-1 z-index-2">
 								<a class="nav-link" href="#Reviews">
 									<div class="d-md-flex justify-content-md-center align-items-md-center">
 										Reviews
 									</div>
 								</a>
-							</li>
+							</li> -->
 						</ul>
 					</div>
 					<div class="mx-md-5 pt-1">
-						<h3 class="font-size-18 mb-4">Technical Specifications</h3>
+						<h3 class="font-size-18 mb-4">{{__('Technical Specifications')}}</h3>
 						<div class="table-responsive">
 							<table class="table table-hover">
 								<tbody>
 									<tr>
-										<th class="px-4 px-xl-5">Item Size</th>
+										<th class="px-4 px-xl-5">{{__('Item Size')}}</th>
 										<td>{{$p->size}}</td>
 									</tr>
 								</tbody>
@@ -191,7 +190,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="bg-white py-4 px-xl-11 px-md-5 px-4 mb-6">
+			<!-- <div class="bg-white py-4 px-xl-11 px-md-5 px-4 mb-6">
 				<div id="Reviews" class="mx-md-2">
 					<div class="position-relative mb-6">
 						<ul class="nav nav-classic nav-tab nav-tab-lg justify-content-xl-center mb-6 flex-nowrap flex-xl-wrap overflow-auto overflow-xl-visble border-lg-down-bottom-0 pb-1 pb-xl-0 mb-n1 mb-xl-0">
@@ -208,27 +207,27 @@
 										Specification
 									</div>
 								</a>
-							</li>
-							<li class="nav-item flex-shrink-0 flex-xl-shrink-1 z-index-2">
+							</li> -->
+							<!-- <li class="nav-item flex-shrink-0 flex-xl-shrink-1 z-index-2">
 								<a class="nav-link active" href="#Reviews">
 									<div class="d-md-flex justify-content-md-center align-items-md-center">
 										Reviews
 									</div>
 								</a>
-							</li>
-						</ul>
-					</div>
-					<div class="mb-4 px-lg-4">
+							</li> -->
+						<!-- </ul>
+					</div> -->
+					<!-- <div class="mb-4 px-lg-4">
 						<div class="row mb-8">
 							<div class="col-md-6">
 								<div class="mb-3">
 									<h3 class="font-size-18 mb-6">Based on 3 reviews</h3>
 									<h2 class="font-size-30 font-weight-bold text-lh-1 mb-0">4.3</h2>
 									<div class="text-lh-1">overall</div>
-								</div>
+								</div> -->
 
 								<!-- Ratings -->
-								<ul class="list-unstyled">
+								<!-- <ul class="list-unstyled">
 									<li class="py-1">
 										<a class="row align-items-center mx-gutters-2 font-size-1" href="javascript:;">
 											<div class="col-auto mb-2 mb-md-0">
@@ -334,12 +333,12 @@
 											</div>
 										</a>
 									</li>
-								</ul>
+								</ul> -->
 								<!-- End Ratings -->
-							</div>
+							<!-- </div>
 							<div class="col-md-6">
 								<h3 class="font-size-18 mb-5">Add a review</h3>
-								<!-- Form -->
+								Form
 								<form class="js-validate">
 									<div class="row align-items-center mb-4">
 										<div class="col-md-4 col-lg-3">
@@ -391,12 +390,12 @@
 									</div>
 								</form>
 								<!-- End Form -->
-							</div>
-						</div>
+							<!-- </div>
+						</div> -->
 						<!-- Review -->
-						<div class="border-bottom border-color-1 pb-4 mb-4">
+						<!-- <div class="border-bottom border-color-1 pb-4 mb-4"> -->
 							<!-- Review Rating -->
-							<div class="d-flex justify-content-between align-items-center text-secondary font-size-1 mb-2">
+							<!-- <div class="d-flex justify-content-between align-items-center text-secondary font-size-1 mb-2">
 								<div class="text-warning text-ls-n2 font-size-16" style="width: 80px;">
 									<small class="fas fa-star"></small>
 									<small class="fas fa-star"></small>
@@ -404,24 +403,24 @@
 									<small class="far fa-star text-muted"></small>
 									<small class="far fa-star text-muted"></small>
 								</div>
-							</div>
+							</div> -->
 							<!-- End Review Rating -->
-
+<!-- 
 							<p class="text-gray-90">Fusce vitae nibh mi. Integer posuere, libero et ullamcorper facilisis, enim eros tincidunt orci, eget vestibulum sapien nisi ut leo. Cras finibus vel est ut mollis. Donec luctus condimentum ante et
-								euismod.</p>
+								euismod.</p> -->
 
 							<!-- Reviewer -->
-							<div class="mb-2">
+							<!-- <div class="mb-2">
 								<strong>John Doe</strong>
 								<span class="font-size-13 text-gray-23">- April 3, 2019</span>
-							</div>
+							</div> -->
 							<!-- End Reviewer -->
-						</div>
+						<!-- </div> -->
 						<!-- End Review -->
 						<!-- Review -->
-						<div class="border-bottom border-color-1 pb-4 mb-4">
+						<!-- <div class="border-bottom border-color-1 pb-4 mb-4"> -->
 							<!-- Review Rating -->
-							<div class="d-flex justify-content-between align-items-center text-secondary font-size-1 mb-2">
+							<!-- <div class="d-flex justify-content-between align-items-center text-secondary font-size-1 mb-2">
 								<div class="text-warning text-ls-n2 font-size-16" style="width: 80px;">
 									<small class="fas fa-star"></small>
 									<small class="fas fa-star"></small>
@@ -429,24 +428,24 @@
 									<small class="fas fa-star"></small>
 									<small class="fas fa-star"></small>
 								</div>
-							</div>
+							</div> -->
 							<!-- End Review Rating -->
 
-							<p class="text-gray-90">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse eget facilisis odio. Duis sodales augue eu tincidunt faucibus. Etiam justo ligula, placerat
-								ac augue id, volutpat porta dui.</p>
+							<!-- <p class="text-gray-90">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse eget facilisis odio. Duis sodales augue eu tincidunt faucibus. Etiam justo ligula, placerat
+								ac augue id, volutpat porta dui.</p> -->
 
 							<!-- Reviewer -->
-							<div class="mb-2">
+							<!-- <div class="mb-2">
 								<strong>Anna Kowalsky</strong>
 								<span class="font-size-13 text-gray-23">- April 3, 2019</span>
-							</div>
+							</div> -->
 							<!-- End Reviewer -->
-						</div>
+						<!-- </div> -->
 						<!-- End Review -->
 						<!-- Review -->
-						<div class="pb-4 mb-4">
+						<!-- <div class="pb-4 mb-4"> -->
 							<!-- Review Rating -->
-							<div class="d-flex justify-content-between align-items-center text-secondary font-size-1 mb-2">
+							<!-- <div class="d-flex justify-content-between align-items-center text-secondary font-size-1 mb-2">
 								<div class="text-warning text-ls-n2 font-size-16" style="width: 80px;">
 									<small class="fas fa-star"></small>
 									<small class="fas fa-star"></small>
@@ -454,22 +453,22 @@
 									<small class="fas fa-star"></small>
 									<small class="far fa-star text-muted"></small>
 								</div>
-							</div>
+							</div> -->
 							<!-- End Review Rating -->
 
-							<p class="text-gray-90">Sed id tincidunt sapien. Pellentesque cursus accumsan tellus, nec ultricies nulla sollicitudin eget. Donec feugiat orci vestibulum porttitor sagittis.</p>
+							<!-- <p class="text-gray-90">Sed id tincidunt sapien. Pellentesque cursus accumsan tellus, nec ultricies nulla sollicitudin eget. Donec feugiat orci vestibulum porttitor sagittis.</p> -->
 
 							<!-- Reviewer -->
-							<div class="mb-2">
+							<!-- <div class="mb-2">
 								<strong>Peter Wargner</strong>
 								<span class="font-size-13 text-gray-23">- April 3, 2019</span>
-							</div>
+							</div> -->
 							<!-- End Reviewer -->
-						</div>
-						<!-- End Review -->
-					</div>
-				</div>
-			</div>
+						<!-- </div>
+						End Review
+					</div> -->
+				<!-- </div>
+			</div> -->
 		</div>
 	</div>
 </div>
@@ -477,7 +476,7 @@
 	<!-- Related products -->
 	<div class="mb-6">
 		<div class="d-flex justify-content-between align-items-center border-bottom border-color-1 flex-lg-nowrap flex-wrap mb-4">
-			<h3 class="section-title mb-0 pb-2 font-size-22">Related products</h3>
+			<h3 class="section-title mb-0 pb-2 font-size-22">{{__('Related products')}}</h3>
 		</div>
 		<ul class="row list-unstyled products-group no-gutters">
       @foreach($related as $x)
