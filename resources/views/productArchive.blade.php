@@ -8,8 +8,8 @@
                     <div class="my-md-3">
                         <nav aria-label="breadcrumb">
                             <ol class="breadcrumb mb-3 flex-nowrap flex-xl-wrap overflow-auto overflow-xl-visble">
-                                <li class="breadcrumb-item flex-shrink-0 flex-xl-shrink-1"><a href="{{ route('home') }}">Home</a></li>
-                                <li class="breadcrumb-item flex-shrink-0 flex-xl-shrink-1 active" aria-current="page">Shop</li>
+                                <li class="breadcrumb-item flex-shrink-0 flex-xl-shrink-1"><a href="{{ route('home') }}">{{__('Home')}}</a></li>
+                                <li class="breadcrumb-item flex-shrink-0 flex-xl-shrink-1 active" aria-current="page">{{__('Shop')}}</li>
                             </ol>
                         </nav>
                     </div>
@@ -23,10 +23,10 @@
                     <div class="d-none d-xl-block col-xl-3 col-wd-2gdot5">
                         <div class="mb-6">
                             <div class="border-bottom border-color-1 mb-5">
-                                <h3 class="section-title section-title__sm mb-0 pb-2 font-size-18">Filters</h3>
+                                <h3 class="section-title section-title__sm mb-0 pb-2 font-size-18">{{__('Filters')}}</h3>
                             </div>
                             <div class="border-bottom pb-4 mb-4">
-                                <h4 class="font-size-14 mb-3 font-weight-bold">Categories</h4>
+                                <h4 class="font-size-14 mb-3 font-weight-bold">{{__('Categories')}}</h4>
 
                                 <!-- Checkboxes -->
                                 <div class="form-group d-flex align-items-center justify-content-between mb-2 pb-1">
@@ -97,14 +97,14 @@
                                     <span class="link__icon text-gray-27 bg-white">
                                         <span class="link__icon-inner">+</span>
                                     </span>
-                                    <span class="link-collapse__default">Show more</span>
-                                    <span class="link-collapse__active">Show less</span>
+                                    <span class="link-collapse__default">{{__('Show more')}}</span>
+                                    <span class="link-collapse__active">{{__('Show less')}}</span>
                                 </a>
                                 <!-- End Link -->
                             </div>
 
                             <div class="range-slider">
-                                <h4 class="font-size-14 mb-3 font-weight-bold">Price</h4>
+                                <h4 class="font-size-14 mb-3 font-weight-bold">{{__('Price')}}</h4>
                                 <!-- Range Slider -->
                                 <input class="js-range-slider" type="text"
                                 data-extra-classes="u-range-slider u-range-slider-indicator u-range-slider-grid"
@@ -120,19 +120,19 @@
                                 data-result-max="#rangeSliderExample3MaxResult">
                                 <!-- End Range Slider -->
                                 <div class="mt-1 text-gray-111 d-flex mb-4">
-                                    <span class="mr-0dot5">Price: </span>
+                                    <span class="mr-0dot5">{{__('Price')}}: </span>
                                     <span>¥</span>
                                     <span id="rangeSliderExample3MinResult" class=""></span>
                                     <span class="mx-0dot5"> — </span>
                                     <span>¥</span>
                                     <span id="rangeSliderExample3MaxResult" class=""></span>
                                 </div>
-                                <button type="submit" class="btn px-4 btn-primary-dark-w py-2 rounded-lg">Filter</button>
+                                <button type="submit" class="btn px-4 btn-primary-dark-w py-2 rounded-lg">{{__('Filter')}}</button>
                             </div>
                         </div>
                         <div class="mb-8">
                             <div class="border-bottom border-color-1 mb-5">
-                                <h3 class="section-title section-title__sm mb-0 pb-2 font-size-18">Latest Products</h3>
+                                <h3 class="section-title section-title__sm mb-0 pb-2 font-size-18">{{__('Latest Products')}}</h3>
                             </div>
                             <ul class="list-unstyled">
                                 @foreach($latest as $item)
@@ -167,8 +167,8 @@
                         <!-- Recommended Products -->
                         <!-- Shop-control-bar Title -->
                         <div class="flex-center-between mb-3">
-                            <h3 class="font-size-25 mb-0">Shop</h3>
-                            <p class="font-size-14 text-gray-90 mb-0">Showing <span id="fromto"> 1–25 </span> of <span id="allcount"> 56 </span> results</p>
+                            <h3 class="font-size-25 mb-0">{{__('Shop')}}</h3>
+                            <p class="font-size-14 text-gray-90 mb-0"> {{__('All')}} <span id="allcount"> 56 </span> {{__('results')}}</p>
                         </div>
                         <!-- End shop-control-bar Title -->
                         <!-- Shop-control-bar -->
@@ -186,7 +186,7 @@
                                     data-unfold-animation-in="fadeInLeft"
                                     data-unfold-animation-out="fadeOutLeft"
                                     data-unfold-duration="500">
-                                    <i class="fas fa-sliders-h"></i> <span class="ml-1">Filters</span>
+                                    <i class="fas fa-sliders-h"></i> <span class="ml-1">{{__('Filters')}}</span>
                                 </a>
                                 <!-- End Account Sidebar Toggle Button -->
                             </div>
@@ -278,12 +278,12 @@
                                                             <div class="h6 text-gray-100">UB: {{$p->unitPriceUB}}¥</div>
                                                         </div>
                                                         <div class="prodcut-add-cart">
-                                                            <a href="{{ route('profileChart')}}" class="btn btn-sm btn-block btn-primary-dark btn-wide transition-3d-hover">Add to cart</a>
+                                                            <a href="{{ route('profileChart')}}" class="btn btn-sm btn-block btn-primary-dark btn-wide transition-3d-hover">{{__('Add to cart')}}</a>
                                                         </div>
                                                     </div>
                                                     <div class="flex-horizontal-center justify-content-between justify-content-wd-center flex-wrap">
-                                                        <a href="{{ route('profileCheckout')}}" class="text-gray-6 font-size-13"><i class="ec ec-compare mr-1 font-size-15"></i> Compare</a>
-                                                        <a href="{{ route('profileWishlist')}}" class="text-gray-6 font-size-13"><i class="ec ec-favorites mr-1 font-size-15"></i> Wishlist</a>
+                                                        <a href="{{ route('profileCheckout')}}" class="text-gray-6 font-size-13"><i class="ec ec-compare mr-1 font-size-15"></i> {{__('Compare')}}</a>
+                                                        <a href="{{ route('profileWishlist')}}" class="text-gray-6 font-size-13"><i class="ec ec-favorites mr-1 font-size-15"></i> {{__('Wishlist')}}</a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -297,11 +297,9 @@
                         <!-- Shop Pagination -->
                         <nav class="d-md-flex justify-content-between align-items-center border-top pt-3" aria-label="Page navigation example">
                             <div class="text-center text-md-left mb-3 mb-md-0">
-                                Showing 
-                                <span id="fromto"> 1–20 </span>
-                                of 
+                                {{__('All')}}
                                 <span id="allcount2"> 56 </span>
-                                results
+                                {{__('results')}}
                             </div>
                             <ul class="pagination mb-0 pagination-shop justify-content-center justify-content-md-start">
                             </ul>

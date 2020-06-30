@@ -12,18 +12,18 @@
 						<div class="col-xl col col-md-6 mt-md-8 mt-lg-10">
 							<div class="ml-xl-4">
 								<h6 class="font-size-15 font-weight-bold mb-2 text-cyan" data-scs-animation-in="fadeInUp">
-									SHOP TO FIND WHAT YOU NEED
+								{{ __('Shop to find what you need') }}
 								</h6>
 								<h1 class="font-size-46 text-lh-50 font-weight-light mb-8" data-scs-animation-in="fadeInUp" data-scs-animation-delay="200">
-									BEST QUALITY ITEMS HERE AT ZAANAA STORE 
+									{{__('BEST QUALITY ITEMS HERE AT ZAANAA STORE')}} 
 								</h1>
 								<a href="/products" class="btn btn-primary transition-3d-hover rounded-lg font-weight-normal py-2 px-md-7 px-3 font-size-16" data-scs-animation-in="fadeInUp" data-scs-animation-delay="300">
-									Start Buying
+								{{ __('Start Buying') }}
 								</a>
 							</div>
 						</div>
 						<div class="col-xl-7 col-6 d-flex align-items-end ml-auto ml-md-0" data-scs-animation-in="fadeInRight" data-scs-animation-delay="500">
-							<img class="img-fluid ml-auto mr-10 mr-wd-auto p-5" src="{{ Voyager::image('/products/June2020/EaP3Xu30aLK63f5c7pgp.jpg') }}" alt="Image Description">
+							<img class="slider-image img-fluid ml-auto mr-wd-auto" src="{{ Voyager::image('/products/June2020/EaP3Xu30aLK63f5c7pgp.jpg') }}" alt="Image Description">
 						</div>
 					</div>
 				</div>
@@ -33,18 +33,18 @@
 					   	<div class="col-xl col col-md-6 mt-md-8 mt-lg-10">
 							<div class="ml-xl-4">
 								<h6 class="font-size-15 font-weight-bold mb-2 text-cyan" data-scs-animation-in="fadeInUp">
-									SHOP TO FIND WHAT YOU NEED
+								{{ __('Shop to find what you need') }}
 								</h6>
 								<h1 class="font-size-46 text-lh-50 font-weight-light mb-8" data-scs-animation-in="fadeInUp" data-scs-animation-delay="200">
-									NEW ITEMS COMING SOON WITH A SALE UP TO <stong class="font-weight-bold">20% OFF</stong>
+									{{__('NEW ITEMS COMING SOON WITH A SALE UP TO')}} <stong class="font-weight-bold">20% OFF</stong>
 								</h1>
 								<a href="/products" class="btn btn-primary transition-3d-hover rounded-lg font-weight-normal py-2 px-md-7 px-3 font-size-16" data-scs-animation-in="fadeInUp" data-scs-animation-delay="300">
-									Start Buying
+								{{ __('Start Buying') }}
 								</a>
 							</div>
 						</div>
 						<div class="col-xl-7 col-6 flex-horizontal-center ml-auto ml-md-0" data-scs-animation-in="fadeInRight" data-scs-animation-delay="500">
-							<img class="img-fluid ml-auto mr-10 mr-wd-auto h-100 p-5" src="{{ Voyager::image('products/June2020/G3NlnrU502Y6CB0VCCDc.jpg') }}" alt="Image Description">
+							<img class="slider-image img-fluid ml-auto mr-wd-auto h-100" src="{{ Voyager::image('products/June2020/G3NlnrU502Y6CB0VCCDc.jpg') }}" alt="Image Description">
 						</div>
 					</div>
 				</div>
@@ -54,18 +54,18 @@
 						<div class="col-xl col col-md-6 mt-md-8 mt-lg-10">
 							<div class="ml-xl-4">
 								<h6 class="font-size-15 font-weight-bold mb-2 text-cyan" data-scs-animation-in="fadeInUp">
-									SHOP TO FIND WHAT YOU NEED
+									{{ __('Shop to find what you need') }}
 								</h6>
 								<h1 class="font-size-46 text-lh-50 font-weight-light mb-8" data-scs-animation-in="fadeInUp" data-scs-animation-delay="200">
-									OFFERS <stong class="font-weight-bold">100% GUARANTEED</stong> PRODUCTS
+									<stong class="font-weight-bold">{{ __('100% GUARANTEED') }}</stong> {{__('PRODUCTS')}}
 								</h1>
 								<a href="/products" class="btn btn-primary transition-3d-hover rounded-lg font-weight-normal py-2 px-md-7 px-3 font-size-16" data-scs-animation-in="fadeInUp" data-scs-animation-delay="300">
-									Start Buying
+									{{ __('Start Buying') }}
 								</a>
 							</div>
 						</div>
 						<div class="col-xl-7 col-6 flex-horizontal-center ml-auto ml-md-0" data-scs-animation-in="fadeInRight" data-scs-animation-delay="500">
-							<img class="img-fluid ml-auto mr-10 mr-wd-auto h-100 p-5" src="{{ Voyager::image('products/June2020/w0GYujJDpXHKSo6ZnTBS.jpg') }}" alt="Image Description">
+							<img class="slider-image img-fluid ml-auto mr-wd-auto h-100" src="{{ Voyager::image('products/June2020/w0GYujJDpXHKSo6ZnTBS.jpg') }}" alt="Image Description">
 						</div>
 					</div>
 				</div>
@@ -83,8 +83,8 @@
 				<i class="text-primary ec ec-transport font-size-46"></i>
 			</div>
 			<div class="media-body text-center">
-				<span class="d-block font-weight-bold text-dark">Fast Delivery</span>
-				<div class=" text-secondary">4 days</div>
+				<span class="d-block font-weight-bold text-dark">{{__('Fast Delivery')}}</span>
+				<div class=" text-secondary">{{__('4 days')}}</div>
 			</div>
 		</div>
 		<!-- End Feature List -->
@@ -95,8 +95,8 @@
 				<i class="text-primary ec ec-customers font-size-56"></i>
 			</div>
 			<div class="media-body text-center">
-				<span class="d-block font-weight-bold text-dark">99 % Customer</span>
-				<div class=" text-secondary">Feedbacks</div>
+				<span class="d-block font-weight-bold text-dark">{{__('99 % Customer')}}</span>
+				<div class=" text-secondary">{{__('Feedbacks')}}</div>
 			</div>
 		</div>
 		<!-- End Feature List -->
@@ -107,8 +107,8 @@
 				<i class="text-primary ec ec-returning font-size-46"></i>
 			</div>
 			<div class="media-body text-center">
-				<span class="d-block font-weight-bold text-dark">7 Days</span>
-				<div class=" text-secondary">for free return</div>
+				<span class="d-block font-weight-bold text-dark">{{__('7 Days')}}</span>
+				<div class=" text-secondary">{{__('for free return')}}</div>
 			</div>
 		</div>
 		<!-- End Feature List -->
@@ -119,8 +119,8 @@
 				<i class="text-primary ec ec-payment font-size-46"></i>
 			</div>
 			<div class="media-body text-center">
-				<span class="d-block font-weight-bold text-dark">Payment</span>
-				<div class=" text-secondary">Secure and safe</div>
+				<span class="d-block font-weight-bold text-dark">{{__('Payment')}}</span>
+				<div class=" text-secondary">{{__('Secure and safe')}}</div>
 			</div>
 		</div>
 		<!-- End Feature List -->
@@ -134,21 +134,21 @@
 				<li class="nav-item">
 					<a class="nav-link active js-animation-link" id="pills-one-example1-tab" data-toggle="pill" href="#pills-one-example1" role="tab" aria-controls="pills-one-example1" aria-selected="true" data-target="#pills-one-example1" data-link-group="groups" data-animation-in="slideInUp">
 						<div class="d-md-flex justify-content-md-center align-items-md-center">
-							Playgrounds
+						{{__('Playgrounds')}}
 						</div>
 					</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link js-animation-link" id="pills-two-example1-tab" data-toggle="pill" href="#pills-two-example1" role="tab" aria-controls="pills-two-example1" aria-selected="false" data-target="#pills-two-example1" data-link-group="groups" data-animation-in="slideInUp">
 						<div class="d-md-flex justify-content-md-center align-items-md-center">
-							On Sale
+						{{__('Brand New')}}
 						</div>
 					</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link js-animation-link" id="pills-three-example1-tab" data-toggle="pill" href="#pills-three-example1" role="tab" aria-controls="pills-three-example1" aria-selected="false" data-target="#pills-three-example1" data-link-group="groups" data-animation-in="slideInUp">
 						<div class="d-md-flex justify-content-md-center align-items-md-center">
-							Top Rated
+							{{__('Top Rated')}}
 						</div>
 					</a>
 				</li>
@@ -181,8 +181,8 @@
 								</div>
 								<div class="product-item__footer">
 									<div class="border-top pt-2 flex-center-between flex-wrap">
-										<a href="{{ route('profileCheckout')}}" class="text-gray-6 font-size-13"><i class="ec ec-compare mr-1 font-size-15"></i> Compare</a>
-										<a href="{{ route('profileWishlist')}}" class="text-gray-6 font-size-13"><i class="ec ec-favorites mr-1 font-size-15"></i> Wishlist</a>
+										<a href="{{ route('profileCheckout')}}" class="text-gray-6 font-size-13"><i class="ec ec-compare mr-1 font-size-15"></i> {{__('Compare')}}</a>
+										<a href="{{ route('profileWishlist')}}" class="text-gray-6 font-size-13"><i class="ec ec-favorites mr-1 font-size-15"></i> {{__('Wishlist')}}</a>
 									</div>
 								</div>
 							</div>
@@ -354,8 +354,8 @@
 								</div>
 								<div class="product-item__footer">
 									<div class="border-top pt-2 flex-center-between flex-wrap">
-										<a href="{{ route('profileCheckout')}}" class="text-gray-6 font-size-13"><i class="ec ec-compare mr-1 font-size-15"></i> Compare</a>
-										<a href="{{ route('profileWishlist')}}" class="text-gray-6 font-size-13"><i class="ec ec-favorites mr-1 font-size-15"></i> Wishlist</a>
+										<a href="{{ route('profileCheckout')}}" class="text-gray-6 font-size-13"><i class="ec ec-compare mr-1 font-size-15"></i> {{__('Compare')}}</a>
+										<a href="{{ route('profileWishlist')}}" class="text-gray-6 font-size-13"><i class="ec ec-favorites mr-1 font-size-15"></i> {{__('Wishlist')}}</a>
 									</div>
 								</div>
 							</div>
@@ -388,8 +388,8 @@
 								</div>
 								<div class="product-item__footer">
 									<div class="border-top pt-2 flex-center-between flex-wrap">
-										<a href="{{ route('profileCheckout')}}" class="text-gray-6 font-size-13"><i class="ec ec-compare mr-1 font-size-15"></i> Compare</a>
-										<a href="{{ route('profileWishlist')}}" class="text-gray-6 font-size-13"><i class="ec ec-favorites mr-1 font-size-15"></i> Wishlist</a>
+										<a href="{{ route('profileCheckout')}}" class="text-gray-6 font-size-13"><i class="ec ec-compare mr-1 font-size-15"></i> {{__('Compare')}}</a>
+										<a href="{{ route('profileWishlist')}}" class="text-gray-6 font-size-13"><i class="ec ec-favorites mr-1 font-size-15"></i> {{__('Wishlist')}}</a>
 									</div>
 								</div>
 							</div>
@@ -404,7 +404,7 @@
 	<!-- End Tab Prodcut Section -->
 </div>
 <!-- Television Entertainment -->
-	<div class="mb-6" style="background-image: url(/img/1920X422/silder3.jpg); background-size: contain">
+	<div class="mb-6" style="background-image: url(/img/1920X422/silder3.jpg); background-size: contain; margin-top: 20px">
 		<div class="container">
 			<div class="row min-height-564 align-items-center">
 				<div class="col-12 col-lg-4 col-xl-5 col-wd-6 d-none d-md-block">
@@ -412,7 +412,7 @@
 				</div>
 				<div class="col-12 col-lg-8 col-xl-7 col-wd-6 pt-6 pt-md-0">
 					<div class=" d-flex border-bottom border-color-1 mr-md-2">
-						<h3 class="section-title section-title__full mb-0 pb-2 font-size-22">Environment Decoration</h3>
+						<h3 class="section-title section-title__full mb-0 pb-2 font-size-22">{{__('Environment Decoration')}}</h3>
 					</div>
 					<div class="js-slick-carousel position-static u-slick u-slick--gutters-2 u-slick overflow-hidden u-slick-overflow-visble py-5" data-arrows-classes="position-absolute top-0 font-size-17 u-slick__arrow-normal top-10 pt-6 pt-md-0"
 					data-arrow-left-classes="fa fa-angle-left right-2" data-arrow-right-classes="fa fa-angle-right right-1" data-pagi-classes="text-center right-0 bottom-1 left-0 u-slick__pagination u-slick__pagination--long mb-0 z-index-n1 mt-4">
@@ -441,8 +441,8 @@
 												</div>
 												<div class="product-item__footer bg-white">
 													<div class="border-top pt-2 flex-center-between flex-wrap">
-														<a href="../shop/compare.html" class="text-gray-6 font-size-13"><i class="ec ec-compare mr-1 font-size-15"></i> Compare</a>
-														<a href="../shop/wishlist.html" class="text-gray-6 font-size-13"><i class="ec ec-favorites mr-1 font-size-15"></i> Wishlist</a>
+														<a href="../shop/compare.html" class="text-gray-6 font-size-13"><i class="ec ec-compare mr-1 font-size-15"></i> {{__('Compare')}}</a>
+														<a href="../shop/wishlist.html" class="text-gray-6 font-size-13"><i class="ec ec-favorites mr-1 font-size-15"></i> {{__('Wishlist')}}</a>
 													</div>
 												</div>
 											</div>
@@ -477,8 +477,8 @@
 												</div>
 												<div class="product-item__footer bg-white">
 													<div class="border-top pt-2 flex-center-between flex-wrap">
-														<a href="../shop/compare.html" class="text-gray-6 font-size-13"><i class="ec ec-compare mr-1 font-size-15"></i> Compare</a>
-														<a href="../shop/wishlist.html" class="text-gray-6 font-size-13"><i class="ec ec-favorites mr-1 font-size-15"></i> Wishlist</a>
+														<a href="../shop/compare.html" class="text-gray-6 font-size-13"><i class="ec ec-compare mr-1 font-size-15"></i> {{__('Compare')}}</a>
+														<a href="../shop/wishlist.html" class="text-gray-6 font-size-13"><i class="ec ec-favorites mr-1 font-size-15"></i> {{__('Wishlist')}}</a>
 													</div>
 												</div>
 											</div>
@@ -513,8 +513,8 @@
 												</div>
 												<div class="product-item__footer bg-white">
 													<div class="border-top pt-2 flex-center-between flex-wrap">
-														<a href="../shop/compare.html" class="text-gray-6 font-size-13"><i class="ec ec-compare mr-1 font-size-15"></i> Compare</a>
-														<a href="../shop/wishlist.html" class="text-gray-6 font-size-13"><i class="ec ec-favorites mr-1 font-size-15"></i> Wishlist</a>
+														<a href="../shop/compare.html" class="text-gray-6 font-size-13"><i class="ec ec-compare mr-1 font-size-15"></i> {{__('Compare')}}</a>
+														<a href="../shop/wishlist.html" class="text-gray-6 font-size-13"><i class="ec ec-favorites mr-1 font-size-15"></i> {{__('Wishlist')}}</a>
 													</div>
 												</div>
 											</div>
@@ -535,7 +535,7 @@
 <div class="container">
 	<div class="mb-8 position-relative">
 		<dv class="d-flex justify-content-between border-bottom border-color-1 flex-md-nowrap flex-wrap border-sm-bottom-0">
-			<h3 class="section-title section-title__full mb-0 pb-2 font-size-22">Trending Products</h3>
+			<h3 class="section-title section-title__full mb-0 pb-2 font-size-22">{{__('Trending Products')}}</h3>
 		</dv>
 		<div class="js-slick-carousel position-static u-slick u-slick--gutters-1 overflow-hidden u-slick-overflow-visble pt-3 pb-3" data-arrows-classes="position-absolute top-0 font-size-17 u-slick__arrow-normal top-10"
 		 data-arrow-left-classes="fa fa-angle-left right-1" data-arrow-right-classes="fa fa-angle-right right-0" data-pagi-classes="text-center right-0 bottom-1 left-0 u-slick__pagination u-slick__pagination--long mb-0 z-index-n1 mt-4">
@@ -564,8 +564,8 @@
 									</div>
 									<div class="product-item__footer">
 										<div class="border-top pt-2 flex-center-between flex-wrap">
-											<a href="../shop/compare.html" class="text-gray-6 font-size-13"><i class="ec ec-compare mr-1 font-size-15"></i> Compare</a>
-											<a href="../shop/wishlist.html" class="text-gray-6 font-size-13"><i class="ec ec-favorites mr-1 font-size-15"></i> Wishlist</a>
+											<a href="../shop/compare.html" class="text-gray-6 font-size-13"><i class="ec ec-compare mr-1 font-size-15"></i> {{__('Compare')}}</a>
+											<a href="../shop/wishlist.html" class="text-gray-6 font-size-13"><i class="ec ec-favorites mr-1 font-size-15"></i> {{__('Wishlist')}}</a>
 										</div>
 									</div>
 								</div>
@@ -600,8 +600,8 @@
 									</div>
 									<div class="product-item__footer">
 										<div class="border-top pt-2 flex-center-between flex-wrap">
-											<a href="../shop/compare.html" class="text-gray-6 font-size-13"><i class="ec ec-compare mr-1 font-size-15"></i> Compare</a>
-											<a href="../shop/wishlist.html" class="text-gray-6 font-size-13"><i class="ec ec-favorites mr-1 font-size-15"></i> Wishlist</a>
+											<a href="../shop/compare.html" class="text-gray-6 font-size-13"><i class="ec ec-compare mr-1 font-size-15"></i> {{__('Compare')}}</a>
+											<a href="../shop/wishlist.html" class="text-gray-6 font-size-13"><i class="ec ec-favorites mr-1 font-size-15"></i> {{__('Wishlist')}}</a>
 										</div>
 									</div>
 								</div>
@@ -636,8 +636,8 @@
 									</div>
 									<div class="product-item__footer">
 										<div class="border-top pt-2 flex-center-between flex-wrap">
-											<a href="../shop/compare.html" class="text-gray-6 font-size-13"><i class="ec ec-compare mr-1 font-size-15"></i> Compare</a>
-											<a href="../shop/wishlist.html" class="text-gray-6 font-size-13"><i class="ec ec-favorites mr-1 font-size-15"></i> Wishlist</a>
+											<a href="../shop/compare.html" class="text-gray-6 font-size-13"><i class="ec ec-compare mr-1 font-size-15"></i> {{__('Compare')}}</a>
+											<a href="../shop/wishlist.html" class="text-gray-6 font-size-13"><i class="ec ec-favorites mr-1 font-size-15"></i> {{__('Wishlist')}}</a>
 										</div>
 									</div>
 								</div>
@@ -657,7 +657,7 @@
 	<!-- Recommendation for you -->
 	<div class="position-relative">
 		<div class="border-bottom border-color-1 mb-2">
-			<h3 class="section-title section-title__full d-inline-block mb-0 pb-2 font-size-22">Recommendation for you</h3>
+			<h3 class="section-title section-title__full d-inline-block mb-0 pb-2 font-size-22">{{__('Recommendation for you')}}</h3>
 		</div>
 		<div class="js-slick-carousel u-slick position-static overflow-hidden u-slick-overflow-visble pb-7 pt-2 px-1" data-pagi-classes="text-center right-0 bottom-1 left-0 u-slick__pagination u-slick__pagination--long mb-0 z-index-n1 mt-3 mt-md-0" data-slides-show="7" data-slides-scroll="1" data-arrows-classes="position-absolute top-0 font-size-17 u-slick__arrow-normal top-10" data-arrow-left-classes="fa fa-angle-left right-1" data-arrow-right-classes="fa fa-angle-right right-0" data-responsive='[{
                           "breakpoint": 1400,
@@ -708,8 +708,8 @@
 							</div>
 							<div class="product-item__footer">
 								<div class="border-top pt-2 flex-center-between flex-wrap">
-									<a href="{{ route('profileCheckout')}}" class="text-gray-6 font-size-13"><i class="ec ec-compare mr-1 font-size-15"></i> Compare</a>
-									<a href="{{ route('profileWishlist')}}" class="text-gray-6 font-size-13"><i class="ec ec-favorites mr-1 font-size-15"></i> Wishlist</a>
+									<a href="{{ route('profileCheckout')}}" class="text-gray-6 font-size-13"><i class="ec ec-compare mr-1 font-size-15"></i> {{__('Compare')}}</a>
+									<a href="{{ route('profileWishlist')}}" class="text-gray-6 font-size-13"><i class="ec ec-favorites mr-1 font-size-15"></i> Wishl{{__('Wishlist')}}ist</a>
 								</div>
 							</div>
 						</div>

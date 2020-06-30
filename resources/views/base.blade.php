@@ -40,12 +40,12 @@
 					<div class="container">
 						<div class="d-flex align-items-center">
 							<div class="topbar-left">
-								<a href="#" class="text-gray-110 font-size-13 u-header-topbar__nav-link">Zaanaa Ecommerce Website</a>
+								<a href="#" class="text-gray-110 font-size-13 u-header-topbar__nav-link"> {{ __('zaanaa') }} </a>
 							</div>
 							<div class="topbar-right ml-auto">
 								<ul class="list-inline mb-0">
 									<li class="list-inline-item mr-0 u-header-topbar__nav-item u-header-topbar__nav-item-border">
-										<a href="{{ route('contact') }}" class="u-header-topbar__nav-link"><i class="ec ec-map-pointer mr-1"></i> Store Locator</a>
+										<a href="{{ route('contact') }}" class="u-header-topbar__nav-link"><i class="ec ec-map-pointer mr-1"></i> {{__('Store Locator')}} </a>
 									</li>
 									<li class="list-inline-item mr-0 u-header-topbar__nav-item u-header-topbar__nav-item-border u-header-topbar__nav-item-no-border u-header-topbar__nav-item-border-single">
 										<div class="d-flex align-items-center">
@@ -55,13 +55,13 @@
 												 aria-controls="languageDropdown" aria-haspopup="true" aria-expanded="false" data-unfold-event="hover" data-unfold-target="#languageDropdown" data-unfold-type="css-animation" data-unfold-duration="300"
 												 data-unfold-delay="300" data-unfold-hide-on-scroll="true" data-unfold-animation-in="slideInUp" data-unfold-animation-out="fadeOut">
 													<span class="d-inline-block d-sm-none">US</span>
-													<span class="d-none d-sm-inline-flex align-items-center"> Choose Language: </span>
+													<span class="d-none d-sm-inline-flex align-items-center"> {{ __('Choose Language:')}} </span>
 												</a>
 
 												<div id="languageDropdown" class="dropdown-menu dropdown-unfold" aria-labelledby="languageDropdownInvoker">
-													<a class="dropdown-item active" href="#">English</a>
-													<a class="dropdown-item" href="#">Chinese</a>
-													<a class="dropdown-item" href="#">Mongolia</a>
+													<a class="dropdown-item active" href="locale/en" style="display:flex; justify-content: space-between">English <img src="/img/united-kingdom.svg" style="max-width: 20px"></a>
+													<a class="dropdown-item" href=locale/zn style="display:flex; justify-content: space-between">中文 <img src="/img/china.svg" style="max-width: 20px"></a>
+													<a class="dropdown-item" href="locale/mn" style="display:flex; justify-content: space-between">Монгол <img src="/img/mongolia.svg" style="max-width: 20px"></a>
 												</div>
 											</div>
 											<!-- End Language -->
@@ -137,7 +137,7 @@
 															<li class="u-has-submenu u-header-collapse__submenu">
 																<a class="u-header-collapse__nav-link u-header-collapse__nav-pointer" href="javascript:;" role="button" data-toggle="collapse" aria-expanded="false"
 																 aria-controls="headerSidebarHomeCollapse" data-target="#headerSidebarHomeCollapse">
-																	About Zaanaa Store
+																	{{ __('About Zaanaa Store') }}
 																</a>
 
 																<div id="headerSidebarHomeCollapse" class="collapse" data-parent="#headerSidebarContent">
@@ -167,7 +167,7 @@
 															<li class="u-has-submenu u-header-collapse__submenu">
 																<a class="u-header-collapse__nav-link u-header-collapse__nav-pointer" href="javascript:;" data-target="#headerSidebarPagesCollapse" role="button" data-toggle="collapse"
 																 aria-expanded="false" aria-controls="headerSidebarPagesCollapse">
-																	Shop Pages
+																	{{__('Shop')}}
 																</a>
 
 																<div id="headerSidebarPagesCollapse" class="collapse" data-parent="#headerSidebarContent">
@@ -184,7 +184,7 @@
 															<li class="u-has-submenu u-header-collapse__submenu">
 																<a class="u-header-collapse__nav-link u-header-collapse__nav-pointer" href="javascript:;" data-target="#headerSidebarBlogCollapse" role="button" data-toggle="collapse"
 																 aria-expanded="false" aria-controls="headerSidebarBlogCollapse">
-																	Product Categories
+																	{{__('Product Categories')}}
 																</a>
 
 																<div id="headerSidebarBlogCollapse" class="collapse" data-parent="#headerSidebarContent">
@@ -197,50 +197,33 @@
 															</li>
 															<!-- End Product Categories -->
 
-															<!-- Single Product Pages -->
-															<li class="u-has-submenu u-header-collapse__submenu">
-																<a class="u-header-collapse__nav-link u-header-collapse__nav-pointer" href="javascript:;" data-target="#headerSidebarShopCollapse" role="button" data-toggle="collapse"
-																 aria-expanded="false" aria-controls="headerSidebarShopCollapse">
-																	Single Product Pages
-																</a>
-
-																<div id="headerSidebarShopCollapse" class="collapse" data-parent="#headerSidebarContent">
-																	<ul id="headerSidebarShopMenu" class="u-header-collapse__nav-list">
-																		<!-- Single Product Extended -->
-																		<li><a class="u-header-collapse__submenu-nav-link" href="{{ route('productSingle',2) }}">Single Product</a></li>
-																		<!-- End Single Product Extended -->
-																	</ul>
-																</div>
-															</li>
-															<!-- End Single Product Pages -->
-
 															<!-- Ecommerce Pages -->
 															<li class="u-has-submenu u-header-collapse__submenu">
 																<a class="u-header-collapse__nav-link u-header-collapse__nav-pointer" href="javascript:;" data-target="#headerSidebarDemosCollapse" role="button" data-toggle="collapse"
 																 aria-expanded="false" aria-controls="headerSidebarDemosCollapse">
-																	Shopping
+																	{{__('Shopping')}}
 																</a>
 
 																<div id="headerSidebarDemosCollapse" class="collapse" data-parent="#headerSidebarContent">
 																	<ul id="headerSidebarDemosMenu" class="u-header-collapse__nav-list">
 																		<!-- Cart -->
-																		<li><a class="u-header-collapse__submenu-nav-link" href="{{ route('profileCart') }}">Cart</a></li>
+																		<li><a class="u-header-collapse__submenu-nav-link" href="{{ route('profileCart') }}">{{__('Cart')}}</a></li>
 																		<!-- End Cart -->
 
 																		<!-- Checkout -->
-																		<li><a class="u-header-collapse__submenu-nav-link" href="{{ route('profileCheckout') }}">Checkout</a></li>
+																		<li><a class="u-header-collapse__submenu-nav-link" href="{{ route('profileCheckout') }}">{{__('Checkout')}}</a></li>
 																		<!-- End Checkout -->
 
 																		<!-- My Account -->
-																		<li><a class="u-header-collapse__submenu-nav-link" href="{{ route('profileCart') }}">My Account</a></li>
+																		<li><a class="u-header-collapse__submenu-nav-link" href="{{ route('profileCart') }}">{{__('My Account')}}</a></li>
 																		<!-- End My Account -->
 
 																		<!-- Compare -->
-																		<li><a class="u-header-collapse__submenu-nav-link" href="{{ route('productCompare') }}">Compare</a></li>
+																		<li><a class="u-header-collapse__submenu-nav-link" href="{{ route('productCompare') }}">{{__('Compare')}}</a></li>
 																		<!-- End Compare -->
 
 																		<!-- wishlist -->
-																		<li><a class="u-header-collapse__submenu-nav-link" href="{{ route('profileWishlist') }}">Wishlist</a></li>
+																		<li><a class="u-header-collapse__submenu-nav-link" href="{{ route('profileWishlist') }}">{{__('Wishlist')}}</a></li>
 																		<!-- End wishlist -->
 																	</ul>
 																</div>
@@ -251,13 +234,13 @@
 															<li class="u-has-submenu u-header-collapse__submenu">
 																<a class="u-header-collapse__nav-link u-header-collapse__nav-pointer" href="javascript:;" data-target="#headerSidebarblogsCollapse" role="button" data-toggle="collapse"
 																 aria-expanded="false" aria-controls="headerSidebarblogsCollapse">
-																	Blog Pages
+																	{{__('Blog Pages')}}
 																</a>
 
 																<div id="headerSidebarblogsCollapse" class="collapse" data-parent="#headerSidebarContent">
 																	<ul id="headerSidebarblogsMenu" class="u-header-collapse__nav-list">
 																		<!-- Blog v1 -->
-																		<li><a class="u-header-collapse__submenu-nav-link" href="{{ route('blogArchive') }}">Blogs</a></li>
+																		<li><a class="u-header-collapse__submenu-nav-link" href="{{ route('blogArchive') }}">{{__('Blogs')}}</a></li>
 																		<!-- End Blog v1 -->
 
 																		<!-- Single Blog Post -->
@@ -284,16 +267,16 @@
 								<form class="js-focus-state">
 									<label class="sr-only" for="searchproduct">Search</label>
 									<div class="input-group">
-										<input type="email" class="form-control py-2 pl-5 font-size-15 border-right-0 height-40 border-width-2 rounded-left-pill border-primary" name="email" id="searchproduct-item" placeholder="Search for Products"
+										<input type="email" class="form-control py-2 pl-5 font-size-15 border-right-0 height-40 border-width-2 rounded-left-pill border-primary" name="email" id="searchproduct-item" placeholder="{{ __('Search for products') }}"
 										 aria-label="Search for Products" aria-describedby="searchProduct1" required>
 										<div class="input-group-append">
 											<!-- Select -->
 											<select class="js-select selectpicker dropdown-select custom-search-categories-select"
 											 data-style="btn height-40 text-gray-60 font-weight-normal border-top border-bottom border-left-0 rounded-0 border-primary border-width-2 pl-0 pr-5 py-2">
-												<option value="one" selected>All Categories</option>
-												<option value="two">Two</option>
-												<option value="three">Three</option>
-												<option value="four">Four</option>
+												<option value="one" selected>{{ __('All Categories') }}</option>
+												<option value="two">Playgrounds</option>
+												<option value="three">Maintenance</option>
+												<option value="four">Decoration</option>
 											</select>
 											<!-- End Select -->
 											<button class="btn btn-primary height-40 py-2 px-3 rounded-right-pill" type="button" id="searchProduct1">
@@ -328,14 +311,14 @@
 											<!-- End Input -->
 										</li>
 										<!-- End Search -->
-										<li class="col d-none d-xl-block"><a href="../shop/compare.html" class="text-gray-90" data-toggle="tooltip" data-placement="top" title="Compare"><i class="font-size-22 ec ec-compare"></i></a></li>
-										<li class="col d-none d-xl-block"><a href="../shop/wishlist.html" class="text-gray-90" data-toggle="tooltip" data-placement="top" title="Favorites"><i class="font-size-22 ec ec-favorites"></i></a></li>
-										<li class="col d-xl-none px-2 px-sm-3"><a href="../shop/my-account.html" class="text-gray-90" data-toggle="tooltip" data-placement="top" title="My Account"><i class="font-size-22 ec ec-user"></i></a></li>
+										<li class="col d-none d-xl-block"><a href="../shop/compare.html" class="text-gray-90" data-toggle="tooltip" data-placement="top" title="{{__('Compare')}}"><i class="font-size-22 ec ec-compare"></i></a></li>
+										<li class="col d-none d-xl-block"><a href="../shop/wishlist.html" class="text-gray-90" data-toggle="tooltip" data-placement="top" title="{{__('Favorites')}}"><i class="font-size-22 ec ec-favorites"></i></a></li>
+										<li class="col d-xl-none px-2 px-sm-3"><a href="../shop/my-account.html" class="text-gray-90" data-toggle="tooltip" data-placement="top" title="{{__('My Account')}}"><i class="font-size-22 ec ec-user"></i></a></li>
 										<li class="col pr-xl-0 px-2 px-sm-3">
-											<a href="../shop/cart.html" class="text-gray-90 position-relative d-flex " data-toggle="tooltip" data-placement="top" title="Coming soon">
+											<a href="../shop/cart.html" class="text-gray-90 position-relative d-flex " data-toggle="tooltip" data-placement="top" title="{{__('Coming soon')}}">
 												<i class="font-size-22 ec ec-shopping-bag"></i>
 												<span class="bg-lg-down-black width-22 height-22 bg-primary position-absolute d-flex align-items-center justify-content-center rounded-circle left-12 top-8 font-weight-bold font-size-12">2</span>
-												<span class="d-none d-xl-block font-weight-bold font-size-16 text-gray-90 ml-3">Cart</span>
+												<span class="d-none d-xl-block font-weight-bold font-size-16 text-gray-90 ml-3">{{ __('Cart') }}</span>
 											</a>
 										</li>
 									</ul>
@@ -358,48 +341,44 @@
 									<ul class="navbar-nav u-header__navbar-nav d-flex">
 										<!-- Home -->
 										<li class="nav-item hs-has-mega-menu u-header__nav-item" data-event="hover" data-animation-in="slideInUp" data-animation-out="fadeOut" data-position="left">
-											<a id="homeMegaMenu" class="nav-link u-header__nav-link u-header__nav-link-toggle" href="javascript:;" aria-haspopup="true" aria-expanded="false">Home</a>
+											<a id="homeMegaMenu" class="nav-link u-header__nav-link u-header__nav-link-toggle" href="/" aria-haspopup="true" aria-expanded="false">{{ __('Home') }}</a>
 
 											<!-- Home - Mega Menu -->
 											<div class="hs-mega-menu w-100 u-header__sub-menu" aria-labelledby="homeMegaMenu">
 												<div class="row u-header__mega-menu-wrapper">
 													<div class="col-md-3">
-														<span class="u-header__sub-menu-title">About Zaanaa Store</span>
+														<span class="u-header__sub-menu-title">{{ __('About Zaanaa Store') }}</span>
 														<ul class="u-header__sub-menu-nav-group">
-															<li><a href="{{ route('home') }}" class="nav-link u-header__sub-menu-nav-link">Home</a></li>
-															<li><a href="{{ route('about') }}" class="nav-link u-header__sub-menu-nav-link">About</a></li>
-															<li><a href="{{ route('contact') }}" class="nav-link u-header__sub-menu-nav-link">Contact</a></li>
-															<li><a href="{{ route('faq') }}" class="nav-link u-header__sub-menu-nav-link">FAQ</a></li>
-															<li><a href="{{ route('terms') }}" class="nav-link u-header__sub-menu-nav-link">Terms and Conditions</a></li>
+															<li><a href="{{ route('home') }}" class="nav-link u-header__sub-menu-nav-link">{{ __('Home') }}</a></li>
+															<li><a href="{{ route('about') }}" class="nav-link u-header__sub-menu-nav-link">{{ __('About') }}</a></li>
+															<li><a href="{{ route('contact') }}" class="nav-link u-header__sub-menu-nav-link">{{ __('Contact') }}</a></li>
+															<li><a href="{{ route('faq') }}" class="nav-link u-header__sub-menu-nav-link">{{ __('FAQ') }}</a></li>
+															<li><a href="{{ route('terms') }}" class="nav-link u-header__sub-menu-nav-link">{{ __('Terms and Conditions') }}</a></li>
 														</ul>
 													</div>
 													<div class="col-md-3">
-														<span class="u-header__sub-menu-title">Shop</span>
+														<span class="u-header__sub-menu-title">{{ __('Shop') }}</span>
 														<ul class="u-header__sub-menu-nav-group mb-3">
-															<li><a href="{{ route('productArchive') }}" class="nav-link u-header__sub-menu-nav-link">Products</a></li>
+															<li><a href="{{ route('productArchive') }}" class="nav-link u-header__sub-menu-nav-link">{{ __('Products') }}</a></li>
 														</ul>
 														<span class="u-header__sub-menu-title">Product Categories</span>
 														<ul class="u-header__sub-menu-nav-group mb-3">
 															<li><a href="{{ route('categories') }}" class="nav-link u-header__sub-menu-nav-link">Product Categories</a></li>
 														</ul>
-														<span class="u-header__sub-menu-title">Single Product</span>
+													</div>
+													<div class="col-md-3">
+														<span class="u-header__sub-menu-title">{{ __('Profile') }}</span>
 														<ul class="u-header__sub-menu-nav-group">
-															<li><a href="{{ route('productSingle',2) }}" class="nav-link u-header__sub-menu-nav-link">Single Product</a></li>
+															<li><a href="{{ route('profileCart') }}" class="nav-link u-header__sub-menu-nav-link">{{ __('Cart') }}</a></li>
+															<li><a href="{{ route('profileCheckout') }}" class="nav-link u-header__sub-menu-nav-link">{{ __('Checkout') }}</a></li>
+															<li><a href="{{ route('profileWishlist') }}" class="nav-link u-header__sub-menu-nav-link">{{ __('Wishlist') }}</a></li>
+															<li><a href="{{ route('productCompare') }}" class="nav-link u-header__sub-menu-nav-link">{{ __('Compare') }}</a></li>
 														</ul>
 													</div>
 													<div class="col-md-3">
-														<span class="u-header__sub-menu-title">Profile</span>
-														<ul class="u-header__sub-menu-nav-group">
-															<li><a href="{{ route('profileCart') }}" class="nav-link u-header__sub-menu-nav-link">Cart</a></li>
-															<li><a href="{{ route('profileCheckout') }}" class="nav-link u-header__sub-menu-nav-link">Checkout</a></li>
-															<li><a href="{{ route('profileWishlist') }}" class="nav-link u-header__sub-menu-nav-link">Wishlist</a></li>
-															<li><a href="{{ route('productCompare') }}" class="nav-link u-header__sub-menu-nav-link">Compare</a></li>
-														</ul>
-													</div>
-													<div class="col-md-3">
-														<span class="u-header__sub-menu-title">Blog</span>
+														<span class="u-header__sub-menu-title">{{ __('Blog') }}</span>
 														<ul class="u-header__sub-menu-nav-group mb-3">
-															<li><a href="{{ route('blogArchive') }}" class="nav-link u-header__sub-menu-nav-link">Blog</a></li>
+															<li><a href="{{ route('blogArchive') }}" class="nav-link u-header__sub-menu-nav-link">{{ __('Blog') }}</a></li>
 															<li><a href="{{ route('blogSingle',2) }}" class="nav-link u-header__sub-menu-nav-link">Single Blog Post</a></li>
 														</ul>
 													</div>
@@ -411,7 +390,7 @@
 
 										<!-- Categories -->
 										<li class="nav-item hs-has-mega-menu u-header__nav-item" data-event="hover" data-animation-in="slideInUp" data-animation-out="fadeOut">
-											<a id="MoviesGamesMegaMenu" class="nav-link u-header__nav-link u-header__nav-link-toggle" href="javascript:;" aria-haspopup="true" aria-expanded="false">Playground & Games</a>
+											<a id="MoviesGamesMegaMenu" class="nav-link u-header__nav-link u-header__nav-link-toggle" href="javascript:;" aria-haspopup="true" aria-expanded="false">{{__('Products & Categories')}}</a>
 
 											<!-- Movies & Games - Mega Menu -->
 											<div class="hs-mega-menu w-100 u-header__sub-menu" aria-labelledby="MoviesGamesMegaMenu">
@@ -424,7 +403,7 @@
 																</a>
 															</div>
 															<div class="col">
-																<span class="u-header__sub-menu-title">Playgrounds</span>
+																<span class="u-header__sub-menu-title">{{ __('Playgrounds') }}</span>
 																<ul class="u-header__sub-menu-nav-group">
 																	@foreach($featured as $p)
 																		<li><a href="{{ route('productSingle',$p->id)}}" class="nav-link u-header__sub-menu-nav-link">{{$p->name}}</a></li>
@@ -442,7 +421,7 @@
 																</a>
 															</div>
 															<div class="col">
-																<span class="u-header__sub-menu-title">Environment Decoration</span>
+																<span class="u-header__sub-menu-title">{{ __('Environment Decoration') }}</span>
 																<ul class="u-header__sub-menu-nav-group">
 																	@foreach($maintenance as $p)
 																		<li><a href="{{ route('productSingle',$p->id)}}" class="nav-link u-header__sub-menu-nav-link">{{$p->name}}</a></li>
@@ -459,7 +438,7 @@
 																</a>
 															</div>
 															<div class="col">
-																<span class="u-header__sub-menu-title">New Items</span>
+																<span class="u-header__sub-menu-title">{{ __('New Items') }}</span>
 																<ul class="u-header__sub-menu-nav-group">
 																	@foreach($hoop as $p)
 																		<li><a href="{{ route('productSingle',$p->id)}}" class="nav-link u-header__sub-menu-nav-link">{{$p->name}}</a></li>
@@ -501,7 +480,7 @@
 					<div class="col-wd-3 col-lg-4">
 						<div class="widget-column">
 							<div class="border-bottom border-color-1 mb-5">
-								<h3 class="section-title section-title__sm mb-0 pb-2 font-size-18">Featured Products</h3>
+								<h3 class="section-title section-title__sm mb-0 pb-2 font-size-18">{{ __('Featured Products') }}</h3>
 							</div>
 							<ul class="list-unstyled products-group">
                 @foreach($featured as $p)
@@ -523,7 +502,7 @@
 					</div>
 					<div class="col-wd-3 col-lg-4">
 						<div class="border-bottom border-color-1 mb-5">
-							<h3 class="section-title section-title__sm mb-0 pb-2 font-size-18">Onsale Products</h3>
+							<h3 class="section-title section-title__sm mb-0 pb-2 font-size-18">{{__('Brand New')}}</h3>
 						</div>
 						<ul class="list-unstyled products-group">
                 @foreach($sale as $p)
@@ -544,7 +523,7 @@
 					</div>
 					<div class="col-wd-3 col-lg-4">
 						<div class="border-bottom border-color-1 mb-5">
-							<h3 class="section-title section-title__sm mb-0 pb-2 font-size-18">Top Rated Products</h3>
+							<h3 class="section-title section-title__sm mb-0 pb-2 font-size-18">{{ __('Top Rated Products') }}</h3>
 						</div>
 						<ul class="list-unstyled products-group">
                 @foreach($top as $p)
@@ -577,19 +556,19 @@
 							<div class="row align-items-center">
 								<div class="col-auto flex-horizontal-center">
 									<i class="ec ec-newsletter font-size-40"></i>
-									<h2 class="font-size-20 mb-0 ml-3">Sign up to Newsletter</h2>
+									<h2 class="font-size-20 mb-0 ml-3">{{__('Sign up to Newsletter')}}</h2>
 								</div>
 							</div>
 						</div>
 						<div class="col-lg-5">
 							<!-- Subscribe Form -->
 							<form class="js-validate js-form-message">
-								<label class="sr-only" for="subscribeSrEmail">Email address</label>
+								<label class="sr-only" for="subscribeSrEmail">{{__('Email address')}}</label>
 								<div class="input-group input-group-pill">
-									<input type="email" class="form-control border-0 height-40" name="email" id="subscribeSrEmail" placeholder="Email address" aria-label="Email address" aria-describedby="subscribeButton" required
+									<input type="email" class="form-control border-0 height-40" name="email" id="subscribeSrEmail" placeholder="{{__('Email address')}}" aria-label="Email address" aria-describedby="subscribeButton" required
 									 data-msg="Please enter a valid email address.">
 									<div class="input-group-append">
-										<button type="submit" class="btn btn-dark btn-sm-wide height-40 py-2" id="subscribeButton">Sign Up</button>
+										<button type="submit" class="btn btn-dark btn-sm-wide height-40 py-2" id="subscribeButton">{{__('Sign Up')}}</button>
 									</div>
 								</div>
 							</form>
@@ -615,13 +594,13 @@
 										<i class="ec ec-support text-primary font-size-56"></i>
 									</div>
 									<div class="col pl-3">
-										<div class="font-size-13 font-weight-light">Got questions? Call us 24/7!</div>
+										<div class="font-size-13 font-weight-light">{{__('Got questions? Call us 24/7!')}}</div>
 										<a href="tel:+8618804798666" class="font-size-20 text-gray-90">(976) 95541132</a>
 									</div>
 								</div>
 							</div>
 							<div class="mb-4">
-								<h6 class="mb-1 font-weight-bold">Contact info</h6>
+								<h6 class="mb-1 font-weight-bold">{{ __('Contact Info') }}</h6>
 								<address class="">
 									Zaanaa Store, Ereen, China
 								</address>
@@ -629,7 +608,7 @@
 							<div class="my-4 my-md-4">
 								<ul class="list-inline mb-0 opacity-7">
 									<li class="list-inline-item mr-0">
-										<a class="btn font-size-20 btn-icon btn-soft-dark btn-bg-transparent rounded-circle" href="#">
+										<a class="btn font-size-20 btn-icon btn-soft-dark btn-bg-transparent rounded-circle" href="https://www.facebook.com/Zaanaa-Online-Shop-101821414890134/">
 											<span class="fab fa-facebook-f btn-icon__inner"></span>
 										</a>
 									</li>
@@ -654,24 +633,24 @@
 						<div class="col-lg-7">
 							<div class="row">
 								<div class="col-12 col-md mb-4 mb-md-0">
-									<h6 class="mb-3 font-weight-bold">Find it Fast</h6>
+									<h6 class="mb-3 font-weight-bold">{{ __('Find it fast!') }}</h6>
 									<!-- List Group -->
 									<ul class="list-group list-group-flush list-group-borderless mb-0 list-group-transparent">
-										<li><a class="list-group-item list-group-item-action" href="{{ route('productArchive') }}">Product Categories</a></li>
+										<li><a class="list-group-item list-group-item-action" href="{{ route('productArchive') }}">{{__('Product Categories')}}</a></li>
 										<li><a class="list-group-item list-group-item-action" href="{{ route('blogArchive') }}">Blog Categories</a></li>
 									</ul>
 									<!-- End List Group -->
 								</div>
 
 								<div class="col-12 col-md mb-4 mb-md-0">
-									<h6 class="mb-3 font-weight-bold">Customer Care</h6>
+									<h6 class="mb-3 font-weight-bold">{{ __('Customer Care') }}</h6>
 									<!-- List Group -->
 									<ul class="list-group list-group-flush list-group-borderless mb-0 list-group-transparent">
-										<li><a class="list-group-item list-group-item-action" href="{{ route('home') }}">My Account</a></li>
-										<li><a class="list-group-item list-group-item-action" href="{{ route('profileWishlist') }}">Wish List</a></li>
-										<li><a class="list-group-item list-group-item-action" href="{{ route('contact') }}">Contact Us</a></li>
-										<li><a class="list-group-item list-group-item-action" href="{{ route('faq') }}">FAQs</a></li>
-										<li><a class="list-group-item list-group-item-action" href="{{ route('terms') }}">Terms and Conditions</a></li>
+										<li><a class="list-group-item list-group-item-action" href="{{ route('home') }}">{{ __('My Account') }}</a></li>
+										<li><a class="list-group-item list-group-item-action" href="{{ route('profileWishlist') }}">{{ __('Wishlist') }}</a></li>
+										<li><a class="list-group-item list-group-item-action" href="{{ route('contact') }}">{{ __('Contact Us') }}</a></li>
+										<li><a class="list-group-item list-group-item-action" href="{{ route('faq') }}">{{ __('FAQs') }}</a></li>
+										<li><a class="list-group-item list-group-item-action" href="{{ route('terms') }}">{{ __('Terms and Conditions') }}</a></li>
 									</ul>
 									<!-- End List Group -->
 								</div>
